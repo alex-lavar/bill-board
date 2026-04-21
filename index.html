@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Bill Board — 119th Congress</title>
+<meta name="description" content="What Congress is actually doing, translated into plain English. Real impact on real Americans.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=IBM+Plex+Mono:wght@400;500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --ink:#111010;--paper:#f5f0e8;--paper2:#ede8dc;--rule:#c0b89a;
+  --muted:#7a7060;--red:#b91c1c;--navy:#1e3a5f;--gold:#c9850a;--green:#1a5c3a;
+}
+body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Georgia,serif;font-size:15px;min-height:100vh}
+
+.masthead{background:var(--paper);border-bottom:4px double var(--ink);padding:18px 36px 14px;text-align:center}
+.mast-meta{display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px}
+.mast-title{font-family:'Playfair Display',serif;font-size:clamp(50px,8vw,96px);font-weight:900;line-height:.88;letter-spacing:-.025em;text-transform:uppercase}
+.mast-title .the{font-size:.32em;display:block;letter-spacing:.35em;color:var(--muted);font-weight:400;font-style:italic}
+.mast-rule{height:2px;background:var(--ink);margin:10px 0 8px}
+.mast-sub{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+
+.ticker-bar{background:var(--navy);color:#e8dfc8;padding:7px 0;display:flex;overflow:hidden}
+.ticker-label{background:var(--red);color:white;font-family:'IBM Plex Mono',monospace;font-size:9.5px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;padding:0 14px;display:flex;align-items:center;white-space:nowrap;flex-shrink:0}
+.ticker-track{overflow:hidden;flex:1;display:flex;align-items:center}
+.ticker-inner{font-family:'IBM Plex Mono',monospace;font-size:10px;white-space:nowrap;animation:tick 70s linear infinite;padding-left:24px}
+@keyframes tick{from{transform:translateX(100vw)}to{transform:translateX(-100%)}}
+
+.controls{background:var(--paper2);border-bottom:1px solid var(--rule);padding:10px 36px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.ctrl-label{font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+.chip{font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.05em;padding:3px 11px;border:1px solid var(--rule);background:transparent;cursor:pointer;color:var(--muted);transition:all .15s;border-radius:2px}
+.chip:hover,.chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip.on.rights{background:var(--red);border-color:var(--red)}
+.chip.on.money{background:var(--navy);border-color:var(--navy)}
+.chip.on.env{background:var(--green);border-color:var(--green)}
+.chip.on.social{background:var(--gold);border-color:var(--gold)}
+.ctrl-search{margin-left:auto;border:1px solid var(--rule);display:flex;align-items:center;padding:3px 10px;gap:6px;background:var(--paper)}
+.ctrl-search input{font-family:'IBM Plex Mono',monospace;font-size:10px;border:none;background:transparent;color:var(--ink);outline:none;width:160px}
+.ctrl-search input::placeholder{color:var(--muted)}
+
+.count-bar{padding:7px 36px;font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;border-bottom:1px solid var(--rule);background:var(--paper);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px}
+.last-updated{display:flex;align-items:center;gap:5px;font-size:9px}
+.update-dot{width:5px;height:5px;border-radius:50%;background:var(--green);animation:pdot 2.5s ease infinite;flex-shrink:0}
+@keyframes pdot{0%,100%{opacity:1}50%{opacity:.3}}
+
+.grid-wrap{max-width:1380px;margin:0 auto;padding:0 28px}
+.hero-row{display:grid;grid-template-columns:1.5fr 1fr;border-bottom:3px double var(--ink)}
+.hero-main{padding:28px 28px 24px 0;border-right:1px solid var(--rule)}
+.hero-side{padding:28px 0 24px 28px}
+.bill-grid{display:grid;grid-template-columns:repeat(3,1fr)}
+.bill-card{padding:22px 22px 18px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);cursor:pointer;transition:background .15s}
+.bill-card:nth-child(3n){border-right:none}
+.bill-card:hover{background:rgba(0,0,0,.025)}
+.bill-card.active{background:#fff;box-shadow:inset 0 0 0 2px var(--ink)}
+
+.kicker{font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin-bottom:5px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
+.dot.rights{background:var(--red)}.dot.money{background:var(--navy)}.dot.env{background:var(--green)}.dot.social{background:var(--gold)}.dot.other{background:var(--muted)}
+.headline{font-family:'Playfair Display',serif;font-weight:700;line-height:1.2;margin-bottom:8px}
+.hero-main .headline{font-size:clamp(22px,2.4vw,34px)}.hero-side .headline{font-size:19px}.bill-card .headline{font-size:16px}
+.deck{font-size:13px;line-height:1.6;color:#2a2520;margin-bottom:10px}
+.hero-main .deck{font-size:14.5px}
+
+.itag{display:inline-flex;align-items:center;font-family:'IBM Plex Mono',monospace;font-size:8.5px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:8px;border:1px solid currentColor;overflow:hidden}
+.itag-level{padding:2px 7px}.itag-div{width:1px;background:currentColor;opacity:.4;align-self:stretch}.itag-cat{padding:2px 7px;opacity:.75}
+.itag.high{color:var(--red)}.itag.medium{color:var(--gold)}.itag.low{color:var(--muted)}
+
+.spill{font-family:'IBM Plex Mono',monospace;font-size:8.5px;text-transform:uppercase;letter-spacing:.06em;padding:2px 7px;border-radius:2px;cursor:pointer;display:inline-flex;align-items:center;gap:4px}
+.spill::after{content:'?';font-size:7px;opacity:.6;font-weight:700}
+.spill:hover{filter:brightness(1.1)}
+.s-introduced{background:#dbeafe;color:#1e3a8a}.s-committee{background:#fef3c7;color:#92400e}.s-floor{background:#d1fae5;color:#065f46}.s-passed{background:var(--green);color:white}.s-signed{background:#166534;color:white}.s-vetoed{background:var(--red);color:white}
+
+.bill-dates{display:flex;align-items:center;gap:6px;font-family:'IBM Plex Mono',monospace;font-size:8.5px;color:var(--muted);margin-bottom:8px;flex-wrap:wrap}
+.bill-dates .date-label{opacity:.7;text-transform:uppercase;letter-spacing:.06em}
+.bill-dates .date-val{color:var(--ink)}.bill-dates .date-val.signed{color:var(--green);font-weight:500}
+.bill-dates .arrow{opacity:.35}
+
+.byline{font-family:'IBM Plex Mono',monospace;font-size:8.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;border-top:1px solid var(--rule);padding-top:8px;margin-top:10px}
+
+.drawer{display:none;background:#fff;border:2px solid var(--ink);border-top:none;animation:sdown .18s ease}
+@keyframes sdown{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
+.drawer.open{display:block}
+.drawer-inner{display:grid;grid-template-columns:1fr 1fr 1fr;gap:28px;padding:28px}
+.dsec h3{font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid var(--rule)}
+.dsec p,.dsec li{font-size:13px;line-height:1.65;color:#2a2520}
+.dsec ul{list-style:none;padding:0}
+.dsec li{padding-left:14px;position:relative;margin-bottom:7px}
+.dsec li::before{content:'▸';position:absolute;left:0;font-size:10px}
+.dsec li.negative::before{color:var(--red)}.dsec li.positive::before{color:var(--green)}.dsec li.neutral::before{color:var(--gold)}
+.dclose{font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.1em;padding:8px 28px;background:var(--paper2);border-top:1px solid var(--rule);cursor:pointer;color:var(--muted);text-align:right}
+.dclose:hover{color:var(--red)}
+
+.pipeline-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:900;display:flex;align-items:center;justify-content:center;padding:20px;animation:fadein .15s ease}
+@keyframes fadein{from{opacity:0}to{opacity:1}}
+.pipeline-box{background:var(--paper);border:2px solid var(--ink);max-width:520px;width:100%;max-height:90vh;overflow-y:auto}
+.pipeline-head{padding:18px 20px 14px;border-bottom:2px solid var(--ink);display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.pipeline-head h2{font-family:'Playfair Display',serif;font-size:18px;font-weight:700}
+.pipeline-close{font-family:'IBM Plex Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:.1em;cursor:pointer;color:var(--muted);flex-shrink:0}
+.pipeline-close:hover{color:var(--red)}
+.pipeline-body{padding:20px}
+.pipeline-intro{font-size:12.5px;line-height:1.65;color:var(--muted);margin-bottom:20px;font-style:italic}
+.step{display:flex;gap:14px;align-items:flex-start;padding:12px 0;border-bottom:1px solid var(--rule)}
+.step:last-child{border-bottom:none}
+.step-left{display:flex;flex-direction:column;align-items:center;width:28px;flex-shrink:0}
+.step-circle{width:28px;height:28px;border-radius:50%;border:2px solid var(--rule);display:flex;align-items:center;justify-content:center;font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:500;color:var(--muted);background:var(--paper)}
+.step-circle.current{border-color:var(--ink);background:var(--ink);color:var(--paper)}
+.step-circle.done{border-color:var(--green);background:var(--green);color:white}
+.step-circle.future{opacity:.4}
+.step-line{width:2px;background:var(--rule);min-height:12px;flex:1;margin:3px auto 0}
+.step-line.done{background:var(--green)}
+.step-content{padding-top:4px;flex:1}
+.step-title{font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:3px;display:flex;align-items:center;gap:6px}
+.step-title.future{color:var(--muted)}
+.step-badge{font-family:'IBM Plex Mono',monospace;font-size:8px;padding:1px 6px;border-radius:2px;background:var(--ink);color:var(--paper)}
+.step-desc{font-size:12px;line-height:1.55;color:var(--muted)}
+.pipeline-footer{padding:14px 20px;border-top:1px solid var(--rule);font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+
+.pagination{padding:20px 36px;display:flex;align-items:center;gap:10px;border-top:1px solid var(--rule)}
+.pgbtn{padding:4px 14px;border:1px solid var(--rule);background:transparent;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);transition:all .15s}
+.pgbtn:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.pgbtn:disabled{opacity:.3;cursor:default;pointer-events:none}
+.pginfo{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted)}
+
+.loading-msg{font-family:'Playfair Display',serif;font-size:22px;font-style:italic;color:var(--muted);animation:blink 1.4s ease infinite;padding:80px;text-align:center;grid-column:1/-1}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.35}}
+
+.error-msg{grid-column:1/-1;padding:60px;text-align:center}
+.error-msg h2{font-family:'Playfair Display',serif;font-size:22px;margin-bottom:12px}
+.error-msg p{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted)}
+
+@media(max-width:900px){
+  .hero-row{grid-template-columns:1fr}.hero-main{border-right:none;border-bottom:1px solid var(--rule);padding-right:0}.hero-side{padding-left:0}
+  .bill-grid{grid-template-columns:1fr 1fr}.bill-card:nth-child(3n){border-right:1px solid var(--rule)}.bill-card:nth-child(2n){border-right:none}
+  .drawer-inner{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+  .bill-grid{grid-template-columns:1fr}.bill-card{border-right:none!important}
+  .masthead,.controls,.count-bar{padding-left:16px;padding-right:16px}
+  .grid-wrap{padding:0 12px}.count-bar{flex-direction:column;align-items:flex-start}
+}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="mast-meta">
+    <span id="live-date">—</span>
+    <span style="font-style:italic;font-family:'Libre Baskerville',serif">Plain language. Real impact. No spin.</span>
+    <span>119th Congress · Jan 2025–Present</span>
+  </div>
+  <div class="mast-title"><span class="the">The</span>Bill Board</div>
+  <div class="mast-rule"></div>
+  <div class="mast-sub">What Congress is actually doing — translated for everyone</div>
+</header>
+
+<div class="ticker-bar">
+  <div class="ticker-label">⚡ Intelligence</div>
+  <div class="ticker-track"><div class="ticker-inner" id="ticker-text">Loading…</div></div>
+</div>
+
+<div class="controls">
+  <span class="ctrl-label">Filter:</span>
+  <button class="chip on" data-f="all" onclick="setFilter(this,'all')">All Bills</button>
+  <button class="chip rights" data-f="rights" onclick="setFilter(this,'rights')">Civil Rights</button>
+  <button class="chip money" data-f="money" onclick="setFilter(this,'money')">Economy</button>
+  <button class="chip env" data-f="env" onclick="setFilter(this,'env')">Environment</button>
+  <button class="chip social" data-f="social" onclick="setFilter(this,'social')">Social Programs</button>
+  <span class="ctrl-label" style="margin-left:8px">Sort:</span>
+  <button class="chip on" id="s-recent" onclick="setSort('recent')">Most Recent</button>
+  <button class="chip" id="s-impact" onclick="setSort('impact')">Highest Impact</button>
+  <button class="chip" id="s-signed" onclick="setSort('signed')">Signed Laws First</button>
+  <div class="ctrl-search">
+    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="text" id="qinput" placeholder="Search bills…" oninput="page=0;renderAll()">
+  </div>
+</div>
+
+<div class="count-bar">
+  <span id="count-text">Loading…</span>
+  <span class="last-updated"><span class="update-dot"></span><span id="last-updated-text">—</span></span>
+</div>
+
+<div class="grid-wrap">
+  <div class="hero-row" id="hero"></div>
+  <div class="bill-grid" id="grid"><p class="loading-msg">Loading bills…</p></div>
+</div>
+<div class="pagination" id="pgbar" style="display:none"></div>
+
+<!-- PIPELINE POPOVER -->
+<div class="pipeline-overlay" id="pipeline-overlay" style="display:none" onclick="if(event.target===this)closePipeline()">
+  <div class="pipeline-box">
+    <div class="pipeline-head">
+      <div>
+        <h2>How a Bill Becomes Law</h2>
+        <p style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;margin-top:4px">Current stage for <span id="pipeline-bill-id">—</span></p>
+      </div>
+      <span class="pipeline-close" onclick="closePipeline()">✕ Close</span>
+    </div>
+    <div class="pipeline-body">
+      <p class="pipeline-intro">A bill must pass through each stage to become law. Most bills never make it past committee.</p>
+      <div id="pipeline-steps"></div>
+    </div>
+    <div class="pipeline-footer">Tap the status badge on any bill to see where it stands</div>
+  </div>
+</div>
+
+<script>
+const CAT_LABEL={rights:'Civil Rights',money:'Economy',env:'Environment',social:'Social Programs',other:'General'};
+const STAGES=[
+  {key:'s-introduced',label:'Introduced',desc:"A member of Congress formally submits the bill. It's assigned a number and sent to the relevant committee."},
+  {key:'s-committee', label:'Committee Review',desc:'A smaller group of lawmakers studies the bill, holds hearings, and can amend or kill it. Most bills die here.'},
+  {key:'s-floor',     label:'Floor Vote',desc:'The full House or Senate debates and votes. Needs a simple majority to advance (218 House / 51 Senate).'},
+  {key:'s-passed',    label:'Passed Both Chambers',desc:'The bill has passed both the House and Senate. If versions differ, a conference committee reconciles them.'},
+  {key:'s-signed',    label:'Signed into Law',desc:'The President signs the bill and it becomes law. A veto can be overridden by a 2/3 majority in both chambers.'},
+];
+
+let bills=[], flt='all', srt='recent', page=0, dataUpdatedAt=null;
+const PER=9;
+let activeDrawer=null;
+
+// ── LOAD DATA FROM bills.json ─────────────────────────────────────────────────
+async function loadData() {
+  try {
+    const r = await fetch('bills.json?t=' + Date.now());
+    if (!r.ok) throw new Error(r.status);
+    const data = await r.json();
+    bills = data.bills || [];
+    dataUpdatedAt = data.updated_at ? new Date(data.updated_at) : new Date();
+    buildTicker(data.ticker || []);
+    renderAll();
+  } catch(e) {
+    document.getElementById('grid').innerHTML = `
+      <div class="error-msg">
+        <h2>Data file not loaded yet</h2>
+        <p>The GitHub Action hasn't run yet. Go to your repo → Actions tab → run "Update Bills" manually to generate bills.json.</p>
+      </div>`;
+  }
+}
+
+function buildTicker(items) {
+  const el = document.getElementById('ticker-text');
+  if (!items.length) {
+    el.textContent = bills.map(b => `${b.status_label?.toUpperCase() || 'ACTIVE'} · ${b.plain_title} — ${b.deck}`).join(' &nbsp;·&nbsp; ');
+    return;
+  }
+  el.textContent = items.join(' \u00a0·\u00a0 ');
+}
+
+// ── HELPERS ───────────────────────────────────────────────────────────────────
+function fmt(d){if(!d)return'—';const[y,m,day]=d.split('-');const mo=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];return`${mo[+m-1]} ${+day}, ${y}`;}
+
+function fmtUpdated(d){
+  if(!d)return'—';
+  const diff=Math.floor((new Date()-d)/1000);
+  if(diff<60)return'Updated just now';
+  if(diff<3600)return`Updated ${Math.floor(diff/60)}m ago`;
+  if(diff<86400)return`Updated ${Math.floor(diff/3600)}h ago`;
+  return`Updated ${d.toLocaleDateString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})}`;
+}
+
+function itag(il,cat){
+  return`<span class="itag ${il}"><span class="itag-level">⚑ ${il.toUpperCase()} IMPACT</span><span class="itag-div"></span><span class="itag-cat">${CAT_LABEL[cat]||'General'}</span></span>`;
+}
+
+function dateLine(dt,sd){
+  if(sd)return`<div class="bill-dates"><span class="date-label">Introduced</span><span class="date-val">${fmt(dt)}</span><span class="arrow">→</span><span class="date-label">Signed</span><span class="date-val signed">✓ ${fmt(sd)}</span></div>`;
+  return`<div class="bill-dates"><span class="date-label">Introduced</span><span class="date-val">${fmt(dt)}</span></div>`;
+}
+
+function spillHtml(stKey,stLabel,billId){
+  return`<span class="spill ${stKey}" onclick="openPipeline('${billId}','${stKey}',event)">${stLabel}</span>`;
+}
+
+// ── PIPELINE ──────────────────────────────────────────────────────────────────
+function openPipeline(billId,currentStage,event){
+  event.stopPropagation();
+  document.getElementById('pipeline-bill-id').textContent=billId;
+  const ci=STAGES.findIndex(s=>s.key===currentStage);
+  document.getElementById('pipeline-steps').innerHTML=STAGES.map((s,i)=>{
+    const done=i<ci,cur=i===ci,fut=i>ci;
+    return`<div class="step">
+      <div class="step-left">
+        <div class="step-circle ${done?'done':cur?'current':'future'}">${done?'✓':i+1}</div>
+        ${i<STAGES.length-1?`<div class="step-line ${done?'done':''}"></div>`:''}
+      </div>
+      <div class="step-content">
+        <div class="step-title ${fut?'future':''}">${s.label}${cur?'<span class="step-badge">← This Bill</span>':''}</div>
+        <div class="step-desc">${s.desc}</div>
+      </div>
+    </div>`;
+  }).join('');
+  document.getElementById('pipeline-overlay').style.display='flex';
+  document.body.style.overflow='hidden';
+}
+
+function closePipeline(){
+  document.getElementById('pipeline-overlay').style.display='none';
+  document.body.style.overflow='';
+}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closePipeline();});
+
+// ── RENDER ────────────────────────────────────────────────────────────────────
+function getFiltered(){
+  const q=(document.getElementById('qinput')?.value||'').toLowerCase();
+  let list=bills.filter(b=>{
+    const cOk=flt==='all'||b.category===flt;
+    const qOk=!q||b.plain_title?.toLowerCase().includes(q)||b.deck?.toLowerCase().includes(q)||b.id?.toLowerCase().includes(q);
+    return cOk&&qOk;
+  });
+  if(srt==='recent')list.sort((a,b)=>new Date(b.intro_date)-new Date(a.intro_date));
+  else if(srt==='impact')list.sort((a,b)=>b.impact_score-a.impact_score);
+  else if(srt==='signed')list.sort((a,b)=>{
+    if(a.signed_date&&!b.signed_date)return -1;if(!a.signed_date&&b.signed_date)return 1;
+    if(a.signed_date&&b.signed_date)return new Date(b.signed_date)-new Date(a.signed_date);
+    return new Date(b.intro_date)-new Date(a.intro_date);
+  });
+  return list;
+}
+
+function renderAll(){
+  closeDrawer();
+  const filtered=getFiltered();
+  document.getElementById('count-text').textContent=`${filtered.length} bill${filtered.length!==1?'s':''} · 119th Congress (Trump 2nd Term) · Sort: ${{'recent':'Most Recent','impact':'Highest Impact','signed':'Signed Laws First'}[srt]}`;
+  document.getElementById('last-updated-text').textContent=fmtUpdated(dataUpdatedAt);
+
+  if(!filtered.length){
+    document.getElementById('hero').innerHTML='';
+    document.getElementById('grid').innerHTML='<p class="loading-msg">No bills match this filter.</p>';
+    document.getElementById('pgbar').style.display='none';
+    return;
+  }
+
+  const start=page*PER,slice=filtered.slice(start,start+PER),[hero,...rest]=slice;
+
+  document.getElementById('hero').innerHTML=`
+    <div class="hero-main">
+      <div class="kicker"><span class="dot ${hero.category}"></span><span>${hero.id}</span>${spillHtml(hero.status,hero.status_label,hero.id)}</div>
+      ${dateLine(hero.intro_date,hero.signed_date)}
+      <div class="headline">${hero.plain_title}</div>
+      <div class="deck">${hero.deck}</div>
+      ${itag(hero.impact_label,hero.category)}
+      <div class="byline">${hero.sponsor}</div>
+    </div>
+    <div class="hero-side">
+      <div style="margin-bottom:14px">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin-bottom:8px;border-bottom:1px solid var(--rule);padding-bottom:5px">Plain Language Summary</div>
+        <p style="font-size:13px;line-height:1.65;color:#2a2520">${hero.plain_summary}</p>
+      </div>
+      <div>
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin-bottom:8px;border-bottom:1px solid var(--rule);padding-bottom:5px">Who Is Affected</div>
+        <p style="font-size:12.5px;font-style:italic;color:var(--muted);line-height:1.6">${hero.who_affected}</p>
+      </div>
+    </div>`;
+
+  const grid=document.getElementById('grid');
+  grid.innerHTML='';
+  rest.forEach(b=>{
+    const c=document.createElement('div');
+    c.className='bill-card';
+    c.innerHTML=`
+      <div class="kicker"><span class="dot ${b.category}"></span><span>${b.id}</span>${spillHtml(b.status,b.status_label,b.id)}</div>
+      ${dateLine(b.intro_date,b.signed_date)}
+      <div class="headline">${b.plain_title}</div>
+      <div class="deck">${b.deck}</div>
+      ${itag(b.impact_label,b.category)}
+      <div class="byline">${b.sponsor}</div>`;
+    c.addEventListener('click',e=>{if(e.target.classList.contains('spill'))return;toggleDrawer(b,c);});
+    grid.appendChild(c);
+  });
+
+  const total=Math.ceil(filtered.length/PER),pg=document.getElementById('pgbar');
+  if(total<=1){pg.style.display='none';return;}
+  pg.style.display='flex';
+  pg.innerHTML=`<button class="pgbtn" onclick="goPage(${page-1})" ${page===0?'disabled':''}>← Prev</button><span class="pginfo">Page ${page+1} of ${total} · ${filtered.length} bills</span><button class="pgbtn" onclick="goPage(${page+1})" ${page>=total-1?'disabled':''}>Next →</button>`;
+}
+
+function goPage(n){page=n;renderAll();window.scrollTo({top:0,behavior:'smooth'});}
+
+function closeDrawer(){if(activeDrawer){activeDrawer.el.remove();activeDrawer.card.classList.remove('active');activeDrawer=null;}}
+
+function toggleDrawer(b,card){
+  if(activeDrawer&&activeDrawer.card===card){closeDrawer();return;}
+  closeDrawer();
+  window.scrollTo({top:card.getBoundingClientRect().top+window.scrollY-12,behavior:'smooth'});
+  setTimeout(()=>{
+    card.classList.add('active');
+    const d=document.createElement('div');
+    d.className='drawer open';
+    d.innerHTML=`
+      <div class="drawer-inner">
+        <div class="dsec"><h3>Plain Language Summary</h3><p>${b.plain_summary}</p></div>
+        <div class="dsec"><h3>Direct Impact on Americans</h3><ul>${(b.impacts||[]).map(i=>`<li class="${i.type}">${i.text}</li>`).join('')}</ul></div>
+        <div class="dsec">
+          <h3>Who Is Directly Affected</h3><p style="margin-bottom:14px;font-style:italic">${b.who_affected}</p>
+          <h3 style="margin-top:4px">Bill Details</h3>
+          <p style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--muted);line-height:2.1">
+            <strong>Bill ID:</strong> ${b.id}<br>
+            <strong>Category:</strong> ${CAT_LABEL[b.category]||'General'}<br>
+            <strong>Sponsor:</strong> ${b.sponsor}<br>
+            <strong>Introduced:</strong> ${fmt(b.intro_date)}<br>
+            ${b.signed_date?`<strong>Signed:</strong> <span style="color:var(--green)">✓ ${fmt(b.signed_date)}</span><br>`:''}
+            <strong>Status:</strong> ${spillHtml(b.status,b.status_label,b.id)}
+          </p>
+        </div>
+      </div>
+      <div class="dclose" onclick="closeDrawer()">↑ Collapse Analysis</div>`;
+    card.insertAdjacentElement('afterend',d);
+    activeDrawer={el:d,card:card};
+  },320);
+}
+
+function setFilter(btn,f){document.querySelectorAll('[data-f]').forEach(b=>b.classList.remove('on'));btn.classList.add('on');flt=f;page=0;renderAll();}
+function setSort(s){srt=s;page=0;['recent','impact','signed'].forEach(k=>document.getElementById('s-'+k)?.classList.toggle('on',k===s));renderAll();}
+
+setInterval(()=>{document.getElementById('last-updated-text').textContent=fmtUpdated(dataUpdatedAt);},60000);
+document.getElementById('live-date').textContent=new Date().toLocaleDateString('en-US',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
+loadData();
+</script>
+</body>
+</html>

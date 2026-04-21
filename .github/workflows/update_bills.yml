@@ -1,0 +1,50 @@
+name: Update Bills & Deploy
+
+on:
+  schedule:
+    # Runs every day at 6 AM UTC (2 AM Eastern)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    # Also allows manual trigger from the Actions tab
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run bill update script
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/update_bills.py
+
+      - name: Commit updated bills.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add bills.json
+          git diff --staged --quiet || git commit -m "Auto-update bills.json [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+        # This step only runs if you've configured Pages to use GitHub Actions
+        # If you're using the branch method, this step can be removed
+        continue-on-error: true
