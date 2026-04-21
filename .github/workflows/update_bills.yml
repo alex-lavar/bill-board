@@ -42,9 +42,3 @@ jobs:
           git add bills.json
           git diff --staged --quiet || git commit -m "Auto-update bills.json [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
-
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
-        # This step only runs if you've configured Pages to use GitHub Actions
-        # If you're using the branch method, this step can be removed
-        continue-on-error: true
