@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-21T23:38:40.629588Z",
+  "updated_at": "2026-04-22T07:55:24.235589Z",
   "congress": 119,
-  "total": 264,
+  "total": 283,
   "ticker": [
     "✅ SIGNED · Laken Riley Act — ICE must detain undocumented immigrants charged with theft, no conviction needed",
     "✅ SIGNED · Biden SAVE student loan plan cancelled — 8M borrowers face higher payments under older repayment rules",
@@ -10,8 +10,13 @@
     "⏳ IN COMMITTEE · DOGE Authorization Act — would give DOGE legal access to federal databases on 3M+ employees",
     "🔴 WATCH · H.R.7 Federal Abortion Ban — 15-week nationwide limit would override laws in 20+ states",
     "📋 MOVING · H.R.1 'One Big Beautiful Bill' — would cut Medicaid for up to 13M Americans while eliminating taxes on tips",
+    "🌾 House farm bill advances, affecting food aid and farm support for millions",
     "⏳ IN COMMITTEE · Energy Dominance Act — would fast-track oil and mining permits on federal land",
     "📋 PASSED HOUSE · SAVE Act — proof of citizenship required to register to vote, now heads to Senate",
+    "⛽ Bill proposes suspending federal gas tax to cut pump prices for all drivers",
+    "🦷 Senate bill aims to expand dental and health care for millions of low-income children",
+    "🚫 House bill seeks new federal restrictions on medication abortion drug mifepristone",
+    "🗳️ Bill would cut congressional seats in states with large immigrant populations",
     "📋 PASSED HOUSE · IRS nonprofit tax status bill — Treasury could strip tax-exempt status without conviction"
   ],
   "bills": [
@@ -292,6 +297,37 @@
       "ticker_alert": "📋 MOVING · H.R.1 'One Big Beautiful Bill' — would cut Medicaid for up to 13M Americans while eliminating taxes on tips"
     },
     {
+      "id": "HR 7567",
+      "title": "Farm, Food, and National Security Act of 2026",
+      "plain_title": "2026 Farm Bill Reauthorizing Agriculture and Food Programs",
+      "deck": "Reauthorizes major U.S. farm, food assistance, and rural development programs for the next several years.",
+      "plain_summary": "The Farm, Food, and National Security Act of 2026 is a comprehensive farm bill that reauthorizes and updates federal programs covering crop insurance, food stamps (SNAP), conservation, rural development, and agricultural trade. It was advanced out of the House Agriculture Committee by a vote of 34 to 17. The bill now moves toward a full House vote and must still pass the Senate before becoming law.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics warn the bill may cut SNAP food assistance benefits, reducing food access for low-income families and children who rely on the program."
+        },
+        {
+          "type": "positive",
+          "text": "Farmers gain extended crop insurance protections and updated commodity support payments, providing more financial stability against weather disasters and market swings."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill reshapes how conservation funding is distributed, shifting some climate-focused agricultural dollars toward broader land management priorities — a change praised by some and criticized by others."
+        }
+      ],
+      "who_affected": "Farmers and ranchers, SNAP recipients and low-income families, rural communities, grocery shoppers, conservation groups, agricultural businesses, food banks",
+      "category": "social",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 5,
+      "impact_label": "high",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🌾 House farm bill advances, affecting food aid and farm support for millions"
+    },
+    {
       "id": "H.R.2234",
       "title": "Energy Dominance Act",
       "plain_title": "Fast-Tracking Oil, Gas & Mining Permits on Federal Land",
@@ -364,6 +400,130 @@
       "signed_date": null,
       "sponsor": "Rep. Chip Roy (R-TX)",
       "ticker_alert": "📋 PASSED HOUSE · SAVE Act — proof of citizenship required to register to vote, now heads to Senate"
+    },
+    {
+      "id": "HR 7919",
+      "title": "Gas Prices Relief Act of 2026",
+      "plain_title": "Tax Relief to Lower Gas Prices for Americans",
+      "deck": "This bill would temporarily suspend the federal gas tax to lower prices at the pump.",
+      "plain_summary": "The Gas Prices Relief Act of 2026 proposes to temporarily suspend the federal excise tax on gasoline and diesel fuel, which currently adds about 18-24 cents per gallon to the price Americans pay at the pump. By removing this tax for a set period, the bill aims to provide direct cost relief to drivers and households struggling with high fuel costs. The bill has been referred to the House Committee on Ways and Means, meaning it is in early stages and has not yet been voted on.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Suspending the gas tax could reduce the Highway Trust Fund by billions of dollars, potentially delaying road, bridge, and infrastructure repairs across the country."
+        },
+        {
+          "type": "positive",
+          "text": "Drivers could save 18 to 24 cents per gallon at the pump, providing meaningful short-term relief to commuters, small businesses, and rural Americans who drive long distances."
+        },
+        {
+          "type": "neutral",
+          "text": "Economists debate whether gas tax suspensions actually lower consumer prices, since oil companies and retailers may absorb some or all of the savings rather than passing them on to drivers."
+        }
+      ],
+      "who_affected": "everyday drivers, rural Americans, trucking and delivery companies, small businesses, road construction workers, commuters, low-income households",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 4,
+      "impact_label": "high",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "⛽ Bill proposes suspending federal gas tax to cut pump prices for all drivers"
+    },
+    {
+      "id": "S 1528",
+      "title": "CHILD Act of 2025",
+      "plain_title": "Child Health Insurance and Dental Coverage Expansion Act",
+      "deck": "This bill would expand dental and health coverage options for children enrolled in Medicaid and CHIP programs.",
+      "plain_summary": "The CHILD Act of 2025 aims to strengthen health and dental care access for low-income children covered under Medicaid and the Children's Health Insurance Program (CHIP). The bill has been placed on the Senate Legislative Calendar, meaning it is eligible for a floor vote but has not yet passed. It targets gaps in coverage that leave many children without adequate preventive and routine care.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Expanding coverage mandates could increase federal and state Medicaid spending, potentially straining budgets or requiring new funding offsets."
+        },
+        {
+          "type": "positive",
+          "text": "Millions of low-income children could gain access to dental and health services they currently lack, improving long-term health outcomes."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill's effectiveness depends on whether enough dentists and providers accept Medicaid patients, a persistent access problem in many states."
+        }
+      ],
+      "who_affected": "Low-income children, families enrolled in Medicaid and CHIP, pediatric dentists and doctors, state Medicaid administrators, taxpayers",
+      "category": "social",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 4,
+      "impact_label": "high",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🦷 Senate bill aims to expand dental and health care for millions of low-income children"
+    },
+    {
+      "id": "HR 7902",
+      "title": "Safeguarding Women from Chemical Abortion Act",
+      "plain_title": "Restricting Mifepristone Access for Medication Abortions",
+      "deck": "This bill would impose new federal restrictions on the prescribing and dispensing of mifepristone, a drug used in medication abortions.",
+      "plain_summary": "The Safeguarding Women from Chemical Abortion Act would place stricter federal regulations on mifepristone, the most commonly used medication abortion drug in the United States. The bill would likely require in-person dispensing, limit who can prescribe it, and add new reporting requirements. It has been referred to the House committees on Energy and Commerce and the Judiciary, where it awaits further consideration.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Women in rural or underserved areas could lose access to medication abortion, which currently accounts for over half of all U.S. abortions."
+        },
+        {
+          "type": "positive",
+          "text": "Supporters say stricter oversight of mifepristone prescribing could improve patient safety monitoring and adverse event reporting."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill reignites the ongoing legal and political debate over federal authority to regulate abortion-related drugs approved by the FDA."
+        }
+      ],
+      "who_affected": "Women of reproductive age, abortion providers, OB-GYN physicians, rural healthcare patients, pharmacists, telehealth providers",
+      "category": "rights",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 4,
+      "impact_label": "high",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🚫 House bill seeks new federal restrictions on medication abortion drug mifepristone"
+    },
+    {
+      "id": "HR 151",
+      "title": "Equal Representation Act of 2025",
+      "plain_title": "Count Only Citizens in Congressional Apportionment",
+      "deck": "This bill would exclude non-citizens from the population count used to divide congressional seats among states.",
+      "plain_summary": "The Equal Representation Act of 2025 would require that only U.S. citizens — not all residents — be counted when deciding how many congressional seats and Electoral College votes each state receives. Currently, the Census counts everyone living in the U.S., including non-citizens. The bill passed out of committee by a razor-thin 20-19 vote and now moves to the full House for consideration.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "States with large immigrant populations (like California, Texas, and New York) could lose congressional seats and Electoral College votes, reducing their political representation in Washington."
+        },
+        {
+          "type": "positive",
+          "text": "Supporters say it ensures only those eligible to vote determine congressional representation, giving states with fewer non-citizens a greater proportional voice in Congress."
+        },
+        {
+          "type": "neutral",
+          "text": "The Census Bureau has never used a citizenship-only count for apportionment; implementing this change would require new data collection methods and could face significant legal challenges."
+        }
+      ],
+      "who_affected": "Non-citizen immigrants, residents of high-immigration states, voters in low-immigration states, state legislatures drawing district maps, Electoral College voters",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 4,
+      "impact_label": "high",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🗳️ Bill would cut congressional seats in states with large immigrant populations"
     },
     {
       "id": "H.R.3322",
@@ -539,6 +699,347 @@
       "signed_date": null,
       "sponsor": "Rep. David Kustoff (R-TN)",
       "ticker_alert": "📋 PASSED HOUSE · IRS nonprofit tax status bill — Treasury could strip tax-exempt status without conviction"
+    },
+    {
+      "id": "S 1003",
+      "title": "Lulu’s Law",
+      "plain_title": "Bill to Protect Children from Online Sexual Exploitation",
+      "deck": "Requires online platforms to better detect and report child sexual abuse material to protect minors.",
+      "plain_summary": "Lulu's Law would strengthen requirements for tech companies and online platforms to detect, report, and remove child sexual abuse material (CSAM) from their services. The bill is named in honor of a child victim and aims to close loopholes in existing reporting obligations. It has been received in the Senate and is currently held at the desk, meaning it has not yet been assigned to a committee for review.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Tech companies may face costly compliance burdens, potentially passing expenses to users or reducing smaller platforms' ability to operate"
+        },
+        {
+          "type": "positive",
+          "text": "Children could be better protected from online sexual exploitation through stricter detection and faster removal of abuse material"
+        },
+        {
+          "type": "neutral",
+          "text": "Expanded surveillance and scanning requirements raise ongoing debate about user privacy versus child safety obligations"
+        }
+      ],
+      "who_affected": "Children and minors, parents of minors, tech and social media companies, child safety advocates, privacy advocates, law enforcement agencies",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🛡️ Lulu's Law targets online child exploitation, tightening platform reporting rules"
+    },
+    {
+      "id": "HR 2076",
+      "title": "Lulu’s Law",
+      "plain_title": "Expanding Mental Health Crisis Services for Children",
+      "deck": "Requires states to include pediatric mental health crisis care in Medicaid coverage for children.",
+      "plain_summary": "Lulu's Law would require state Medicaid programs to cover mental health crisis services for children and adolescents, ensuring young people can access emergency behavioral health care. The bill is named after a child whose death highlighted gaps in pediatric mental health crisis services. It has been placed on the Union Calendar, meaning it has passed committee and is awaiting a full House vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "States may face increased Medicaid costs and administrative burdens to implement new mandatory pediatric crisis service requirements."
+        },
+        {
+          "type": "positive",
+          "text": "Low-income children experiencing mental health crises would gain guaranteed access to specialized emergency behavioral health care through Medicaid."
+        },
+        {
+          "type": "neutral",
+          "text": "The scope and quality of covered services could vary by state depending on how each interprets and implements the federal mandate."
+        }
+      ],
+      "who_affected": "Children and adolescents on Medicaid, low-income families, pediatric mental health providers, state Medicaid administrators, child welfare agencies",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🧠 Bill would guarantee mental health crisis care for Medicaid-enrolled children"
+    },
+    {
+      "id": "HR 7684",
+      "title": "SCOPE Act of 2026",
+      "plain_title": "Expanding Broadband Access and Closing Coverage Gaps",
+      "deck": "This bill aims to improve broadband internet coverage maps and expand high-speed internet access across underserved areas of the U.S.",
+      "plain_summary": "The SCOPE Act of 2026 (HR 7684) seeks to strengthen broadband coverage mapping and improve how the government identifies communities that lack reliable high-speed internet. It was referred to the House Committee on Energy and Commerce, where it awaits further review. The bill is intended to help ensure federal broadband funding reaches the Americans who need it most, particularly in rural and low-income communities.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "More detailed mapping requirements could slow down broadband deployment funding by adding bureaucratic steps before money reaches communities."
+        },
+        {
+          "type": "positive",
+          "text": "Better broadband maps could direct billions in federal funding more accurately to rural and low-income Americans who currently lack reliable internet access."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill's effectiveness depends heavily on how federal agencies implement the mapping rules and whether local governments participate in data collection."
+        }
+      ],
+      "who_affected": "Rural residents, low-income households, small businesses in underserved areas, internet service providers, state broadband offices, tribal communities",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "📡 SCOPE Act targets better broadband maps to fix digital divide for millions"
+    },
+    {
+      "id": "HR 7741",
+      "title": "E-Access Act",
+      "plain_title": "Electronic Access to Government Documents Act",
+      "deck": "Requires federal agencies to make public documents available online for free.",
+      "plain_summary": "The E-Access Act would require federal agencies to publish government documents and records online in accessible digital formats at no cost to the public. This bill aims to make it easier for ordinary Americans to find and read official government information without paying fees or visiting offices in person. The bill has been referred to the House Committee on Energy and Commerce, meaning it is in the early stages of the legislative process.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Federal agencies may face significant costs and staffing burdens to digitize and maintain large volumes of existing documents online."
+        },
+        {
+          "type": "positive",
+          "text": "Everyday Americans would gain free, convenient online access to government records that currently require fees or in-person requests."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill could shift how agencies allocate IT and administrative budgets, potentially affecting other government services depending on implementation."
+        }
+      ],
+      "who_affected": "General public, journalists, researchers, small business owners, legal professionals, people with disabilities, low-income Americans without means to pay record fees",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "📋 New bill would make federal government documents free and online for all Americans"
+    },
+    {
+      "id": "HR 7703",
+      "title": "Stop Illegal Alien Cops Act",
+      "plain_title": "Ban on Non-Citizens Serving as Police Officers",
+      "deck": "This bill would prohibit non-U.S. citizens from working as law enforcement officers anywhere in the United States.",
+      "plain_summary": "The Stop Illegal Alien Cops Act would make it illegal for anyone who is not a U.S. citizen to serve as a police officer or law enforcement official at the federal, state, or local level. Some cities and states have recently changed their laws to allow non-citizens, including undocumented immigrants, to join police forces to address officer shortages. This bill was referred to the House Judiciary Committee, meaning it is in the early stages of the legislative process and has not yet been voted on.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Law enforcement agencies already facing staffing shortages could lose eligible recruits, potentially leaving communities with fewer officers on patrol."
+        },
+        {
+          "type": "positive",
+          "text": "Supporters argue ensuring all officers are U.S. citizens strengthens national security and public trust in law enforcement institutions."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill's effect depends heavily on how many non-citizen officers currently serve and whether states would be legally compelled to comply with a federal mandate."
+        }
+      ],
+      "who_affected": "Non-citizen legal residents seeking law enforcement careers, local and state police departments, communities with officer shortages, undocumented immigrants, taxpayers funding public safety",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🚨 Bill introduced to ban non-citizens from serving as police officers nationwide"
+    },
+    {
+      "id": "S 2132",
+      "title": "CLEAR Path Act",
+      "plain_title": "Streamlining Nuclear Energy Licensing and Permitting",
+      "deck": "This bill reforms federal processes to make it faster and cheaper to build new nuclear power plants in the U.S.",
+      "plain_summary": "The CLEAR Path Act (Creating Helpful Incentives to Produce Semiconductors... no — Clearing Legislative Enhancements for Advanced Reactors) reforms the Nuclear Regulatory Commission's licensing and permitting procedures to reduce delays and costs for building new nuclear reactors, including advanced reactor designs. It aims to modernize outdated regulatory frameworks that critics say make U.S. nuclear energy uncompetitive. The bill has been placed on the Senate Legislative Calendar, meaning it awaits a floor vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics argue streamlined licensing could reduce safety review time for nuclear facilities, potentially increasing risks to nearby communities."
+        },
+        {
+          "type": "positive",
+          "text": "Faster nuclear plant approvals could lower energy costs long-term and help the U.S. meet clean energy goals without relying solely on fossil fuels."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill shifts regulatory authority and timelines at the NRC, which supporters call modernization and opponents call a weakening of oversight."
+        }
+      ],
+      "who_affected": "Energy ratepayers, nuclear industry workers, environmental advocates, communities near nuclear facilities, utility companies, clean energy investors",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "⚡ Senate bill would fast-track permits for new U.S. nuclear power plants"
+    },
+    {
+      "id": "HR 8066",
+      "title": "Carlton H. Ingram Veterans’ Benefits Improvement Act",
+      "plain_title": "Veterans Benefits Improvement and Modernization Act",
+      "deck": "This bill proposes updates to how veterans receive and appeal their federal benefits.",
+      "plain_summary": "The Carlton H. Ingram Veterans' Benefits Improvement Act (HR 8066) aims to improve how the Department of Veterans Affairs delivers and processes benefits to veterans, including potential changes to claims, appeals, or payment processes. The bill is named after Carlton H. Ingram, honoring a figure connected to veterans' service. It has been referred to the House Committee on Veterans' Affairs, meaning it is in the early stages of consideration and has not yet been voted on.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Implementation costs could divert VA funding from direct veteran healthcare or services if not separately appropriated."
+        },
+        {
+          "type": "positive",
+          "text": "Veterans who have struggled with slow or denied benefits claims could see faster decisions and improved access to earned benefits."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill's actual scope and specific provisions are not fully detailed in public summaries, making it difficult to assess the full range of changes."
+        }
+      ],
+      "who_affected": "U.S. military veterans, surviving spouses of veterans, VA benefits claimants, VA administrative staff, veterans service organizations",
+      "category": "social",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "⚖️ New bill proposes improvements to veterans' federal benefits claims process"
+    },
+    {
+      "id": "HR 8340",
+      "title": "Taxpayer Funds Oversight and Accountability Act",
+      "plain_title": "Federal Spending Oversight and Accountability Act",
+      "deck": "This bill would strengthen oversight of how the federal government spends taxpayer money.",
+      "plain_summary": "The Taxpayer Funds Oversight and Accountability Act (HR 8340) aims to increase transparency and accountability in how the federal government spends public money. It was referred to the House Committee on Oversight and Government Reform, meaning it is still in the early stages of the legislative process and has not yet been voted on. The bill reflects ongoing congressional efforts to reduce waste, fraud, and abuse in federal spending.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Could add bureaucratic reporting requirements that slow down legitimate government programs and service delivery"
+        },
+        {
+          "type": "positive",
+          "text": "May help reduce waste and fraud in federal spending, potentially saving taxpayers billions of dollars over time"
+        },
+        {
+          "type": "neutral",
+          "text": "The actual effectiveness depends heavily on the specific enforcement mechanisms written into the bill, which are not yet widely detailed"
+        }
+      ],
+      "who_affected": "Federal agency employees, government contractors, taxpayers, recipients of federal grants and programs, congressional oversight staff",
+      "category": "money",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "💰 New bill aims to boost oversight of how your tax dollars are spent"
+    },
+    {
+      "id": "HR 8357",
+      "title": "6PPD Task Force Act",
+      "plain_title": "Task Force to Study Tire Chemical Harming Salmon",
+      "deck": "Creates a federal task force to study and address 6PPD, a tire rubber chemical killing salmon and other fish.",
+      "plain_summary": "This bill would establish a federal task force to study 6PPD-quinone, a toxic chemical produced when a common tire preservative reacts with ozone. The chemical washes off roads into waterways and has been linked to mass deaths of coho salmon and other fish. The bill was referred to multiple House committees and has not yet been voted on.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Potential costs to tire manufacturers and drivers if task force findings lead to regulations requiring reformulated tires"
+        },
+        {
+          "type": "positive",
+          "text": "Could protect salmon populations and drinking water sources by identifying actionable solutions to a known toxic chemical threat"
+        },
+        {
+          "type": "neutral",
+          "text": "The task force only studies the problem and makes recommendations — it does not directly ban or regulate 6PPD chemicals"
+        }
+      ],
+      "who_affected": "Commercial and recreational fishermen, Pacific Northwest communities, tire manufacturers, environmental agencies, Native American tribes with fishing treaty rights, wildlife conservationists",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🐟 Congress eyes toxic tire chemical devastating salmon populations nationwide"
+    },
+    {
+      "id": "HR 8358",
+      "title": "Breast Cancer Research Stamp Reauthorization Act of 2026",
+      "plain_title": "Keep the Breast Cancer Awareness Stamp Going",
+      "deck": "This bill extends the special postage stamp that raises money for breast cancer research.",
+      "plain_summary": "This bill would reauthorize the Breast Cancer Research semipostal stamp, which lets Americans pay a little extra when buying postage, with the extra money going to breast cancer research funding. The stamp has raised hundreds of millions of dollars since 1998 and requires periodic reauthorization by Congress to keep selling. The bill has been referred to multiple House committees for review before any floor vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Buyers pay slightly above face value for the stamp, meaning it costs more than standard postage for everyday mailers."
+        },
+        {
+          "type": "positive",
+          "text": "Extends a proven fundraising tool that has generated over $100 million for breast cancer research, potentially saving lives."
+        },
+        {
+          "type": "neutral",
+          "text": "Critics question whether disease-specific fundraising through postal stamps is the most efficient or equitable way to direct medical research dollars."
+        }
+      ],
+      "who_affected": "Breast cancer patients and survivors, medical researchers, everyday stamp buyers, postal customers, veterans (via Armed Services committee jurisdiction)",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🎗️ Congress considers extending breast cancer research stamp fundraising program"
+    },
+    {
+      "id": "HR 8338",
+      "title": "SAFER Act of 2026",
+      "plain_title": "Bank Account Access Rules for Cannabis Businesses",
+      "deck": "This bill would allow legal cannabis businesses to access banking and financial services without federal penalties.",
+      "plain_summary": "The SAFER Act of 2026 (HR 8338) would protect banks and credit unions from federal punishment if they provide accounts, loans, or other financial services to cannabis businesses operating legally under state law. Currently, most banks refuse to serve cannabis companies because marijuana remains illegal federally, forcing many to operate as cash-only businesses. This bill has been referred to the House Committee on Financial Services, where it awaits further consideration.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics argue it could expand cannabis access and use by making the industry more financially stable and legitimate without fully resolving the federal-state legal conflict."
+        },
+        {
+          "type": "positive",
+          "text": "Legal cannabis businesses and their employees could gain access to checking accounts, payroll services, and loans, reducing dangerous cash-only operations and improving worker safety."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill does not legalize cannabis federally — it only addresses banking access, leaving the broader debate over marijuana's legal status unresolved."
+        }
+      ],
+      "who_affected": "Cannabis business owners, dispensary employees, banks and credit unions, law enforcement, state tax authorities, small business owners in cannabis-legal states",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏦 SAFER Act would open banks to legal cannabis businesses nationwide"
     },
     {
       "id": "HR 6409",
@@ -6266,6 +6767,99 @@
       "signed_date": null,
       "sponsor": "See Congress.gov",
       "ticker_alert": null
+    },
+    {
+      "id": "HR 8108",
+      "title": "End Polluter Welfare for Enhanced Oil Recovery Act of 2026",
+      "plain_title": "Remove Tax Breaks for Enhanced Oil Recovery",
+      "deck": "This bill eliminates federal tax credits that help oil companies extract hard-to-reach petroleum using special techniques.",
+      "plain_summary": "This bill would end a longstanding federal tax credit that oil companies use to offset costs of 'enhanced oil recovery' — techniques like injecting carbon dioxide or steam into old wells to extract more oil. Supporters say these subsidies waste taxpayer money on a profitable fossil fuel industry. The bill has been referred to the House Committee on Ways and Means, the first step in the legislative process.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Oil companies and workers in enhanced recovery operations could face higher costs and potential job losses in oil-producing states like Texas, Wyoming, and North Dakota."
+        },
+        {
+          "type": "positive",
+          "text": "Ending the tax credit could save the federal government hundreds of millions of dollars annually, potentially reducing the deficit or freeing funds for other priorities."
+        },
+        {
+          "type": "neutral",
+          "text": "Whether eliminating this credit meaningfully reduces oil production or greenhouse gas emissions is disputed among energy economists and industry analysts."
+        }
+      ],
+      "who_affected": "Oil and gas companies, oil field workers, residents of oil-producing states, taxpayers, energy investors, rural communities near oil operations",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "⚡ Bill would cut oil company tax breaks worth hundreds of millions annually"
+    },
+    {
+      "id": "HR 7832",
+      "title": "America’s Living Library Act",
+      "plain_title": "National Living Library Network Creation Act",
+      "deck": "This bill would create a national network of living libraries preserving plant and animal genetic diversity across America.",
+      "plain_summary": "The America's Living Library Act proposes establishing a coordinated national network of 'living libraries' — physical collections of living plants, animals, and genetic material — to preserve biodiversity and support scientific research. The bill was referred to multiple House committees including Natural Resources, Agriculture, House Administration, and Energy and Commerce, meaning it faces review from several different panels before it could advance. It has not yet been voted on and is in early stages of the legislative process.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Establishing and maintaining multiple living library facilities could require significant federal spending and ongoing taxpayer-funded operational costs."
+        },
+        {
+          "type": "positive",
+          "text": "Americans would benefit from preserved biodiversity resources that support food security, medical research, and ecological resilience against climate change and disease."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill's referral to four separate committees reflects overlapping jurisdictions, making its path to passage complex and uncertain regardless of political support."
+        }
+      ],
+      "who_affected": "Farmers and agricultural researchers, conservationists and wildlife biologists, federal land managers, university researchers, rural communities near designated sites, taxpayers",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🌿 New bill proposes national network of living biodiversity libraries across America"
+    },
+    {
+      "id": "HRES 1193",
+      "title": "Providing for the expulsion of Representative Cory Mills from the United States House of Representatives.",
+      "plain_title": "Resolution to Expel Representative Cory Mills from Congress",
+      "deck": "This resolution would remove Florida Congressman Cory Mills from the House of Representatives.",
+      "plain_summary": "This resolution calls for the expulsion of Republican Representative Cory Mills of Florida from the U.S. House of Representatives. Expulsion is the most severe punishment Congress can impose on one of its own members, requiring a two-thirds supermajority vote to succeed. The resolution has been referred to the House Ethics Committee, which would need to investigate and make a recommendation before any full House vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Florida's 7th congressional district would temporarily lose its representation in Congress until a special election could be held."
+        },
+        {
+          "type": "positive",
+          "text": "If allegations against Mills are serious and substantiated, expulsion would uphold accountability standards and public trust in Congress."
+        },
+        {
+          "type": "neutral",
+          "text": "Expulsion resolutions are extremely rare and politically charged; the two-thirds threshold makes success unlikely without broad bipartisan support."
+        }
+      ],
+      "who_affected": "Florida 7th district constituents, House Republican members, House Ethics Committee, voters in Florida",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "⚖️ House resolution seeks to expel Florida Rep. Cory Mills from Congress"
     }
   ]
 }
