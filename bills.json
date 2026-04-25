@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-24T08:12:38.868308Z",
+  "updated_at": "2026-04-25T07:25:54.383280Z",
   "congress": 119,
-  "total": 680,
+  "total": 841,
   "ticker": [
     "✅ SIGNED · Laken Riley Act — ICE must detain undocumented immigrants charged with theft, no conviction needed",
     "🚨 Signed into law: Major tax cuts and social program reductions affecting millions",
@@ -13,6 +13,8 @@
     "📋 MOVING · H.R.1 'One Big Beautiful Bill' — would cut Medicaid for up to 13M Americans while eliminating taxes on tips",
     "🌾 House farm bill advances, affecting food aid and farm support for millions",
     "📊 Congress proposes 10-year budget blueprint with major spending cut targets",
+    "🏛️ House passes 2026 Homeland Security budget; Senate review pending",
+    "🗽 DIGNIDAD Act proposes legal status for millions of undocumented U.S. residents",
     "⏳ IN COMMITTEE · Energy Dominance Act — would fast-track oil and mining permits on federal land",
     "📋 PASSED HOUSE · SAVE Act — proof of citizenship required to register to vote, now heads to Senate",
     "⛽ Bill proposes suspending federal gas tax to cut pump prices for all drivers",
@@ -20,9 +22,7 @@
     "🚫 House bill seeks new federal restrictions on medication abortion drug mifepristone",
     "🗳️ Bill would cut congressional seats in states with large immigrant populations",
     "🤱 Momnibus Act targets maternal mortality crisis affecting millions of American mothers",
-    "🗳️ New bill would make spreading false voting information a federal crime",
-    "🗳️ Senate bill seeks to restore federal voting rights oversight for key states",
-    "🚨 House bill targets fentanyl traffickers with tougher federal penalties"
+    "🗳️ New bill would make spreading false voting information a federal crime"
   ],
   "bills": [
     {
@@ -416,6 +416,68 @@
       "signed_date": null,
       "sponsor": "See Congress.gov",
       "ticker_alert": "📊 Congress proposes 10-year budget blueprint with major spending cut targets"
+    },
+    {
+      "id": "HR 7744",
+      "title": "Department of Homeland Security Appropriations Act, 2026",
+      "plain_title": "Homeland Security Budget Funding Bill for 2026",
+      "deck": "Sets the annual budget for the Department of Homeland Security, covering border security, FEMA, and other agencies.",
+      "plain_summary": "This bill determines how much money the Department of Homeland Security receives and how it can be spent in fiscal year 2026. It covers funding for agencies like CBP, ICE, FEMA, TSA, and the Coast Guard. The bill has passed the House and is currently awaiting action in the Senate Appropriations Committee.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics warn that funding levels for immigration enforcement could expand detention and deportation programs, affecting immigrant families and communities."
+        },
+        {
+          "type": "positive",
+          "text": "Disaster relief funding through FEMA helps millions of Americans recover from hurricanes, wildfires, floods, and other natural disasters."
+        },
+        {
+          "type": "neutral",
+          "text": "Border security and immigration enforcement spending levels remain contested, with sharp disagreements between parties over priorities and effectiveness."
+        }
+      ],
+      "who_affected": "Immigrants and asylum seekers, disaster survivors, air travelers, coastal communities, federal employees, border communities, emergency responders",
+      "category": "money",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 5,
+      "impact_label": "high",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏛️ House passes 2026 Homeland Security budget; Senate review pending"
+    },
+    {
+      "id": "HR 4393",
+      "title": "DIGNIDAD (Dignity) Act of 2025",
+      "plain_title": "Comprehensive Immigration Reform and Border Security Act",
+      "deck": "Creates a path to legal status for millions of undocumented immigrants while tightening border security and reforming the immigration system.",
+      "plain_summary": "The DIGNIDAD Act of 2025 is a sweeping immigration reform bill that would create legal pathways for undocumented immigrants already living in the U.S., including Dreamers and farmworkers, while also investing in border security and modernizing the immigration court system. The bill addresses multiple aspects of immigration policy, from worker visas to asylum processes. It has been referred to several House committees and has not yet received a floor vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics argue it could incentivize future illegal immigration by offering legal status to those who entered without authorization, and may strain public services."
+        },
+        {
+          "type": "positive",
+          "text": "Millions of long-term undocumented residents, including Dreamers brought as children, could gain legal status and work authorization, reducing family separation."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill would significantly restructure the immigration court system and visa allocation rules, with uncertain effects on wait times and legal immigration backlogs."
+        }
+      ],
+      "who_affected": "Undocumented immigrants, DACA recipients, farmworkers, asylum seekers, U.S. employers relying on immigrant labor, border communities, immigration lawyers, U.S.-born family members of undocumented residents",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 5,
+      "impact_label": "high",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🗽 DIGNIDAD Act proposes legal status for millions of undocumented U.S. residents"
     },
     {
       "id": "H.R.2234",
@@ -862,6 +924,68 @@
       "signed_date": null,
       "sponsor": "See Congress.gov",
       "ticker_alert": "🗳️ Senate bill would require citizenship documents to register for federal elections"
+    },
+    {
+      "id": "HR 8469",
+      "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.",
+      "plain_title": "Military Construction and Veterans Affairs Budget Bill 2027",
+      "deck": "Sets the federal budget for military bases, veteran healthcare, and related programs for fiscal year 2027.",
+      "plain_summary": "This bill allocates federal funding for military construction projects, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027. It covers veteran healthcare, benefits, housing for troops, and base infrastructure improvements. The bill has been placed on the Union Calendar, meaning it is awaiting a full House vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Funding caps may leave some VA hospitals understaffed or delay construction of new veteran care facilities in high-demand areas."
+        },
+        {
+          "type": "positive",
+          "text": "Millions of veterans could see continued or expanded access to healthcare, mental health services, and disability benefits funded by this appropriation."
+        },
+        {
+          "type": "neutral",
+          "text": "Military construction spending directs billions to base infrastructure, which critics call pork-barrel spending but supporters say boosts local economies near bases."
+        }
+      ],
+      "who_affected": "Veterans, active-duty military personnel, military families, VA employees, defense contractors, communities near military bases",
+      "category": "money",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 4,
+      "impact_label": "high",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏥 House bill funds veteran healthcare and military bases through 2027"
+    },
+    {
+      "id": "HR 7757",
+      "title": "KIDS Act",
+      "plain_title": "Kids Online Safety and Data Privacy Act",
+      "deck": "Requires stricter data privacy protections and safety standards for children using online platforms.",
+      "plain_summary": "The KIDS Act would strengthen online protections for minors by requiring tech companies to limit data collection on children, restrict harmful content algorithms targeting kids, and enforce stronger age verification measures. The bill was referred to the House Committees on Energy and Commerce and the Judiciary, where it awaits further consideration. It has not yet been voted on by the full House.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Tech companies may pass compliance costs to consumers, and stricter age verification could limit access to platforms for teens and young adults"
+        },
+        {
+          "type": "positive",
+          "text": "Children would have stronger legal protections against data harvesting and algorithmically pushed harmful content on social media and apps"
+        },
+        {
+          "type": "neutral",
+          "text": "Debate exists over whether parental consent requirements or platform-side restrictions are the more effective and less burdensome approach to child safety"
+        }
+      ],
+      "who_affected": "Children and teenagers under 18, parents and guardians, social media companies, app developers, advertisers targeting youth audiences",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 4,
+      "impact_label": "high",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🛡️ KIDS Act targets Big Tech data collection and harmful content affecting millions of children"
     },
     {
       "id": "H.R.3322",
@@ -2341,6 +2465,502 @@
       "ticker_alert": "🌏 Senate bill seeks stronger U.S. support for Taiwan amid China tensions"
     },
     {
+      "id": "HR 7767",
+      "title": "Make Billionaires Pay Their Fair Share Act",
+      "plain_title": "Minimum Tax on Billionaires' Wealth and Income",
+      "deck": "Requires billionaires to pay at least 25% in taxes on income and unrealized investment gains.",
+      "plain_summary": "This bill would require Americans worth over $1 billion to pay a minimum 25% tax rate on all income, including gains on investments they haven't yet sold — a concept called 'unrealized gains.' It was introduced by Democratic lawmakers who argue the wealthiest Americans often pay lower effective tax rates than middle-class workers due to legal loopholes. The bill has been referred to several House committees and has not yet received a vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Wealthy individuals could be forced to sell assets to pay taxes on paper gains they haven't actually received as cash, potentially disrupting businesses or investments."
+        },
+        {
+          "type": "positive",
+          "text": "Revenue raised could fund public programs like healthcare, education, or deficit reduction, potentially benefiting millions of lower- and middle-income Americans."
+        },
+        {
+          "type": "neutral",
+          "text": "Taxing unrealized gains is legally and administratively untested at the federal level, and its constitutionality may be challenged in courts."
+        }
+      ],
+      "who_affected": "Billionaires and centimillionaires, small business owners with high valuations, startup founders, institutional investors, taxpayers who may benefit from new revenue",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "💰 New bill would impose 25% minimum tax on billionaires' wealth gains"
+    },
+    {
+      "id": "S 4181",
+      "title": "Plastic Pellet Free Waters Act",
+      "plain_title": "Ban Plastic Pellet Spills Into U.S. Waterways",
+      "deck": "This bill requires industries to prevent tiny plastic pellets from spilling into America's waters.",
+      "plain_summary": "The Plastic Pellet Free Waters Act would require companies that manufacture, transport, or use plastic pellets — tiny pre-production plastic beads called 'nurdles' — to obtain permits and take steps to prevent them from escaping into waterways. The bill was introduced in the U.S. Senate and has been referred to the Committee on Environment and Public Works, which means it has not yet been debated or voted on. It aims to address a largely invisible source of plastic pollution that harms marine life and drinking water.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Plastics manufacturers, shippers, and processors would face new permit requirements and compliance costs, potentially raising production expenses passed on to consumers."
+        },
+        {
+          "type": "positive",
+          "text": "Coastal and freshwater communities would see reduced plastic pellet pollution, protecting drinking water sources, fisheries, and recreational beaches."
+        },
+        {
+          "type": "neutral",
+          "text": "Enforcement would fall under the Clean Water Act framework, raising questions about how EPA would monitor millions of industrial sites and shipping routes for pellet spills."
+        }
+      ],
+      "who_affected": "Plastic manufacturers, chemical and petrochemical workers, shipping and logistics companies, coastal and fishing communities, municipal water utilities, environmentalists, beachgoers",
+      "category": "env",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🌊 Senate bill targets invisible plastic pellet pollution threatening U.S. waterways"
+    },
+    {
+      "id": "HR 8476",
+      "title": "To require each local educational agency and institution of higher education that receives Federal financial assistance to treat discrimination motivated by antisemitism as vigorously as such agency or institution treats other forms of discrimination prohibited by title VI of the Civil Rights Act of 1964, and for other purposes.",
+      "plain_title": "Anti-Semitism Discrimination Protection in Schools Act",
+      "deck": "Requires schools receiving federal funds to treat antisemitism the same as other forms of illegal discrimination.",
+      "plain_summary": "This bill would require public schools and colleges that receive federal funding to investigate and respond to antisemitic discrimination with the same seriousness as other forms of discrimination already protected under the Civil Rights Act of 1964. It was referred to the House Committee on Education and Workforce and the Committee on the Judiciary, where it awaits further consideration. The bill aims to close a perceived gap in how Jewish students are protected from discrimination on campuses.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics warn the bill could restrict free speech and political debate about Israel on college campuses by broadly defining antisemitism."
+        },
+        {
+          "type": "positive",
+          "text": "Jewish students experiencing harassment or discrimination at school would gain clearer, stronger federal protections and enforcement mechanisms."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill's effectiveness depends heavily on which definition of antisemitism is adopted, a contested question with significant policy implications."
+        }
+      ],
+      "who_affected": "Jewish students, university administrators, K-12 school officials, civil rights officers, pro-Palestinian student groups, free speech advocates",
+      "category": "rights",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🛡️ Bill would require schools to treat antisemitism like other civil rights violations"
+    },
+    {
+      "id": "HR 5334",
+      "title": "SEED Act",
+      "plain_title": "Small Business Export and Economic Development Act",
+      "deck": "This bill creates programs to help small businesses grow by selling products and services in foreign markets.",
+      "plain_summary": "The SEED Act (Small Business Export and Economic Development Act) aims to expand support for small businesses looking to enter or grow in international markets by strengthening federal export assistance programs. It would direct resources toward helping small firms navigate foreign trade opportunities, reduce barriers to exporting, and connect businesses with counseling and financing tools. The bill was placed on the Union Calendar, meaning it has cleared committee and is eligible for a full House vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "May primarily benefit businesses with existing capacity to export, leaving the smallest or most rural firms behind despite federal spending"
+        },
+        {
+          "type": "positive",
+          "text": "Small business owners could gain easier access to export counseling, financing, and market research, potentially creating jobs and increasing revenues"
+        },
+        {
+          "type": "neutral",
+          "text": "The bill expands federal agency roles in trade promotion, raising questions about government efficiency versus private-sector solutions"
+        }
+      ],
+      "who_affected": "Small business owners, manufacturing workers, exporters, rural entrepreneurs, federal trade agency employees, trade counselors",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "📦 SEED Act would boost federal export help for small businesses"
+    },
+    {
+      "id": "S 3139",
+      "title": "VA Zero Suicide Demonstration Project Act of 2025",
+      "plain_title": "VA Zero Suicide Program for Veterans",
+      "deck": "Creates a VA pilot program aimed at eliminating veteran suicides through coordinated mental health care.",
+      "plain_summary": "This bill would direct the Department of Veterans Affairs to launch a demonstration project using the 'Zero Suicide' framework, a research-backed approach that trains healthcare staff and builds coordinated systems to prevent suicides among patients. The goal is to test whether this model can reduce or eliminate suicides among veterans receiving VA care. The bill was introduced in the Senate and has been referred to the Committee on Veterans' Affairs, where it awaits further action.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "The program requires new federal spending and staff training resources, and critics may question whether a 'zero suicide' goal is realistically achievable or measurable."
+        },
+        {
+          "type": "positive",
+          "text": "Veterans receiving VA mental health care could benefit from more coordinated, evidence-based suicide prevention that has shown results in civilian hospital systems."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill is a limited demonstration project, meaning results may take years to evaluate and there is no guarantee the program would be expanded VA-wide."
+        }
+      ],
+      "who_affected": "Veterans receiving VA mental health care, VA healthcare staff and clinicians, military families, suicide prevention advocates",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🛡️ Senate bill would launch VA pilot program to eliminate veteran suicides"
+    },
+    {
+      "id": "HR 6955",
+      "title": "Main Street Act",
+      "plain_title": "Tax Relief for Small Businesses on Main Street",
+      "deck": "This bill would reduce the corporate tax rate for small and mid-sized American businesses.",
+      "plain_summary": "The Main Street Act (HR 6955) proposes lowering the corporate income tax rate specifically for smaller and mid-sized businesses, aiming to give them a competitive advantage over large corporations. The bill has been placed on the Union Calendar, meaning it has passed committee review and is eligible for a full House vote. It reflects ongoing congressional debate about how tax policy can support locally-owned businesses that form the backbone of many American communities.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Reduced corporate tax revenue could shrink federal funds available for public services like infrastructure, education, and healthcare programs."
+        },
+        {
+          "type": "positive",
+          "text": "Small and mid-sized business owners could keep more profits, potentially allowing them to hire more workers or raise employee wages."
+        },
+        {
+          "type": "neutral",
+          "text": "The definition of which businesses qualify as 'small' or 'mid-sized' is a key contested detail that will determine how broadly the tax cut applies."
+        }
+      ],
+      "who_affected": "Small business owners, mid-sized company employees, local community members, federal taxpayers, large corporations competing with smaller rivals",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "💼 Main Street Act would cut taxes for small and mid-sized businesses"
+    },
+    {
+      "id": "HR 3716",
+      "title": "Systemic Risk Authority Transparency Act",
+      "plain_title": "Make Financial Stability Oversight More Transparent",
+      "deck": "Requires the Financial Stability Oversight Council to publicly explain its decisions about risky financial firms.",
+      "plain_summary": "This bill would force the Financial Stability Oversight Council (FSOC) — a federal group that monitors risks to the U.S. economy — to be more open about how and why it labels certain financial companies as potential threats to the broader economy. It requires more detailed public reporting and explanation of its decision-making process. The bill passed the House and is now awaiting action in the Senate Banking Committee.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Greater disclosure requirements could slow FSOC's ability to respond quickly to emerging financial threats"
+        },
+        {
+          "type": "positive",
+          "text": "Americans and investors gain better insight into which financial firms are considered risky and why, improving public accountability"
+        },
+        {
+          "type": "neutral",
+          "text": "Financial firms labeled as systemically risky face stricter federal oversight, and this bill changes how that labeling process is explained — but not necessarily who gets labeled"
+        }
+      ],
+      "who_affected": "Large bank customers, investors, insurance company policyholders, pension fund beneficiaries, financial industry workers, taxpayers",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "📋 Bill would force financial watchdog to publicly explain risk decisions"
+    },
+    {
+      "id": "HR 6314",
+      "title": "Lung Cancer Screening Expansion Act of 2025",
+      "plain_title": "Expanding Medicare Coverage for Lung Cancer Screenings",
+      "deck": "This bill would expand Medicare coverage for lung cancer CT screenings to more Americans at risk.",
+      "plain_summary": "The Lung Cancer Screening Expansion Act of 2025 (HR 6314) would broaden Medicare eligibility for low-dose CT lung cancer screenings, potentially lowering the age or smoking history requirements to qualify for covered screenings. The bill aims to catch lung cancer earlier in more patients, when it is most treatable. It has been referred to the House Subcommittee on Health, meaning it is in early stages and has not yet received a full committee vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Expanding coverage could increase Medicare costs, potentially raising premiums or adding to federal spending over time."
+        },
+        {
+          "type": "positive",
+          "text": "More Americans at risk for lung cancer would receive free early detection screenings, which can significantly improve survival rates."
+        },
+        {
+          "type": "neutral",
+          "text": "Debate exists over the optimal age and risk criteria for screening, with some experts cautioning that broader screening may lead to false positives and unnecessary procedures."
+        }
+      ],
+      "who_affected": "Current and former smokers, Medicare beneficiaries, older Americans ages 50–80, lung cancer patients and survivors, oncologists and radiologists",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🫁 Bill would expand free Medicare lung cancer screenings to more Americans"
+    },
+    {
+      "id": "HR 7007",
+      "title": "Governing for the People Act",
+      "plain_title": "Government Transparency and Ethics Reform Act",
+      "deck": "Requires federal officials to disclose financial conflicts and strengthens ethics rules for government employees.",
+      "plain_summary": "The Governing for the People Act aims to increase transparency and reduce corruption in the federal government by strengthening financial disclosure requirements and ethics rules for government officials and employees. The bill has been referred to the Subcommittee on Health, suggesting it may include provisions related to healthcare industry conflicts of interest. It is currently in an early stage of the legislative process and has not yet been voted on.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Some critics argue stricter disclosure rules could deter qualified private-sector professionals from accepting government positions."
+        },
+        {
+          "type": "positive",
+          "text": "Taxpayers could benefit from reduced government corruption and more accountable use of public funds by officials with disclosed conflicts."
+        },
+        {
+          "type": "neutral",
+          "text": "Enforcement and oversight mechanisms would need to be established, raising questions about which agency would have authority and adequate resources."
+        }
+      ],
+      "who_affected": "Federal government employees, political appointees, healthcare industry lobbyists, taxpayers, patients relying on federal health programs",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏛️ New ethics bill targets conflicts of interest among federal officials and staff"
+    },
+    {
+      "id": "HR 6289",
+      "title": "Promoting a Safe Internet for Minors Act",
+      "plain_title": "Online Safety Rules for Children and Teens",
+      "deck": "This bill requires the FTC to study and report on online safety tools protecting minors from harmful internet content.",
+      "plain_summary": "The Promoting a Safe Internet for Minors Act directs the Federal Trade Commission (FTC) to examine existing tools, technologies, and methods used to protect children and teenagers from harmful or inappropriate content online. The bill calls for a comprehensive report on what is working and what gaps remain in keeping minors safe on the internet. It has been approved by a congressional subcommittee and is now awaiting a vote by the full committee before it can advance further.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics argue the bill only orders a study without mandating real protections, potentially delaying meaningful action on child online safety."
+        },
+        {
+          "type": "positive",
+          "text": "Families and parents could benefit from clearer, government-backed guidance on tools and practices that effectively protect children online."
+        },
+        {
+          "type": "neutral",
+          "text": "The FTC report could inform future legislation but does not itself impose new rules on tech companies or social media platforms."
+        }
+      ],
+      "who_affected": "Children and teenagers, parents, schools, tech companies, social media platforms, internet service providers",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🔒 Congress moves to study online safety tools protecting children from harmful content"
+    },
+    {
+      "id": "HR 6774",
+      "title": "FHA Small-Dollar Mortgages Act",
+      "plain_title": "Easier FHA Loans for Affordable Home Purchases",
+      "deck": "This bill would make it easier to get government-backed mortgages for lower-priced homes under $150,000.",
+      "plain_summary": "The FHA Small-Dollar Mortgages Act would require the Federal Housing Administration to create a special program making it easier and cheaper to obtain FHA-backed loans for homes priced under $150,000. Because lenders often avoid small loans since fees and profits are lower, this bill aims to incentivize banks to offer these mortgages. The bill has been referred to the House Committee on Financial Services and has not yet been voted on.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Lenders may still avoid small-dollar loans even with incentives, limiting real-world effectiveness of the program"
+        },
+        {
+          "type": "positive",
+          "text": "First-time and low-income buyers in rural or lower-cost areas could more easily access affordable homeownership financing"
+        },
+        {
+          "type": "neutral",
+          "text": "The FHA program's financial reserves could face added risk depending on how borrower eligibility standards are set"
+        }
+      ],
+      "who_affected": "First-time homebuyers, low-income buyers, rural residents, buyers in lower-cost housing markets, small community lenders, FHA-approved mortgage servicers",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏡 Bill would expand FHA loans for homes under $150,000"
+    },
+    {
+      "id": "HR 6644",
+      "title": "21st Century ROAD to Housing Act",
+      "plain_title": "Rural and Remote Housing Modernization Act",
+      "deck": "Updates federal housing loan programs to expand affordable home financing in rural and underserved communities.",
+      "plain_summary": "The 21st Century ROAD to Housing Act modernizes USDA rural housing loan programs by updating income limits, expanding eligibility, and improving access to affordable mortgages for people living in rural and remote areas. The bill has passed the House and received Senate action, putting it close to potential enactment. It aims to address housing shortages and affordability challenges in communities that are often overlooked by conventional mortgage lenders.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Expanded loan guarantees could increase federal financial exposure if rural borrowers default at higher rates"
+        },
+        {
+          "type": "positive",
+          "text": "Low- and moderate-income rural families gain easier access to affordable home loans that private lenders often deny them"
+        },
+        {
+          "type": "neutral",
+          "text": "Updated income eligibility thresholds may bring in more borrowers but also reshape who qualifies for existing assistance"
+        }
+      ],
+      "who_affected": "Rural homebuyers, low- and moderate-income families in rural areas, USDA loan applicants, rural communities with housing shortages, remote and tribal area residents",
+      "category": "social",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏠 Rural housing bill advances — more Americans may qualify for USDA home loans"
+    },
+    {
+      "id": "S 3928",
+      "title": "SCOPE Act of 2026",
+      "plain_title": "Expanding Outdoor Recreation Access on Public Lands",
+      "deck": "This bill aims to increase Americans' access to public lands for outdoor recreation and related activities.",
+      "plain_summary": "The SCOPE Act of 2026 (S 3928) would expand opportunities for outdoor recreation on federally managed public lands, likely by streamlining permits, increasing access points, or directing agencies to prioritize recreational use. The bill was introduced in the Senate and referred to the Committee on Environment and Public Works, where it awaits further review before any vote can occur. Because the full bill text is not publicly detailed here, specifics on sponsor and exact provisions are based on the bill's title and committee assignment.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Expanded recreational access could increase wear on sensitive ecosystems, potentially harming wildlife habitats and natural landscapes on public lands."
+        },
+        {
+          "type": "positive",
+          "text": "Millions of hikers, campers, hunters, and outdoor enthusiasts could gain easier, more affordable access to federal public lands for recreation."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill may shift how federal agencies balance conservation priorities against recreational use, a debate with passionate advocates on both sides."
+        }
+      ],
+      "who_affected": "Outdoor recreationists, hunters, anglers, hikers, conservation groups, rural tourism businesses, federal land management agencies, indigenous communities near public lands",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏕️ Senate bill seeks broader public land access for millions of outdoor Americans"
+    },
+    {
+      "id": "HR 6506",
+      "title": "Taxpayer Due Process Enhancement Act",
+      "plain_title": "IRS Audit Rights and Taxpayer Protections Bill",
+      "deck": "This bill strengthens legal protections for Americans during IRS audits and tax disputes.",
+      "plain_summary": "The Taxpayer Due Process Enhancement Act would add new procedural safeguards for Americans being audited or challenged by the IRS, giving taxpayers more rights to contest tax agency actions before facing penalties or collection. It has been placed on the Union Calendar, meaning the House has scheduled it for potential floor consideration. The bill aims to rebalance the power dynamic between everyday taxpayers and the IRS.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics warn stronger procedural hurdles for the IRS could slow tax enforcement and allow some wealthy tax cheats to delay accountability."
+        },
+        {
+          "type": "positive",
+          "text": "Ordinary Americans facing IRS audits would gain clearer rights to challenge agency decisions before penalties are imposed or wages garnished."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill could increase administrative costs for the IRS and extend the timeline for resolving tax disputes, which may benefit or harm taxpayers depending on their situation."
+        }
+      ],
+      "who_affected": "Individual taxpayers under IRS audit, small business owners, self-employed workers, low-income Americans using tax credits, tax attorneys and accountants",
+      "category": "money",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "⚖️ House bill would expand taxpayer rights during IRS audits and disputes"
+    },
+    {
+      "id": "S 3926",
+      "title": "E-Access Act",
+      "plain_title": "Expanded Internet Access on Federal Public Lands",
+      "deck": "This bill would require improved broadband and internet access infrastructure across national parks and federal lands.",
+      "plain_summary": "The E-Access Act directs the federal government to expand electronic and internet access on public lands managed by agencies like the National Park Service and Bureau of Land Management. It aims to improve connectivity for visitors, workers, and surrounding rural communities. The bill was referred to the Senate Committee on Energy and Natural Resources, where it awaits further review before any potential vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "New infrastructure on federal lands could disturb wildlife habitats, scenic viewsheds, and wilderness character that many visitors seek to escape from connectivity."
+        },
+        {
+          "type": "positive",
+          "text": "Visitors and rural residents near federal lands gain better emergency communication access, improving safety during accidents or natural disasters in remote areas."
+        },
+        {
+          "type": "neutral",
+          "text": "Federal agencies would need to balance expanding broadband access with existing land-use rules, potentially requiring new permits and interagency coordination."
+        }
+      ],
+      "who_affected": "National park visitors, rural residents near federal lands, outdoor recreation businesses, federal land management workers, wilderness and conservation advocates",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "📶 Senate bill seeks expanded internet access across U.S. public lands"
+    },
+    {
+      "id": "HR 8351",
+      "title": "Clean Slate through Repayment Act of 2026",
+      "plain_title": "Student Loan Repayment Clears Criminal Records",
+      "deck": "Borrowers who fully repay federal student loans could have related criminal records automatically expunged.",
+      "plain_summary": "This bill would allow people who have fully repaid their federal student loans to have certain criminal convictions related to those loans wiped from their records. It was introduced in the House of Representatives and has been sent to the House Committee on Education and Workforce for review, where most bills are first examined before any floor vote. The bill aims to give a 'clean slate' to borrowers who have satisfied their financial obligations to the government.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics argue wiping criminal records for loan repayment could undermine accountability for fraud or misrepresentation in the loan process."
+        },
+        {
+          "type": "positive",
+          "text": "Former borrowers with repaid loans could have criminal records cleared, improving job prospects, housing access, and civil rights restoration."
+        },
+        {
+          "type": "neutral",
+          "text": "The scope of which criminal offenses qualify for expungement is contested — broader definitions help more people but raise more legal concerns."
+        }
+      ],
+      "who_affected": "Federal student loan borrowers with criminal records, formerly incarcerated individuals with student debt, employers doing background checks, higher education institutions",
+      "category": "env",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🧹 Bill would erase criminal records for Americans who fully repay student loans"
+    },
+    {
       "id": "HR 6409",
       "title": "FENCES Act",
       "plain_title": "FENCES Act",
@@ -2860,8 +3480,8 @@
       ],
       "who_affected": "See Congress.gov for details.",
       "category": "other",
-      "status": "s-committee",
-      "status_label": "In Committee",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 2,
       "impact_label": "medium",
       "intro_date": "",
@@ -3228,8 +3848,8 @@
       ],
       "who_affected": "See Congress.gov for details.",
       "category": "other",
-      "status": "s-committee",
-      "status_label": "In Committee",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 2,
       "impact_label": "medium",
       "intro_date": "",
@@ -8713,8 +9333,8 @@
       ],
       "who_affected": "To be determined.",
       "category": "money",
-      "status": "s-passed",
-      "status_label": "Passed Congress",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 2,
       "impact_label": "medium",
       "intro_date": "",
@@ -15792,8 +16412,8 @@
       ],
       "who_affected": "To be determined.",
       "category": "other",
-      "status": "s-committee",
-      "status_label": "In Committee",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 2,
       "impact_label": "medium",
       "intro_date": "",
@@ -16354,6 +16974,3236 @@
       "ticker_alert": null
     },
     {
+      "id": "SRES 601",
+      "title": "A resolution designating the week beginning February 2, 2026, as \"National Tribal Colleges and Universities Week\".",
+      "plain_title": "National Tribal Colleges and Universities Awareness Week",
+      "deck": "This resolution officially designates one week in February 2026 to honor tribal colleges and universities across America.",
+      "plain_summary": "This Senate resolution designates the week of February 2, 2026, as 'National Tribal Colleges and Universities Week' to recognize the importance of tribal colleges and universities (TCUs) in serving Native American communities. It is a symbolic measure with no funding or legal mandates attached. The resolution passed the Senate unanimously by consent, meaning no formal vote was needed.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "The resolution is purely symbolic and allocates no funding or resources to address the chronic underfunding many tribal colleges face."
+        },
+        {
+          "type": "positive",
+          "text": "Raises national awareness of tribal colleges and universities, potentially boosting public support, enrollment interest, and future legislative attention for these institutions."
+        },
+        {
+          "type": "neutral",
+          "text": "Symbolic resolutions like this have no binding legal effect but are sometimes used as stepping stones toward more substantive legislation."
+        }
+      ],
+      "who_affected": "Native American and Alaska Native students, tribal college faculty and staff, tribal nations, Indigenous communities, prospective students considering tribal colleges",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🎓 Senate unanimously honors tribal colleges with official awareness week designation"
+    },
+    {
+      "id": "HR 7317",
+      "title": "Golden Thirteen Congressional Gold Medal Act",
+      "plain_title": "Gold Medal Honor for First Black Navy Officers",
+      "deck": "Awards the Congressional Gold Medal to the Golden Thirteen, the first Black officers commissioned in the U.S. Navy.",
+      "plain_summary": "This bill proposes awarding the Congressional Gold Medal — Congress's highest civilian honor — to the Golden Thirteen, the group of 13 African American men who became the first Black officers commissioned in the U.S. Navy in 1944. The bill recognizes their historic role in breaking racial barriers in the military during World War II. It has been referred to the House Financial Services and House Administration committees for review.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Minimal fiscal cost to produce the medal, but critics note symbolic honors don't address ongoing racial disparities in the military."
+        },
+        {
+          "type": "positive",
+          "text": "Formally recognizes a historically overlooked milestone in civil rights and military history, preserving it in the national record."
+        },
+        {
+          "type": "neutral",
+          "text": "The medal is largely ceremonial with no direct policy changes; its broader cultural significance is debated."
+        }
+      ],
+      "who_affected": "African American veterans and their descendants, U.S. Navy personnel, historians, civil rights advocates, World War II commemorative communities",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏅 Congress moves to honor first Black U.S. Navy officers with Gold Medal"
+    },
+    {
+      "id": "SRES 525",
+      "title": "A resolution condemning the Government of Iran's state-sponsored persecution of the Baha'i minority and its continued violation of the International Covenants on Human Rights.",
+      "plain_title": "Senate Condemnation of Iran's Persecution of Baha'i People",
+      "deck": "This resolution formally condemns Iran's government for persecuting its Baha'i religious minority and violating international human rights law.",
+      "plain_summary": "This Senate resolution formally expresses the U.S. Senate's condemnation of Iran's ongoing persecution of the Baha'i faith community, including arrests, executions, and denial of education and employment. It calls attention to Iran's violations of international human rights agreements it has signed. The resolution has been referred to the Senate Foreign Relations Committee, where it awaits further consideration. Resolutions like this are symbolic statements and do not create new law or policy.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Could further strain U.S.-Iran diplomatic relations, potentially complicating nuclear talks or hostage negotiations."
+        },
+        {
+          "type": "positive",
+          "text": "Gives American Baha'i communities and human rights advocates official congressional backing for their advocacy efforts."
+        },
+        {
+          "type": "neutral",
+          "text": "As a non-binding resolution, it carries moral weight but imposes no legal obligations on Iran or changes U.S. foreign policy."
+        }
+      ],
+      "who_affected": "American Baha'i community members, Iranian-Americans, human rights advocates, U.S. foreign policy professionals, diplomats",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🕊️ Senate condemns Iran's persecution of Baha'i religious minority in symbolic resolution"
+    },
+    {
+      "id": "HR 5942",
+      "title": "National Cemetery Access Act",
+      "plain_title": "Improving Veterans' Access to National Cemetery Services",
+      "deck": "This bill aims to make it easier for veterans and families to access national cemetery burial benefits and services.",
+      "plain_summary": "The National Cemetery Access Act seeks to improve how veterans and their eligible family members can access burial services at national cemeteries, potentially addressing transportation, scheduling, or logistical barriers. The bill was referred to the House Subcommittee on Disability Assistance and Memorial Affairs, meaning it is in early stages of review. Without full bill text publicly available, the specifics of how access would be improved remain subject to the subcommittee's examination.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Implementation costs could draw from limited VA budget resources, potentially affecting other veteran services."
+        },
+        {
+          "type": "positive",
+          "text": "Veterans and families in rural or underserved areas may find it easier to access burial honors and cemetery services they are entitled to."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill's effectiveness depends heavily on how 'access' is defined and funded, which has not yet been publicly detailed."
+        }
+      ],
+      "who_affected": "Veterans, surviving spouses of veterans, eligible family members of deceased veterans, VA cemetery staff, rural communities near national cemeteries",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🪖 Bill introduced to improve veterans' access to national cemetery burial services"
+    },
+    {
+      "id": "SRES 390",
+      "title": "A resolution designating September 2025 as \"National Voting Rights Month\".",
+      "plain_title": "Designate September 2025 as National Voting Rights Month",
+      "deck": "This resolution would officially recognize September 2025 as a month to raise awareness about Americans' voting rights.",
+      "plain_summary": "This is a Senate resolution that would designate September 2025 as 'National Voting Rights Month' to highlight the importance of voting rights in the United States. It is a symbolic measure, meaning it does not create new laws, spend money, or change any existing rules. The resolution has been referred to the Senate Judiciary Committee, where it awaits further review.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics may argue it uses congressional time on symbolic gestures rather than passing enforceable voting rights legislation."
+        },
+        {
+          "type": "positive",
+          "text": "Could raise public awareness about voting rights protections and encourage civic participation among eligible voters nationwide."
+        },
+        {
+          "type": "neutral",
+          "text": "As a non-binding resolution, it carries no legal force and creates no new rights, obligations, or government programs."
+        }
+      ],
+      "who_affected": "Eligible voters, voting rights advocates, minority communities with historically restricted ballot access, civic education organizations",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🗳️ Senate resolution proposes September 2025 as National Voting Rights Month"
+    },
+    {
+      "id": "HR 3031",
+      "title": "Gold Star and Surviving Spouse Career Services Act",
+      "plain_title": "Career Help for Military Widows and Gold Star Families",
+      "deck": "This bill would provide career counseling and job placement services to surviving spouses and families of fallen service members.",
+      "plain_summary": "The Gold Star and Surviving Spouse Career Services Act would direct the Department of Labor or a related agency to offer dedicated career services, including job training and employment assistance, to Gold Star family members and surviving spouses of deceased military personnel. The bill aims to help these individuals rebuild financial stability after losing a loved one in military service. It has been introduced in the House and has reached the subcommittee hearing stage, meaning it is still in early review.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Creating a dedicated program may require new federal funding or administrative overhead, adding to government expenditures with uncertain cost-effectiveness."
+        },
+        {
+          "type": "positive",
+          "text": "Surviving military spouses and Gold Star family members would gain access to targeted job training and employment support during a difficult financial transition."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill's reach is narrow, affecting a relatively small population, so broader debates focus on whether dedicated programs outperform existing veteran and workforce services."
+        }
+      ],
+      "who_affected": "Surviving spouses of fallen service members, Gold Star family members, Department of Labor workforce staff, federal budget planners",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🎖️ Bill proposes career services for Gold Star families and military surviving spouses"
+    },
+    {
+      "id": "HR 975",
+      "title": "Credit Union Board Modernization Act",
+      "plain_title": "Allow Credit Unions to Meet Less Often",
+      "deck": "This bill lets credit union boards hold fewer required meetings each year.",
+      "plain_summary": "The Credit Union Board Modernization Act would reduce how often federally chartered credit union boards of directors are required to meet, giving them more scheduling flexibility. The bill passed the House and was sent to the Senate Banking Committee for review. It aims to reduce administrative burdens on volunteer board members who run these nonprofit financial institutions.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Less frequent board meetings could reduce oversight of credit union finances, potentially increasing risk of mismanagement going undetected."
+        },
+        {
+          "type": "positive",
+          "text": "Volunteer board members face less scheduling pressure, making it easier to recruit qualified people to govern community credit unions."
+        },
+        {
+          "type": "neutral",
+          "text": "Credit unions would still set their own meeting schedules; this bill simply removes a federal minimum frequency requirement."
+        }
+      ],
+      "who_affected": "Credit union members, credit union volunteer board directors, federally chartered credit union staff, community banking customers",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "📋 Bill would let credit union boards skip some required annual meetings"
+    },
+    {
+      "id": "HR 8333",
+      "title": "YouthBuild for the Future Act",
+      "plain_title": "YouthBuild for the Future Act",
+      "deck": "Referred to the House Committee on Education and Workforce.",
+      "plain_summary": "YouthBuild for the Future Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8254",
+      "title": "Water Access and Affordability Act",
+      "plain_title": "Water Access and Affordability Act",
+      "deck": "Referred to the Committee on Transportation and Infrastructure, and in addition ",
+      "plain_summary": "Water Access and Affordability Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "env",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 7011",
+      "title": "Under Pressure Act",
+      "plain_title": "Under Pressure Act",
+      "deck": "Referred to the House Committee on Transportation and Infrastructure.",
+      "plain_summary": "Under Pressure Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8348",
+      "title": "To amend title 23, United States Code, with respect to the amounts States are guaranteed under the highway apportionment formula, and for other purposes.",
+      "plain_title": "To amend title 23, United States Code, with respect to the amounts States are guaranteed under the highway apportionment formula, and for other purposes.",
+      "deck": "Referred to the House Committee on Transportation and Infrastructure.",
+      "plain_summary": "To amend title 23, United States Code, with respect to the amounts States are guaranteed under the highway apportionment formula, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HRES 1200",
+      "title": "Supporting the designation of March 2026 as Endometriosis Awareness Month.",
+      "plain_title": "Supporting the designation of March 2026 as Endometriosis Awareness Month.",
+      "deck": "Referred to the House Committee on Energy and Commerce.",
+      "plain_summary": "Supporting the designation of March 2026 as Endometriosis Awareness Month.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HRES 256",
+      "title": "Supporting the designation of March 2025 as Endometriosis Awareness Month.",
+      "plain_title": "Supporting the designation of March 2025 as Endometriosis Awareness Month.",
+      "deck": "Referred to the House Committee on Energy and Commerce.",
+      "plain_summary": "Supporting the designation of March 2025 as Endometriosis Awareness Month.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HRES 1191",
+      "title": "Commemorating the 10th anniversary of the Columbine Day of Service and honoring the memories of the victims, survivors, and their families.",
+      "plain_title": "Commemorating the 10th anniversary of the Columbine Day of Service and honoring the memories of the victims, survivors, and their families.",
+      "deck": "Referred to the House Committee on Education and Workforce.",
+      "plain_summary": "Commemorating the 10th anniversary of the Columbine Day of Service and honoring the memories of the victims, survivors, and their families.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HRES 1188",
+      "title": "Expressing support for the work of open water lifeguards as first responders and emergency response providers.",
+      "plain_title": "Expressing support for the work of open water lifeguards as first responders and emergency response providers.",
+      "deck": "Referred to the House Committee on Transportation and Infrastructure.",
+      "plain_summary": "Expressing support for the work of open water lifeguards as first responders and emergency response providers.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "env",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HCONRES 27",
+      "title": "Expressing support for the work of open water lifeguards as first responders and emergency response providers.",
+      "plain_title": "Expressing support for the work of open water lifeguards as first responders and emergency response providers.",
+      "deck": "Referred to the House Committee on Transportation and Infrastructure.",
+      "plain_summary": "Expressing support for the work of open water lifeguards as first responders and emergency response providers.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "env",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "S 2897",
+      "title": "Tropical Plant Health Initiative Act",
+      "plain_title": "Tropical Plant Health Initiative Act",
+      "deck": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry",
+      "plain_summary": "Tropical Plant Health Initiative Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "social",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 6269",
+      "title": "Modular Housing Production Act",
+      "plain_title": "Modular Housing Production Act",
+      "deck": "Referred to the House Committee on Financial Services.",
+      "plain_summary": "Modular Housing Production Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "social",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "S 2296",
+      "title": "National Defense Authorization Act for Fiscal Year 2026",
+      "plain_title": "National Defense Authorization Act for Fiscal Year 2026",
+      "deck": "Held at the desk.",
+      "plain_summary": "National Defense Authorization Act for Fiscal Year 2026. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "money",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 5562",
+      "title": "Tropical Plant Health Initiative Act",
+      "plain_title": "Tropical Plant Health Initiative Act",
+      "deck": "Referred to the House Committee on Agriculture.",
+      "plain_summary": "Tropical Plant Health Initiative Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "social",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 6779",
+      "title": "USDA Loan Modernization Act",
+      "plain_title": "USDA Loan Modernization Act",
+      "deck": "Referred to the House Committee on Agriculture.",
+      "plain_summary": "USDA Loan Modernization Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8325",
+      "title": "Rehabilitation Through Reading Act of 2026",
+      "plain_title": "Rehabilitation Through Reading Act of 2026",
+      "deck": "Referred to the House Committee on the Judiciary.",
+      "plain_summary": "Rehabilitation Through Reading Act of 2026. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8328",
+      "title": "Defining Dealer Act",
+      "plain_title": "Defining Dealer Act",
+      "deck": "Referred to the House Committee on Financial Services.",
+      "plain_summary": "Defining Dealer Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8315",
+      "title": "Modal Parity in Permitting Act",
+      "plain_title": "Modal Parity in Permitting Act",
+      "deck": "Referred to the House Committee on Transportation and Infrastructure.",
+      "plain_summary": "Modal Parity in Permitting Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8307",
+      "title": "Responder and Recovery Safety in EV Fires Act",
+      "plain_title": "Responder and Recovery Safety in EV Fires Act",
+      "deck": "Referred to the House Committee on Science, Space, and Technology.",
+      "plain_summary": "Responder and Recovery Safety in EV Fires Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "S 4084",
+      "title": "Responder and Recovery Safety in EV Fires Act",
+      "plain_title": "Responder and Recovery Safety in EV Fires Act",
+      "deck": "Read twice and referred to the Committee on Commerce, Science, and Transportatio",
+      "plain_summary": "Responder and Recovery Safety in EV Fires Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8310",
+      "title": "Patient Safety and Whistleblower Protections Act",
+      "plain_title": "Patient Safety and Whistleblower Protections Act",
+      "deck": "Referred to the Committee on Energy and Commerce, and in addition to the Committ",
+      "plain_summary": "Patient Safety and Whistleblower Protections Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "S 4086",
+      "title": "Patient Safety and Whistleblower Protections Act",
+      "plain_title": "Patient Safety and Whistleblower Protections Act",
+      "deck": "Read twice and referred to the Committee on Health, Education, Labor, and Pensio",
+      "plain_summary": "Patient Safety and Whistleblower Protections Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 6166",
+      "title": "Lowering Drug Costs for American Families Act",
+      "plain_title": "Lowering Drug Costs for American Families Act",
+      "deck": "Referred to the Committee on Energy and Commerce, and in addition to the Committ",
+      "plain_summary": "Lowering Drug Costs for American Families Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 3100",
+      "title": "To amend the National Child Protection Act of 1993 to ensure that businesses and organizations that work with vulnerable populations are able to request background checks for their contractors who work with those populations, as well as for individuals that the businesses or organizations license or certify to provide care for those populations.",
+      "plain_title": "To amend the National Child Protection Act of 1993 to ensure that businesses and organizations that work with vulnerable populations are able to request background checks for their contractors who work with those populations, as well as for individuals that the businesses or organizations license or certify to provide care for those populations.",
+      "deck": "Referred to the House Committee on the Judiciary.",
+      "plain_summary": "To amend the National Child Protection Act of 1993 to ensure that businesses and organizations that work with vulnerable populations are able to request background checks for their contractors who work with those populations, as well as for individuals that the businesses or organizations license or certify to provide care for those populations.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "social",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "S 2250",
+      "title": "Restoring the Armed Career Criminal Act",
+      "plain_title": "Restoring the Armed Career Criminal Act",
+      "deck": "Read twice and referred to the Committee on the Judiciary.",
+      "plain_summary": "Restoring the Armed Career Criminal Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "S 2345",
+      "title": "Short on Competition Act",
+      "plain_title": "Short on Competition Act",
+      "deck": "Read twice and referred to the Committee on Health, Education, Labor, and Pensio",
+      "plain_summary": "Short on Competition Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 2444",
+      "title": "Promoting Resilient Supply Chains Act of 2025",
+      "plain_title": "Promoting Resilient Supply Chains Act of 2025",
+      "deck": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under ",
+      "plain_summary": "Promoting Resilient Supply Chains Act of 2025. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "S 257",
+      "title": "Promoting Resilient Supply Chains Act of 2025",
+      "plain_title": "Promoting Resilient Supply Chains Act of 2025",
+      "deck": "Committee on Banking, Housing, and Urban Affairs. Hearings held.",
+      "plain_summary": "Promoting Resilient Supply Chains Act of 2025. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "S 2677",
+      "title": "A bill to expand the sharing of information with respect to suspected violations of intellectual property rights in trade.",
+      "plain_title": "A bill to expand the sharing of information with respect to suspected violations of intellectual property rights in trade.",
+      "deck": "Read twice and referred to the Committee on Finance.",
+      "plain_summary": "A bill to expand the sharing of information with respect to suspected violations of intellectual property rights in trade.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "money",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 3196",
+      "title": "Improving Helicopter Safety Act of 2025",
+      "plain_title": "Improving Helicopter Safety Act of 2025",
+      "deck": "Referred to the Subcommittee on Aviation.",
+      "plain_summary": "Improving Helicopter Safety Act of 2025. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 6106",
+      "title": "CLEAR Path Act",
+      "plain_title": "CLEAR Path Act",
+      "deck": "Referred to the Committee on Foreign Affairs, and in addition to the Committees ",
+      "plain_summary": "CLEAR Path Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "SRES 678",
+      "title": "A resolution prohibiting the use of funds for travel by Senators to or from their residence during Government shutdowns.",
+      "plain_title": "A resolution prohibiting the use of funds for travel by Senators to or from their residence during Government shutdowns.",
+      "deck": "Referred to the Committee on Rules and Administration. (text: CR S1826)",
+      "plain_summary": "A resolution prohibiting the use of funds for travel by Senators to or from their residence during Government shutdowns.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8323",
+      "title": "SOUL Act of 2026",
+      "plain_title": "SOUL Act of 2026",
+      "deck": "Referred to the House Committee on the Judiciary.",
+      "plain_summary": "SOUL Act of 2026. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "S 3404",
+      "title": "Satellite Cybersecurity Act of 2025",
+      "plain_title": "Satellite Cybersecurity Act of 2025",
+      "deck": "Committee on Commerce, Science, and Transportation. Ordered to be reported with ",
+      "plain_summary": "Satellite Cybersecurity Act of 2025. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "S 1822",
+      "title": "SAFE FOOD Act of 2025",
+      "plain_title": "SAFE FOOD Act of 2025",
+      "deck": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry",
+      "plain_summary": "SAFE FOOD Act of 2025. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "social",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 4310",
+      "title": "Back the Blue Act of 2025",
+      "plain_title": "Back the Blue Act of 2025",
+      "deck": "Referred to the House Committee on the Judiciary.",
+      "plain_summary": "Back the Blue Act of 2025. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HCONRES 75",
+      "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove the United States Armed Forces from hostilities against the Islamic Republic of Iran.",
+      "plain_title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove the United States Armed Forces from hostilities against the Islamic Republic of Iran.",
+      "deck": "Referred to the House Committee on Foreign Affairs.",
+      "plain_summary": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove the United States Armed Forces from hostilities against the Islamic Republic of Iran.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HCONRES 86",
+      "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+      "plain_title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+      "deck": "Referred to the House Committee on Foreign Affairs.",
+      "plain_summary": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8308",
+      "title": "CERTAIN Act",
+      "plain_title": "CERTAIN Act",
+      "deck": "Referred to the Committee on Natural Resources, and in addition to the Committee",
+      "plain_summary": "CERTAIN Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "SJRES 117",
+      "title": "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress.",
+      "plain_title": "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress.",
+      "deck": "Read twice and referred to the Committee on Foreign Relations.",
+      "plain_summary": "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8337",
+      "title": "Buy American Seafood Act",
+      "plain_title": "Buy American Seafood Act",
+      "deck": "Referred to the Committee on Education and Workforce, and in addition to the Com",
+      "plain_summary": "Buy American Seafood Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "social",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8092",
+      "title": "Native American Housing Assistance and Self-Determination Modernization Act of 2026",
+      "plain_title": "Native American Housing Assistance and Self-Determination Modernization Act of 2026",
+      "deck": "Sponsor introductory remarks on measure. (CR H3080)",
+      "plain_summary": "Native American Housing Assistance and Self-Determination Modernization Act of 2026. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "social",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8471",
+      "title": "To amend the Tariff Act of 1930 to prohibit the importation on nonhuman primates.",
+      "plain_title": "To amend the Tariff Act of 1930 to prohibit the importation on nonhuman primates.",
+      "deck": "Referred to the House Committee on Ways and Means.",
+      "plain_summary": "To amend the Tariff Act of 1930 to prohibit the importation on nonhuman primates.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "money",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8489",
+      "title": "To require the Secretary of Housing and Urban Development to conduct an improper payment assessment for project-based and tenant-based assistance, and for other purposes.",
+      "plain_title": "To require the Secretary of Housing and Urban Development to conduct an improper payment assessment for project-based and tenant-based assistance, and for other purposes.",
+      "deck": "Referred to the House Committee on Financial Services.",
+      "plain_summary": "To require the Secretary of Housing and Urban Development to conduct an improper payment assessment for project-based and tenant-based assistance, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "social",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8490",
+      "title": "To amend title II of the Social Security Act to credit individuals serving as caregivers of dependent relatives with deemed wages for up to five years of such service.",
+      "plain_title": "To amend title II of the Social Security Act to credit individuals serving as caregivers of dependent relatives with deemed wages for up to five years of such service.",
+      "deck": "Referred to the House Committee on Ways and Means.",
+      "plain_summary": "To amend title II of the Social Security Act to credit individuals serving as caregivers of dependent relatives with deemed wages for up to five years of such service.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "social",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8468",
+      "title": "To protect the jobs of American railroad workers in cross border traffic with Mexico, and for other purposes.",
+      "plain_title": "To protect the jobs of American railroad workers in cross border traffic with Mexico, and for other purposes.",
+      "deck": "Referred to the House Committee on Transportation and Infrastructure.",
+      "plain_summary": "To protect the jobs of American railroad workers in cross border traffic with Mexico, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "rights",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8477",
+      "title": "To amend the Internal Revenue Code of 1986 to reverse certain energy-related modifications enacted by Public Law 119-21.",
+      "plain_title": "To amend the Internal Revenue Code of 1986 to reverse certain energy-related modifications enacted by Public Law 119-21.",
+      "deck": "Referred to the House Committee on Ways and Means.",
+      "plain_summary": "To amend the Internal Revenue Code of 1986 to reverse certain energy-related modifications enacted by Public Law 119-21.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "money",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8494",
+      "title": "To prohibit the Department of Homeland Security from entering into, modifying, extending, or renewing, any contract or intergovernmental service agreement to establish or operate any new immigration detention model, including the use of warehouses, modular facilities, soft-sided structures, tent systems, and processing centers.",
+      "plain_title": "To prohibit the Department of Homeland Security from entering into, modifying, extending, or renewing, any contract or intergovernmental service agreement to establish or operate any new immigration detention model, including the use of warehouses, modular facilities, soft-sided structures, tent systems, and processing centers.",
+      "deck": "Referred to the Committee on the Judiciary, and in addition to the Committee on ",
+      "plain_summary": "To prohibit the Department of Homeland Security from entering into, modifying, extending, or renewing, any contract or intergovernmental service agreement to establish or operate any new immigration detention model, including the use of warehouses, modular facilities, soft-sided structures, tent systems, and processing centers.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "rights",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8487",
+      "title": "To amend titles XVIII and XIX of the Social Security Act to adjust coverage and payment for certified community behavioral health clinic services under the Medicare and Medicaid programs, and for other purposes.",
+      "plain_title": "To amend titles XVIII and XIX of the Social Security Act to adjust coverage and payment for certified community behavioral health clinic services under the Medicare and Medicaid programs, and for other purposes.",
+      "deck": "Referred to the Committee on Energy and Commerce, and in addition to the Committ",
+      "plain_summary": "To amend titles XVIII and XIX of the Social Security Act to adjust coverage and payment for certified community behavioral health clinic services under the Medicare and Medicaid programs, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "social",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8482",
+      "title": "To amend the Internal Revenue Code of 1986 to modify certain investment credit rules with respect to nuclear facilities.",
+      "plain_title": "To amend the Internal Revenue Code of 1986 to modify certain investment credit rules with respect to nuclear facilities.",
+      "deck": "Referred to the House Committee on Ways and Means.",
+      "plain_summary": "To amend the Internal Revenue Code of 1986 to modify certain investment credit rules with respect to nuclear facilities.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "money",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8472",
+      "title": "To establish a pilot program for an expedited qualification and approval process for direct farm ownership loans, and for guaranteed farm ownership loans serviced by a Preferred Certified Lender, at the Department of Agriculture.",
+      "plain_title": "To establish a pilot program for an expedited qualification and approval process for direct farm ownership loans, and for guaranteed farm ownership loans serviced by a Preferred Certified Lender, at the Department of Agriculture.",
+      "deck": "Referred to the House Committee on Agriculture.",
+      "plain_summary": "To establish a pilot program for an expedited qualification and approval process for direct farm ownership loans, and for guaranteed farm ownership loans serviced by a Preferred Certified Lender, at the Department of Agriculture.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "env",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8464",
+      "title": "To amend title 31, United States Code, to authorize pausing and segmenting payments, and for other purposes.",
+      "plain_title": "To amend title 31, United States Code, to authorize pausing and segmenting payments, and for other purposes.",
+      "deck": "Referred to the House Committee on Oversight and Government Reform.",
+      "plain_summary": "To amend title 31, United States Code, to authorize pausing and segmenting payments, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8481",
+      "title": "To amend title 18, United States Code, to provide for the issuance of natural lifetime injunctions for certain victims.",
+      "plain_title": "To amend title 18, United States Code, to provide for the issuance of natural lifetime injunctions for certain victims.",
+      "deck": "Referred to the House Committee on the Judiciary.",
+      "plain_summary": "To amend title 18, United States Code, to provide for the issuance of natural lifetime injunctions for certain victims.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8484",
+      "title": "To amend the Public Health Service Act to provide for emergency grants to safeguard essential health care workers, and for other purposes.",
+      "plain_title": "To amend the Public Health Service Act to provide for emergency grants to safeguard essential health care workers, and for other purposes.",
+      "deck": "Referred to the House Committee on Energy and Commerce.",
+      "plain_summary": "To amend the Public Health Service Act to provide for emergency grants to safeguard essential health care workers, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "social",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8492",
+      "title": "To require the Secretary of Transportation to establish a grant program for unmanned aircraft system pilot training, and for other purposes.",
+      "plain_title": "To require the Secretary of Transportation to establish a grant program for unmanned aircraft system pilot training, and for other purposes.",
+      "deck": "Referred to the House Committee on Transportation and Infrastructure.",
+      "plain_summary": "To require the Secretary of Transportation to establish a grant program for unmanned aircraft system pilot training, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8483",
+      "title": "To take certain land in the State of California into trust for the benefit of the Barona Group of Capitan Grande Band of Mission Indians of the Barona Reservation, California, and for other purposes.",
+      "plain_title": "To take certain land in the State of California into trust for the benefit of the Barona Group of Capitan Grande Band of Mission Indians of the Barona Reservation, California, and for other purposes.",
+      "deck": "Referred to the House Committee on Natural Resources.",
+      "plain_summary": "To take certain land in the State of California into trust for the benefit of the Barona Group of Capitan Grande Band of Mission Indians of the Barona Reservation, California, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "env",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8475",
+      "title": "To amend the Higher Education Act of 1965 to provide for a Savings Opportunity and Affordable Repayment plan as an income contingent repayment plan.",
+      "plain_title": "To amend the Higher Education Act of 1965 to provide for a Savings Opportunity and Affordable Repayment plan as an income contingent repayment plan.",
+      "deck": "Referred to the House Committee on Education and Workforce.",
+      "plain_summary": "To amend the Higher Education Act of 1965 to provide for a Savings Opportunity and Affordable Repayment plan as an income contingent repayment plan.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "env",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8486",
+      "title": "To direct the Secretary of Veterans Affairs to carry out a program to award grants for the development of predictive models to evaluate risk factors that contribute to the incidence of suicide among veterans, and for other purposes.",
+      "plain_title": "To direct the Secretary of Veterans Affairs to carry out a program to award grants for the development of predictive models to evaluate risk factors that contribute to the incidence of suicide among veterans, and for other purposes.",
+      "deck": "Referred to the House Committee on Veterans' Affairs.",
+      "plain_summary": "To direct the Secretary of Veterans Affairs to carry out a program to award grants for the development of predictive models to evaluate risk factors that contribute to the incidence of suicide among veterans, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "social",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8493",
+      "title": "To direct the Secretary of Health and Human Services, acting through the Assistant Secretary for Mental Health and Substance Use, to establish an interagency working group on peer-to-peer behavioral health programs for law enforcement officers and first responders, and for other purposes.",
+      "plain_title": "To direct the Secretary of Health and Human Services, acting through the Assistant Secretary for Mental Health and Substance Use, to establish an interagency working group on peer-to-peer behavioral health programs for law enforcement officers and first responders, and for other purposes.",
+      "deck": "Referred to the Committee on Energy and Commerce, and in addition to the Committ",
+      "plain_summary": "To direct the Secretary of Health and Human Services, acting through the Assistant Secretary for Mental Health and Substance Use, to establish an interagency working group on peer-to-peer behavioral health programs for law enforcement officers and first responders, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "social",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8479",
+      "title": "To require the National Institute of Standards and Technology to establish task forces to facilitate and inform the development of technical standards and guidelines relating to the identification of content created by generative artificial intelligence, to ensure that audio or visual content created or substantially modified by generative artificial intelligence includes a disclosure acknowledging the generative artificial intelligence origin of such content, and for other purposes.",
+      "plain_title": "To require the National Institute of Standards and Technology to establish task forces to facilitate and inform the development of technical standards and guidelines relating to the identification of content created by generative artificial intelligence, to ensure that audio or visual content created or substantially modified by generative artificial intelligence includes a disclosure acknowledging the generative artificial intelligence origin of such content, and for other purposes.",
+      "deck": "Referred to the Committee on Energy and Commerce, and in addition to the Committ",
+      "plain_summary": "To require the National Institute of Standards and Technology to establish task forces to facilitate and inform the development of technical standards and guidelines relating to the identification of content created by generative artificial intelligence, to ensure that audio or visual content created or substantially modified by generative artificial intelligence includes a disclosure acknowledging the generative artificial intelligence origin of such content, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8488",
+      "title": "To require developers of AI-focused data centers to disclose certain information before the AI-focused data centers are developed, and for other purposes.",
+      "plain_title": "To require developers of AI-focused data centers to disclose certain information before the AI-focused data centers are developed, and for other purposes.",
+      "deck": "Referred to the House Committee on Energy and Commerce.",
+      "plain_summary": "To require developers of AI-focused data centers to disclose certain information before the AI-focused data centers are developed, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8473",
+      "title": "Veterinary Services to Improve Public Health in Rural Communities Act",
+      "plain_title": "Veterinary Services to Improve Public Health in Rural Communities Act",
+      "deck": "Referred to the Committee on Natural Resources, and in addition to the Committee",
+      "plain_summary": "Veterinary Services to Improve Public Health in Rural Communities Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "social",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8461",
+      "title": "To amend the America's Water Infrastructure Act of 2018 to reauthorize the Indian Reservation Drinking Water Program, and for other purposes.",
+      "plain_title": "To amend the America's Water Infrastructure Act of 2018 to reauthorize the Indian Reservation Drinking Water Program, and for other purposes.",
+      "deck": "Referred to the Committee on Transportation and Infrastructure, and in addition ",
+      "plain_summary": "To amend the America's Water Infrastructure Act of 2018 to reauthorize the Indian Reservation Drinking Water Program, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "env",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8462",
+      "title": "National Quantum Initiative Reauthorization Act",
+      "plain_title": "National Quantum Initiative Reauthorization Act",
+      "deck": "Referred to the House Committee on Science, Space, and Technology.",
+      "plain_summary": "National Quantum Initiative Reauthorization Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8480",
+      "title": "To amend title 18, United States Code, to increase the penalties for animal crushing, and for other purposes.",
+      "plain_title": "To amend title 18, United States Code, to increase the penalties for animal crushing, and for other purposes.",
+      "deck": "Referred to the House Committee on the Judiciary.",
+      "plain_summary": "To amend title 18, United States Code, to increase the penalties for animal crushing, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8463",
+      "title": "To establish governmentwide requirements for pre-payment fraud prevention actions, to provide the U.S. Treasury appropriate data resources, to facilitate participation in governmentwide anti-fraud data sharing, and for other purposes.",
+      "plain_title": "To establish governmentwide requirements for pre-payment fraud prevention actions, to provide the U.S. Treasury appropriate data resources, to facilitate participation in governmentwide anti-fraud data sharing, and for other purposes.",
+      "deck": "Referred to the Committee on Oversight and Government Reform, and in addition to",
+      "plain_summary": "To establish governmentwide requirements for pre-payment fraud prevention actions, to provide the U.S. Treasury appropriate data resources, to facilitate participation in governmentwide anti-fraud data sharing, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "money",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8478",
+      "title": "To amend titles II and XVI of the Social Security Act to make the reconsideration review process optional.",
+      "plain_title": "To amend titles II and XVI of the Social Security Act to make the reconsideration review process optional.",
+      "deck": "Referred to the House Committee on Ways and Means.",
+      "plain_summary": "To amend titles II and XVI of the Social Security Act to make the reconsideration review process optional.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "money",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8467",
+      "title": "ZOMBIE Act",
+      "plain_title": "ZOMBIE Act",
+      "deck": "Referred to the House Committee on Oversight and Government Reform.",
+      "plain_summary": "ZOMBIE Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8474",
+      "title": "Neighborhood Tree Act of 2026",
+      "plain_title": "Neighborhood Tree Act of 2026",
+      "deck": "Referred to the House Committee on Agriculture.",
+      "plain_summary": "Neighborhood Tree Act of 2026. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8485",
+      "title": "No Rogue Jurors Act",
+      "plain_title": "No Rogue Jurors Act",
+      "deck": "Referred to the House Committee on Oversight and Government Reform.",
+      "plain_summary": "No Rogue Jurors Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8460",
+      "title": "To amend the Immigration and Nationality Act to repeal the authority to grant temporary protected status, and for other purposes.",
+      "plain_title": "To amend the Immigration and Nationality Act to repeal the authority to grant temporary protected status, and for other purposes.",
+      "deck": "Referred to the House Committee on the Judiciary.",
+      "plain_summary": "To amend the Immigration and Nationality Act to repeal the authority to grant temporary protected status, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "rights",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8466",
+      "title": "To require certain agencies to develop plans for internal control in the event of an emergency or crisis, and for other purposes.",
+      "plain_title": "To require certain agencies to develop plans for internal control in the event of an emergency or crisis, and for other purposes.",
+      "deck": "Referred to the House Committee on Oversight and Government Reform.",
+      "plain_summary": "To require certain agencies to develop plans for internal control in the event of an emergency or crisis, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8491",
+      "title": "To direct the United States Postal Service to conduct a study on the feasibility of carrying out a program to provide electronic notifications to Postal Service customers regarding weather and mail delivery, and for other purposes.",
+      "plain_title": "To direct the United States Postal Service to conduct a study on the feasibility of carrying out a program to provide electronic notifications to Postal Service customers regarding weather and mail delivery, and for other purposes.",
+      "deck": "Referred to the House Committee on Oversight and Government Reform.",
+      "plain_summary": "To direct the United States Postal Service to conduct a study on the feasibility of carrying out a program to provide electronic notifications to Postal Service customers regarding weather and mail delivery, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8465",
+      "title": "Funding Early Childhood is the Right IDEA Act",
+      "plain_title": "Funding Early Childhood is the Right IDEA Act",
+      "deck": "Referred to the House Committee on Education and Workforce.",
+      "plain_summary": "Funding Early Childhood is the Right IDEA Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "social",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8470",
+      "title": "Surveillance Accountability Act",
+      "plain_title": "Surveillance Accountability Act",
+      "deck": "Referred to the House Committee on the Judiciary.",
+      "plain_summary": "Surveillance Accountability Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "SRES 458",
+      "title": "A resolution extending the enforcement of certain budgetary points of order in the Senate.",
+      "plain_title": "A resolution extending the enforcement of certain budgetary points of order in the Senate.",
+      "deck": "Referred to the Committee on the Budget. (text: CR S7188)",
+      "plain_summary": "A resolution extending the enforcement of certain budgetary points of order in the Senate.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "money",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8449",
+      "title": "To amend title 28, United States Code, to adjust the amount in controversy requirement for diversity cases, and for other purposes.",
+      "plain_title": "To amend title 28, United States Code, to adjust the amount in controversy requirement for diversity cases, and for other purposes.",
+      "deck": "Referred to the House Committee on the Judiciary.",
+      "plain_summary": "To amend title 28, United States Code, to adjust the amount in controversy requirement for diversity cases, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8458",
+      "title": "To amend title 51, United States Code, to authorize certain actions to protect certain facilities and assets from unmanned aircraft, and for other purposes.",
+      "plain_title": "To amend title 51, United States Code, to authorize certain actions to protect certain facilities and assets from unmanned aircraft, and for other purposes.",
+      "deck": "Referred to the House Committee on Science, Space, and Technology.",
+      "plain_summary": "To amend title 51, United States Code, to authorize certain actions to protect certain facilities and assets from unmanned aircraft, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8444",
+      "title": "To direct the Administrator of the National Highway Traffic Safety Administration to conduct a study with respect to motor vehicle flammability hazards, and for other purposes.",
+      "plain_title": "To direct the Administrator of the National Highway Traffic Safety Administration to conduct a study with respect to motor vehicle flammability hazards, and for other purposes.",
+      "deck": "Referred to the Committee on Transportation and Infrastructure, and in addition ",
+      "plain_summary": "To direct the Administrator of the National Highway Traffic Safety Administration to conduct a study with respect to motor vehicle flammability hazards, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8455",
+      "title": "To repeal an act entitled \"An act to retrocede the county of Alexandria, in the District of Columbia, to the State of Virginia,\" and for other purposes.",
+      "plain_title": "To repeal an act entitled \"An act to retrocede the county of Alexandria, in the District of Columbia, to the State of Virginia,\" and for other purposes.",
+      "deck": "Referred to the Committee on the Judiciary, and in addition to the Committee on ",
+      "plain_summary": "To repeal an act entitled \"An act to retrocede the county of Alexandria, in the District of Columbia, to the State of Virginia,\" and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8451",
+      "title": "To limit the extent to which certain Federal law enforcement agencies may be permitted to conduct law enforcement functions in a jurisdiction without the approval of such jurisdiction, and for other purposes.",
+      "plain_title": "To limit the extent to which certain Federal law enforcement agencies may be permitted to conduct law enforcement functions in a jurisdiction without the approval of such jurisdiction, and for other purposes.",
+      "deck": "Referred to the Committee on the Judiciary, and in addition to the Committees on",
+      "plain_summary": "To limit the extent to which certain Federal law enforcement agencies may be permitted to conduct law enforcement functions in a jurisdiction without the approval of such jurisdiction, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8434",
+      "title": "To prohibit an authorization for use of military force which authorizes such force for a period longer than 5 years or an unspecified period of time from receiving congressional priority procedures.",
+      "plain_title": "To prohibit an authorization for use of military force which authorizes such force for a period longer than 5 years or an unspecified period of time from receiving congressional priority procedures.",
+      "deck": "Referred to the Committee on Foreign Affairs, and in addition to the Committee o",
+      "plain_summary": "To prohibit an authorization for use of military force which authorizes such force for a period longer than 5 years or an unspecified period of time from receiving congressional priority procedures.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8459",
+      "title": "To amend the Federal Water Pollution Control Act to require a certain percentage of funds appropriated for revolving fund capitalization grants be used for green projects, and for other purposes.",
+      "plain_title": "To amend the Federal Water Pollution Control Act to require a certain percentage of funds appropriated for revolving fund capitalization grants be used for green projects, and for other purposes.",
+      "deck": "Referred to the House Committee on Transportation and Infrastructure.",
+      "plain_summary": "To amend the Federal Water Pollution Control Act to require a certain percentage of funds appropriated for revolving fund capitalization grants be used for green projects, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "money",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8435",
+      "title": "To amend the War Powers Resolution to provide for priority procedures for joint resolutions, and for other purposes.",
+      "plain_title": "To amend the War Powers Resolution to provide for priority procedures for joint resolutions, and for other purposes.",
+      "deck": "Referred to the Committee on Foreign Affairs, and in addition to the Committee o",
+      "plain_summary": "To amend the War Powers Resolution to provide for priority procedures for joint resolutions, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8442",
+      "title": "To amend title XXVII of the Public Health Service Act to establish civil liability for health insurance issuers with high levels of claims denials.",
+      "plain_title": "To amend title XXVII of the Public Health Service Act to establish civil liability for health insurance issuers with high levels of claims denials.",
+      "deck": "Referred to the House Committee on Energy and Commerce.",
+      "plain_summary": "To amend title XXVII of the Public Health Service Act to establish civil liability for health insurance issuers with high levels of claims denials.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "social",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8439",
+      "title": "To establish a nonpartisan commission on natural disaster risk management, insurance, and other financial and economic protections, and for other purposes.",
+      "plain_title": "To establish a nonpartisan commission on natural disaster risk management, insurance, and other financial and economic protections, and for other purposes.",
+      "deck": "Referred to the Committee on Transportation and Infrastructure, and in addition ",
+      "plain_summary": "To establish a nonpartisan commission on natural disaster risk management, insurance, and other financial and economic protections, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "money",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8437",
+      "title": "To advance next-generation geothermal electricity generation demonstration projects in new regions, and for other purposes.",
+      "plain_title": "To advance next-generation geothermal electricity generation demonstration projects in new regions, and for other purposes.",
+      "deck": "Referred to the House Committee on Science, Space, and Technology.",
+      "plain_summary": "To advance next-generation geothermal electricity generation demonstration projects in new regions, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8438",
+      "title": "To provide for the conservation of wildlife corridors and habitat connectivity, and for other purposes.",
+      "plain_title": "To provide for the conservation of wildlife corridors and habitat connectivity, and for other purposes.",
+      "deck": "Referred to the Committee on Natural Resources, and in addition to the Committee",
+      "plain_summary": "To provide for the conservation of wildlife corridors and habitat connectivity, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "env",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8441",
+      "title": "To amend the Uniformed and Overseas Citizens Absentee Voting Act to require States to accept the official post card form prescribed by the Secretary of Defense under such Act when submitted by electronic means, and for other purposes.",
+      "plain_title": "To amend the Uniformed and Overseas Citizens Absentee Voting Act to require States to accept the official post card form prescribed by the Secretary of Defense under such Act when submitted by electronic means, and for other purposes.",
+      "deck": "Referred to the Committee on House Administration, and in addition to the Commit",
+      "plain_summary": "To amend the Uniformed and Overseas Citizens Absentee Voting Act to require States to accept the official post card form prescribed by the Secretary of Defense under such Act when submitted by electronic means, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "rights",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8446",
+      "title": "To direct the Secretary of Agriculture to establish a program to connect individuals seeking to transition away from farming with individuals seeking to become farmers, and for other purposes.",
+      "plain_title": "To direct the Secretary of Agriculture to establish a program to connect individuals seeking to transition away from farming with individuals seeking to become farmers, and for other purposes.",
+      "deck": "Referred to the House Committee on Agriculture.",
+      "plain_summary": "To direct the Secretary of Agriculture to establish a program to connect individuals seeking to transition away from farming with individuals seeking to become farmers, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8436",
+      "title": "To repeal the joint resolution entitled \"A joint resolution to promote peace and stability in the Middle East\".",
+      "plain_title": "To repeal the joint resolution entitled \"A joint resolution to promote peace and stability in the Middle East\".",
+      "deck": "Referred to the House Committee on Foreign Affairs.",
+      "plain_summary": "To repeal the joint resolution entitled \"A joint resolution to promote peace and stability in the Middle East\".. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8447",
+      "title": "To protect against seasonal and pandemic influenza, and for other purposes.",
+      "plain_title": "To protect against seasonal and pandemic influenza, and for other purposes.",
+      "deck": "Referred to the Committee on Energy and Commerce, and in addition to the Committ",
+      "plain_summary": "To protect against seasonal and pandemic influenza, and for other purposes.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HCONRES 89",
+      "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+      "plain_title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+      "deck": "Referred to the House Committee on Foreign Affairs.",
+      "plain_summary": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HRES 1210",
+      "title": "Expressing the sense of the House of Representatives in support of the International Atomic Energy Agency's (IAEA) nuclear security role.",
+      "plain_title": "Expressing the sense of the House of Representatives in support of the International Atomic Energy Agency's (IAEA) nuclear security role.",
+      "deck": "Referred to the House Committee on Foreign Affairs.",
+      "plain_summary": "Expressing the sense of the House of Representatives in support of the International Atomic Energy Agency's (IAEA) nuclear security role.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "env",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HRES 1212",
+      "title": "Expressing support for the staff of public, school, academic, and special libraries in the United States and the essential services those libraries provide to communities, recognizing the need for funding commensurate with the broad scope of social service and community supports provided by libraries, preserving the right of all citizens of the United States to freely access information and resources in their communities, supporting a strong union voice for library workers, and defending the civil rights of library staff.",
+      "plain_title": "Expressing support for the staff of public, school, academic, and special libraries in the United States and the essential services those libraries provide to communities, recognizing the need for funding commensurate with the broad scope of social service and community supports provided by libraries, preserving the right of all citizens of the United States to freely access information and resources in their communities, supporting a strong union voice for library workers, and defending the civil rights of library staff.",
+      "deck": "Referred to the House Committee on Education and Workforce.",
+      "plain_summary": "Expressing support for the staff of public, school, academic, and special libraries in the United States and the essential services those libraries provide to communities, recognizing the need for funding commensurate with the broad scope of social service and community supports provided by libraries, preserving the right of all citizens of the United States to freely access information and resources in their communities, supporting a strong union voice for library workers, and defending the civil rights of library staff.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "rights",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HRES 1209",
+      "title": "Recognizing the significance of \"Community College Month\" in April as a celebration of more than 1,000 institutions throughout the United States supporting access to higher education, workforce training, and more, broadly sustaining and advancing the Nation's economic prosperity.",
+      "plain_title": "Recognizing the significance of \"Community College Month\" in April as a celebration of more than 1,000 institutions throughout the United States supporting access to higher education, workforce training, and more, broadly sustaining and advancing the Nation's economic prosperity.",
+      "deck": "Referred to the House Committee on Oversight and Government Reform.",
+      "plain_summary": "Recognizing the significance of \"Community College Month\" in April as a celebration of more than 1,000 institutions throughout the United States supporting access to higher education, workforce training, and more, broadly sustaining and advancing the Nation's economic prosperity.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "money",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HRES 1214",
+      "title": "Celebrating the 75th anniversary of the International Hearing Society.",
+      "plain_title": "Celebrating the 75th anniversary of the International Hearing Society.",
+      "deck": "Referred to the House Committee on Energy and Commerce.",
+      "plain_summary": "Celebrating the 75th anniversary of the International Hearing Society.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HRES 1215",
+      "title": "Commending the Holy See for its enduring diplomatic relationship with Taiwan and affirming the support of Congress for the continued preservation of the Vatican-Taiwan diplomatic relationship.",
+      "plain_title": "Commending the Holy See for its enduring diplomatic relationship with Taiwan and affirming the support of Congress for the continued preservation of the Vatican-Taiwan diplomatic relationship.",
+      "deck": "Referred to the House Committee on Foreign Affairs.",
+      "plain_summary": "Commending the Holy See for its enduring diplomatic relationship with Taiwan and affirming the support of Congress for the continued preservation of the Vatican-Taiwan diplomatic relationship.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HRES 1213",
+      "title": "Supporting the recognition of April 2026 as \"National County Government Month\" to honor the county government workforce, educate residents about local programs and services, and celebrate the county government role in the intergovernmental partnership.",
+      "plain_title": "Supporting the recognition of April 2026 as \"National County Government Month\" to honor the county government workforce, educate residents about local programs and services, and celebrate the county government role in the intergovernmental partnership.",
+      "deck": "Referred to the House Committee on Oversight and Government Reform.",
+      "plain_summary": "Supporting the recognition of April 2026 as \"National County Government Month\" to honor the county government workforce, educate residents about local programs and services, and celebrate the county government role in the intergovernmental partnership.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HRES 1211",
+      "title": "Expunging the December 18, 2019, and January 13, 2021, Impeachments of President Donald Trump.",
+      "plain_title": "Expunging the December 18, 2019, and January 13, 2021, Impeachments of President Donald Trump.",
+      "deck": "Referred to the House Committee on the Judiciary.",
+      "plain_summary": "Expunging the December 18, 2019, and January 13, 2021, Impeachments of President Donald Trump.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 4752",
+      "title": "Reducing Hereditary Cancer Act",
+      "plain_title": "Reducing Hereditary Cancer Act",
+      "deck": "Referred to the Committee on Energy and Commerce, and in addition to the Committ",
+      "plain_summary": "Reducing Hereditary Cancer Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8169",
+      "title": "Export Control Enforcement and Enhancement Act",
+      "plain_title": "Export Control Enforcement and Enhancement Act",
+      "deck": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 44 - ",
+      "plain_summary": "Export Control Enforcement and Enhancement Act. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 3274",
+      "title": "Child Care Infrastructure Act",
+      "plain_title": "Child Care Infrastructure Act",
+      "deck": "Referred to the House Committee on Ways and Means.",
+      "plain_summary": "Child Care Infrastructure Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "social",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8170",
+      "title": "MATCH Act",
+      "plain_title": "MATCH Act",
+      "deck": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and N",
+      "plain_summary": "MATCH Act. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 6058",
+      "title": "STRIDE Act",
+      "plain_title": "STRIDE Act",
+      "deck": "Ordered to be Reported (Amended) by the Yeas and Nays: 44 - 0.",
+      "plain_summary": "STRIDE Act. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 637",
+      "title": "911 SAVES Act",
+      "plain_title": "911 SAVES Act",
+      "deck": "Referred to the House Committee on Education and Workforce.",
+      "plain_summary": "911 SAVES Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 6624",
+      "title": "Biological Intellectual Property Protection Act of 2025",
+      "plain_title": "Biological Intellectual Property Protection Act of 2025",
+      "deck": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and N",
+      "plain_summary": "Biological Intellectual Property Protection Act of 2025. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HRES 564",
+      "title": "Calling for the return of abducted Ukrainian children before finalizing any peace agreement to end the war against Ukraine.",
+      "plain_title": "Calling for the return of abducted Ukrainian children before finalizing any peace agreement to end the war against Ukraine.",
+      "deck": "Referred to the House Committee on Foreign Affairs.",
+      "plain_summary": "Calling for the return of abducted Ukrainian children before finalizing any peace agreement to end the war against Ukraine.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "social",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 7100",
+      "title": "Sikh American Anti-Discrimination Act of 2026",
+      "plain_title": "Sikh American Anti-Discrimination Act of 2026",
+      "deck": "Referred to the House Committee on the Judiciary.",
+      "plain_summary": "Sikh American Anti-Discrimination Act of 2026. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "rights",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 1993",
+      "title": "25th Anniversary of 9/11 Commemorative Coin Act",
+      "plain_title": "25th Anniversary of 9/11 Commemorative Coin Act",
+      "deck": "Referred to the House Committee on Financial Services.",
+      "plain_summary": "25th Anniversary of 9/11 Commemorative Coin Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 6322",
+      "title": "Stop Stealing our Chips Act",
+      "plain_title": "Stop Stealing our Chips Act",
+      "deck": "Ordered to be Reported (Amended) by the Yeas and Nays: 43 - 1.",
+      "plain_summary": "Stop Stealing our Chips Act. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 1522",
+      "title": "Federal Retirement Fairness Act",
+      "plain_title": "Federal Retirement Fairness Act",
+      "deck": "ASSUMING FIRST SPONSORSHIP - Ms. Randall asked unanimous consent that she may he",
+      "plain_summary": "Federal Retirement Fairness Act. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 6446",
+      "title": "To modify the procedures for investigating claims of evasion of antidumping and countervailing duty orders.",
+      "plain_title": "To modify the procedures for investigating claims of evasion of antidumping and countervailing duty orders.",
+      "deck": "Referred to the House Committee on Ways and Means.",
+      "plain_summary": "To modify the procedures for investigating claims of evasion of antidumping and countervailing duty orders.. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 1004",
+      "title": "Love Lives On Act of 2025",
+      "plain_title": "Love Lives On Act of 2025",
+      "deck": "Forwarded by Subcommittee to Full Committee by Voice Vote.",
+      "plain_summary": "Love Lives On Act of 2025. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 2675",
+      "title": "Protecting Our Courts from Foreign Manipulation Act of 2025",
+      "plain_title": "Protecting Our Courts from Foreign Manipulation Act of 2025",
+      "deck": "Ordered to be Reported (Amended) by the Yeas and Nays: 15 - 11.",
+      "plain_summary": "Protecting Our Courts from Foreign Manipulation Act of 2025. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 4145",
+      "title": "Ensuring Justice for Camp Lejeune Victims Act of 2025",
+      "plain_title": "Ensuring Justice for Camp Lejeune Victims Act of 2025",
+      "deck": "Referred to the House Committee on the Judiciary.",
+      "plain_summary": "Ensuring Justice for Camp Lejeune Victims Act of 2025. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8036",
+      "title": "Interagency Coordination in Export Controls Act of 2026",
+      "plain_title": "Interagency Coordination in Export Controls Act of 2026",
+      "deck": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 25 - ",
+      "plain_summary": "Interagency Coordination in Export Controls Act of 2026. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 7003",
+      "title": "BIS STRENGTH Act",
+      "plain_title": "BIS STRENGTH Act",
+      "deck": "Ordered to be Reported by the Yeas and Nays: 42 - 2.",
+      "plain_summary": "BIS STRENGTH Act. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8163",
+      "title": "Provider Reimbursement Stability Act of 2026",
+      "plain_title": "Provider Reimbursement Stability Act of 2026",
+      "deck": "Referred to the Committee on Energy and Commerce, and in addition to the Committ",
+      "plain_summary": "Provider Reimbursement Stability Act of 2026. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 7962",
+      "title": "Export Dispute Resolution Act",
+      "plain_title": "Export Dispute Resolution Act",
+      "deck": "Ordered to be Reported by the Yeas and Nays: 44 - 0.",
+      "plain_summary": "Export Dispute Resolution Act. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 888",
+      "title": "Stop Sports Blackouts Act of 2025",
+      "plain_title": "Stop Sports Blackouts Act of 2025",
+      "deck": "Referred to the House Committee on Energy and Commerce.",
+      "plain_summary": "Stop Sports Blackouts Act of 2025. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 6011",
+      "title": "VA Work-Study Improvement Act",
+      "plain_title": "VA Work-Study Improvement Act",
+      "deck": "Referred to the Subcommittee on Economic Opportunity.",
+      "plain_summary": "VA Work-Study Improvement Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 7198",
+      "title": "Ensuring Access to General Surgery Act of 2026",
+      "plain_title": "Ensuring Access to General Surgery Act of 2026",
+      "deck": "Referred to the House Committee on Energy and Commerce.",
+      "plain_summary": "Ensuring Access to General Surgery Act of 2026. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 1957",
+      "title": "End Veteran Homelessness Act of 2025",
+      "plain_title": "End Veteran Homelessness Act of 2025",
+      "deck": "Forwarded by Subcommittee to Full Committee by Voice Vote.",
+      "plain_summary": "End Veteran Homelessness Act of 2025. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "social",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 2178",
+      "title": "Cerebral Palsy Research Program Authorization Act of 2025",
+      "plain_title": "Cerebral Palsy Research Program Authorization Act of 2025",
+      "deck": "Referred to the House Committee on Energy and Commerce.",
+      "plain_summary": "Cerebral Palsy Research Program Authorization Act of 2025. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 3376",
+      "title": "Water Affordability, Transparency, Equity, and Reliability Act of 2025",
+      "plain_title": "Water Affordability, Transparency, Equity, and Reliability Act of 2025",
+      "deck": "Referred to the Subcommittee on Water Resources and Environment.",
+      "plain_summary": "Water Affordability, Transparency, Equity, and Reliability Act of 2025. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "env",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 3437",
+      "title": "Insurance Data Protection Act",
+      "plain_title": "Insurance Data Protection Act",
+      "deck": "Referred to the Committee on Financial Services, and in addition to the Committe",
+      "plain_summary": "Insurance Data Protection Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 2978",
+      "title": "GUARD Act",
+      "plain_title": "GUARD Act",
+      "deck": "Referred to the Committee on the Judiciary, and in addition to the Committee on ",
+      "plain_summary": "GUARD Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 3544",
+      "title": "Supreme Court Tenure Establishment and Retirement Modernization Act of 2025",
+      "plain_title": "Supreme Court Tenure Establishment and Retirement Modernization Act of 2025",
+      "deck": "Referred to the House Committee on the Judiciary.",
+      "plain_summary": "Supreme Court Tenure Establishment and Retirement Modernization Act of 2025. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 3151",
+      "title": "SHIPS for America Act of 2025",
+      "plain_title": "SHIPS for America Act of 2025",
+      "deck": "Referred to the Subcommittee on Coast Guard and Maritime Transportation.",
+      "plain_summary": "SHIPS for America Act of 2025. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 5073",
+      "title": "INFORM Act of 2025",
+      "plain_title": "INFORM Act of 2025",
+      "deck": "Sponsor introductory remarks on measure. (CR H3826)",
+      "plain_summary": "INFORM Act of 2025. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 7622",
+      "title": "Iran Human Rights, Internet Freedom, and Accountability Act of 2026",
+      "plain_title": "Iran Human Rights, Internet Freedom, and Accountability Act of 2026",
+      "deck": "Referred to the Committee on Foreign Affairs, and in addition to the Committee o",
+      "plain_summary": "Iran Human Rights, Internet Freedom, and Accountability Act of 2026. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "rights",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
       "id": "HRES 1202",
       "title": "Electing a Member to a certain standing committee of the House of Representatives.",
       "plain_title": "House Committee Seat Assignment Resolution",
@@ -16476,6 +20326,99 @@
       "signed_date": null,
       "sponsor": "See Congress.gov",
       "ticker_alert": "🕊️ House passes memorial resolution honoring the late Rep. David Scott"
+    },
+    {
+      "id": "HCONRES 90",
+      "title": "Directing the Architect of the Capitol to place motor vehicle gas price trackers in the Hall of the House of Representatives and the Chamber of the Senate.",
+      "plain_title": "Gas Price Display Boards for Congress",
+      "deck": "This bill would install live gasoline price trackers inside both chambers of the U.S. Capitol building.",
+      "plain_summary": "This concurrent resolution would require the Architect of the Capitol to install real-time motor vehicle gas price display boards in the House chamber and the Senate chamber. The idea is to keep lawmakers visually reminded of fuel costs Americans face while they debate and vote on legislation. The bill has been referred to the House Committee on House Administration, where most such proposals stall without further action.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics say it is a political stunt that wastes taxpayer money on installation and maintenance with no policy effect."
+        },
+        {
+          "type": "positive",
+          "text": "Supporters argue it could keep legislators constantly aware of energy costs burdening everyday Americans at the pump."
+        },
+        {
+          "type": "neutral",
+          "text": "The displays would be symbolic only — they carry no requirement for Congress to act on gas prices."
+        }
+      ],
+      "who_affected": "Members of Congress, Capitol staff, American drivers and commuters, taxpayers funding Capitol operations",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 1,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "⛽ Bill proposes live gas price boards installed inside Congress chambers"
+    },
+    {
+      "id": "SRES 134",
+      "title": "A resolution designating March 15, 2025, as \"National Osceola Turkey Day\".",
+      "plain_title": "National Osceola Turkey Day Recognition",
+      "deck": "This resolution officially designates March 15, 2025, as National Osceola Turkey Day in the United States.",
+      "plain_summary": "This Senate resolution creates a symbolic national day honoring the Osceola wild turkey, a subspecies found in Florida and the southeastern U.S. It was passed unanimously by the Senate without any changes, meaning all senators agreed to it. The resolution has no legal enforcement power and simply serves as an official recognition of the Osceola turkey's cultural and wildlife significance.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics may argue Senate floor time was spent on a symbolic gesture rather than pressing national issues."
+        },
+        {
+          "type": "positive",
+          "text": "Raises public awareness about the Osceola turkey subspecies, potentially boosting wildlife conservation and hunting tourism in Florida."
+        },
+        {
+          "type": "neutral",
+          "text": "Symbolic resolutions like this have no binding legal effect and create no new programs, spending, or obligations."
+        }
+      ],
+      "who_affected": "Florida hunters and wildlife enthusiasts, conservation organizations, hunting tourism businesses, wildlife biologists",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 1,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🦃 Senate unanimously names March 15 National Osceola Turkey Day"
+    },
+    {
+      "id": "SRES 676",
+      "title": "A resolution recognizing and honoring National Mushroom Day and the contributions of Chester and Berks Counties to the national mushroom industry and to healthy diets.",
+      "plain_title": "National Mushroom Day Recognition Resolution",
+      "deck": "This resolution honors National Mushroom Day and recognizes Pennsylvania counties for their mushroom industry contributions.",
+      "plain_summary": "This is a symbolic Senate resolution that officially recognizes National Mushroom Day and celebrates the contributions of Chester and Berks Counties in Pennsylvania to the U.S. mushroom industry and healthy eating. It does not create any laws, spend any money, or impose any requirements. The resolution was referred to the Senate Committee on Agriculture, Nutrition, and Forestry.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Uses limited congressional time and attention on a ceremonial measure with no policy substance"
+        },
+        {
+          "type": "positive",
+          "text": "Raises public awareness of the mushroom industry and promotes healthy eating habits for all Americans"
+        },
+        {
+          "type": "neutral",
+          "text": "Has no legal or financial effect — it is purely symbolic recognition with no binding authority"
+        }
+      ],
+      "who_affected": "Mushroom farmers in Pennsylvania, agricultural communities in Chester and Berks Counties, mushroom industry workers nationwide",
+      "category": "social",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 1,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🍄 Senate honors National Mushroom Day and Pennsylvania's top mushroom-growing counties"
     }
   ]
 }
