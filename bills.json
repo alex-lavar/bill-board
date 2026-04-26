@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-25T07:25:54.383280Z",
+  "updated_at": "2026-04-26T07:44:58.668395Z",
   "congress": 119,
-  "total": 841,
+  "total": 851,
   "ticker": [
     "✅ SIGNED · Laken Riley Act — ICE must detain undocumented immigrants charged with theft, no conviction needed",
     "🚨 Signed into law: Major tax cuts and social program reductions affecting millions",
@@ -986,6 +986,37 @@
       "signed_date": null,
       "sponsor": "See Congress.gov",
       "ticker_alert": "🛡️ KIDS Act targets Big Tech data collection and harmful content affecting millions of children"
+    },
+    {
+      "id": "HR 8495",
+      "title": "Financial Services and General Government Appropriations Act, 2027",
+      "plain_title": "Federal Agency Funding Bill for Fiscal Year 2027",
+      "deck": "Sets annual spending levels for the Treasury, IRS, SEC, federal courts, and other key government agencies.",
+      "plain_summary": "This bill allocates funding for a wide range of federal agencies including the IRS, Securities and Exchange Commission, federal judiciary, Small Business Administration, and the Executive Office of the President for fiscal year 2027. It determines how much money these agencies have to operate, enforce laws, and serve the public. The bill has been placed on the Union Calendar, meaning it has cleared committee and is awaiting a full House vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Cuts or flat funding to the IRS could reduce enforcement on wealthy tax cheats while leaving middle-class filers with fewer customer service resources."
+        },
+        {
+          "type": "positive",
+          "text": "Funding the Small Business Administration helps millions of small business owners access loans, disaster relief, and entrepreneurship programs."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill's IRS funding level is contested — supporters say reductions protect taxpayers from over-enforcement, while critics warn it increases the deficit by reducing tax collections."
+        }
+      ],
+      "who_affected": "Taxpayers, small business owners, federal employees, investors, federal court users, government contractors, recipients of federal financial assistance",
+      "category": "money",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 4,
+      "impact_label": "high",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "💰 House bill sets 2027 budgets for IRS, SEC, courts & more"
     },
     {
       "id": "H.R.3322",
@@ -2959,6 +2990,161 @@
       "signed_date": null,
       "sponsor": "See Congress.gov",
       "ticker_alert": "🧹 Bill would erase criminal records for Americans who fully repay student loans"
+    },
+    {
+      "id": "HR 8053",
+      "title": "DPA Emerging Technology Act of 2026",
+      "plain_title": "Defense Production Act Update for Emerging Technologies",
+      "deck": "Expands Cold War-era emergency manufacturing law to cover modern technologies like AI and semiconductors.",
+      "plain_summary": "This bill updates the Defense Production Act — a law originally passed in 1950 to mobilize U.S. industry during national emergencies — to explicitly include emerging technologies such as artificial intelligence, semiconductors, and quantum computing. It would give the federal government stronger authority to direct private companies to prioritize production of these technologies for national security purposes. The bill has been referred to the House Committee on Financial Services and has not yet been voted on.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Private tech and manufacturing companies could be compelled by the government to shift production priorities, potentially disrupting normal business operations and contracts."
+        },
+        {
+          "type": "positive",
+          "text": "Strengthens U.S. ability to rapidly scale up critical technology production during a national security crisis, reducing dependence on foreign suppliers like China."
+        },
+        {
+          "type": "neutral",
+          "text": "Grants the executive branch expanded authority over the private technology sector, raising ongoing debates about the proper scope of government intervention in markets."
+        }
+      ],
+      "who_affected": "Semiconductor manufacturers, AI companies, tech investors, defense contractors, quantum computing researchers, U.S. military and national security agencies",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "⚙️ Bill would give feds new power over AI and chip production for national security"
+    },
+    {
+      "id": "HR 3542",
+      "title": "CLEAR (Committee Leadership and Enhanced Accountability for Resilience) Defense Production Act of 2025",
+      "plain_title": "Congressional Oversight Reform for Defense Production Act Powers",
+      "deck": "This bill would require Congress to approve presidential use of emergency industrial production powers.",
+      "plain_summary": "This bill would increase congressional oversight over the Defense Production Act, a law that gives the president broad powers to direct American industry during national emergencies. It would require committee approval or congressional authorization before certain presidential actions take effect. The bill has been referred to the House Committee on Financial Services and has not yet been voted on.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Could slow emergency government responses to supply chain crises or national security threats by adding congressional approval steps"
+        },
+        {
+          "type": "positive",
+          "text": "Prevents presidents from unilaterally directing private industry without legislative accountability, protecting businesses from unchecked executive mandates"
+        },
+        {
+          "type": "neutral",
+          "text": "Shifts the balance of power between Congress and the White House on industrial policy, a change whose effects depend heavily on the political situation at any given time"
+        }
+      ],
+      "who_affected": "U.S. manufacturers and defense contractors, businesses subject to federal production orders, members of Congress, federal agency officials, supply chain workers in critical industries",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "⚖️ New bill would require Congress to approve presidential emergency industrial powers"
+    },
+    {
+      "id": "HR 8071",
+      "title": "Strengthening and Improving Mobilization Act of 2026",
+      "plain_title": "Military Mobilization and Readiness Improvement Act",
+      "deck": "This bill aims to strengthen the U.S. military's ability to quickly mobilize personnel and resources during national emergencies.",
+      "plain_summary": "The Strengthening and Improving Mobilization Act of 2026 (HR 8071) seeks to improve how the U.S. military and government agencies prepare for and respond to large-scale emergencies requiring rapid troop or resource deployment. The bill was referred to the House Committee on Financial Services, suggesting it may also address funding mechanisms or financial infrastructure tied to mobilization efforts. It is currently in the early committee review stage and has not yet been voted on.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Could expand executive authority to mobilize civilians or redirect private-sector resources during declared emergencies with limited congressional oversight."
+        },
+        {
+          "type": "positive",
+          "text": "Faster and better-funded military mobilization could improve national security and reduce response time during major crises or conflicts."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill's referral to the Financial Services Committee suggests financial or banking system changes tied to mobilization, the scope of which remains unclear."
+        }
+      ],
+      "who_affected": "Active duty military members, military reservists, National Guard members, defense contractors, taxpayers funding defense spending, financial institutions tied to defense logistics",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🪖 Bill proposes faster U.S. military mobilization with potential new funding mechanisms"
+    },
+    {
+      "id": "S 3936",
+      "title": "USDA Loan Modernization Act",
+      "plain_title": "Update USDA Farm Loan Rules and Processes",
+      "deck": "This bill modernizes how the USDA manages and delivers loans to farmers and rural borrowers.",
+      "plain_summary": "The USDA Loan Modernization Act proposes updates to how the U.S. Department of Agriculture handles its farm loan programs, likely streamlining processes, updating eligibility rules, or improving digital access for applicants. The bill has been referred to the Senate Committee on Agriculture, Nutrition, and Forestry, meaning it is in early stages and has not yet been voted on. It aims to make USDA lending more efficient and accessible for farmers and rural communities.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Modernized loan criteria or processes could unintentionally disadvantage small or beginning farmers unfamiliar with new digital or administrative requirements."
+        },
+        {
+          "type": "positive",
+          "text": "Streamlined loan processes could reduce wait times and paperwork burdens for farmers seeking USDA financing for land, equipment, or operations."
+        },
+        {
+          "type": "neutral",
+          "text": "Changes to loan program rules may shift which borrowers qualify, potentially benefiting some applicants while altering terms for others."
+        }
+      ],
+      "who_affected": "Farmers, ranchers, beginning farmers, rural small business owners, agricultural lenders, rural communities",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🌾 Senate bill proposes modernizing USDA farm loans for rural borrowers"
+    },
+    {
+      "id": "HR 8030",
+      "title": "DPA Transparency Act of 2026",
+      "plain_title": "Data Privacy Agreement Disclosure Requirements Act",
+      "deck": "Requires companies to publicly disclose how they use data-sharing agreements with third parties.",
+      "plain_summary": "The DPA Transparency Act of 2026 (HR 8030) would require financial companies to publicly report details about their data processing agreements, including how consumer data is shared with outside parties. The bill aims to give Americans more visibility into how their personal financial information is being used and sold. It has been referred to the House Committee on Financial Services, meaning it is in early stages and has not yet been voted on.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Financial companies may face increased compliance costs, potentially passed on to consumers as higher fees"
+        },
+        {
+          "type": "positive",
+          "text": "Consumers could gain clearer insight into how their personal financial data is shared or sold to third parties"
+        },
+        {
+          "type": "neutral",
+          "text": "The scope and enforcement mechanisms of required disclosures remain subject to debate and committee review"
+        }
+      ],
+      "who_affected": "Bank customers, credit union members, fintech app users, financial services companies, data brokers, consumer privacy advocates",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "📋 New bill would force financial firms to disclose data-sharing deals publicly"
     },
     {
       "id": "HR 6409",
@@ -20202,6 +20388,130 @@
       "signed_date": null,
       "sponsor": "See Congress.gov",
       "ticker_alert": null
+    },
+    {
+      "id": "HR 8038",
+      "title": "DPA Private-Sector Outreach Act of 2026",
+      "plain_title": "Defense Production Act Private Sector Outreach Requirement",
+      "deck": "Requires the government to consult with private businesses when using emergency industrial powers.",
+      "plain_summary": "This bill requires federal officials to conduct outreach to private sector companies before invoking the Defense Production Act, a law that gives the government broad powers to direct industries during national emergencies. It aims to ensure businesses have input before the government mandates production priorities or allocates resources. The bill has been referred to the House Committee on Financial Services and has not yet been voted on.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Adding a consultation requirement could slow the government's ability to respond quickly in fast-moving national emergencies or supply chain crises."
+        },
+        {
+          "type": "positive",
+          "text": "Businesses would get advance notice and a voice before the government issues mandates, reducing economic disruption and legal uncertainty for manufacturers."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill defines a new procedural step but does not limit what the government can ultimately do under the Defense Production Act once outreach occurs."
+        }
+      ],
+      "who_affected": "Defense contractors, manufacturers, pharmaceutical companies, critical materials producers, small businesses in defense supply chains, federal emergency planners",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "📋 New bill would require gov't to consult businesses before invoking emergency production powers"
+    },
+    {
+      "id": "HR 8136",
+      "title": "DPA Advanced Procurement Act of 2026",
+      "plain_title": "Defense Production Act Advanced Buying Authority Bill",
+      "deck": "This bill would allow the government to buy defense materials earlier using Defense Production Act powers.",
+      "plain_summary": "The DPA Advanced Procurement Act of 2026 (HR 8136) would expand the government's authority under the Defense Production Act to make advance purchases of critical materials, components, and supplies needed for national defense before they are immediately needed. This approach is intended to strengthen supply chains and reduce shortages during emergencies or conflicts. The bill has been referred to the House Committee on Financial Services, meaning it is in an early stage of the legislative process.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Taxpayers could bear financial risk if pre-purchased materials become obsolete, are overpriced, or go unused due to changing defense needs."
+        },
+        {
+          "type": "positive",
+          "text": "American manufacturers in the defense supply chain could receive more stable, earlier contracts, supporting domestic jobs and industrial readiness."
+        },
+        {
+          "type": "neutral",
+          "text": "The scope of what qualifies as a 'critical' defense material eligible for advance procurement remains subject to interpretation and agency discretion."
+        }
+      ],
+      "who_affected": "Defense contractors, domestic manufacturers, U.S. taxpayers, Pentagon procurement officials, defense supply chain workers",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🛡️ Bill would let Pentagon pre-buy defense supplies before shortages hit"
+    },
+    {
+      "id": "HR 8138",
+      "title": "DPA Specialized Staffing Act",
+      "plain_title": "Hire Defense Production Act Specialists in Federal Agencies",
+      "deck": "Requires federal agencies to hire dedicated staff experts to manage Defense Production Act authorities.",
+      "plain_summary": "This bill would require certain federal agencies to employ specialized staff who are trained and focused on using the Defense Production Act (DPA), a law that lets the government direct private companies to produce critical goods during national emergencies. The goal is to make sure agencies have experts ready to quickly mobilize industrial production when crises arise, such as during pandemics or supply chain disruptions. The bill was referred to two House committees and has not yet advanced further.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Adds new federal personnel costs and bureaucratic layers that taxpayers must fund, even outside of emergencies."
+        },
+        {
+          "type": "positive",
+          "text": "Could speed up government response during crises like pandemics or shortages, getting critical supplies to Americans faster."
+        },
+        {
+          "type": "neutral",
+          "text": "The effectiveness of specialized staffing depends heavily on how agencies implement the requirement and whether emergencies actually occur."
+        }
+      ],
+      "who_affected": "Federal agency employees, defense contractors, manufacturers, emergency management officials, taxpayers, Americans reliant on critical goods during crises",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏭 Bill would require federal agencies to hire Defense Production Act specialists"
+    },
+    {
+      "id": "HR 8133",
+      "title": "DPA Workforce and Skilled Labor Needs Act of 2026",
+      "plain_title": "Defense Production Act Workforce Training and Labor Study",
+      "deck": "Requires a study on skilled labor shortages affecting U.S. defense manufacturing and critical industries.",
+      "plain_summary": "This bill directs a formal assessment of workforce and skilled labor gaps in industries covered by the Defense Production Act, which governs U.S. production of critical goods like weapons, semiconductors, and medical supplies. The goal is to identify shortages and inform future policy solutions for defense and national security manufacturing. The bill has been referred to the House Committee on Financial Services and has not yet been voted on.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "A study alone does not fund job training programs, meaning workers may wait years before any real help arrives."
+        },
+        {
+          "type": "positive",
+          "text": "Identifying specific skilled labor gaps could lead to targeted investments that create well-paying manufacturing and defense jobs for Americans."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill's findings could be used to argue for expanding apprenticeship programs, union workforce pipelines, or corporate training subsidies — a contested policy debate."
+        }
+      ],
+      "who_affected": "Defense manufacturing workers, semiconductor and tech industry employees, military contractors, vocational and trade school students, rural and industrial communities",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🔍 Congress orders study on skilled worker shortages in U.S. defense industries"
     },
     {
       "id": "HRES 1202",
