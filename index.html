@@ -11,21 +11,13 @@
 /* ── RESET & TOKENS ─────────────────────────────────────────────────────── */
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
-  --ink:#111010;
-  --paper:#f5f0e8;
-  --paper2:#ede8dc;
-  --rule:#c0b89a;
-  --muted:#7a7060;
-  --red:#b91c1c;
-  --navy:#1e3a5f;
-  --gold:#c9850a;
-  --green:#1a5c3a;
-  --wrap:1380px;
-  --pad:clamp(16px,3vw,40px);
+  --ink:#111010;--paper:#f5f0e8;--paper2:#ede8dc;--rule:#c0b89a;
+  --muted:#7a7060;--red:#b91c1c;--navy:#1e3a5f;--gold:#c9850a;--green:#1a5c3a;
+  --wrap:1380px;--pad:clamp(16px,3vw,40px);
 }
 body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Georgia,serif;font-size:15px;min-height:100vh}
 
-/* ── MASTHEAD ────────────────────────────────────────────────────────────── */
+/* ── MASTHEAD ───────────────────────────────────────────────────────────── */
 .masthead{background:var(--paper);border-bottom:4px double var(--ink);padding:16px var(--pad) 12px;text-align:center}
 .mast-meta{display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px;flex-wrap:wrap;gap:4px}
 .mast-title{font-family:'Playfair Display',serif;font-size:clamp(44px,8vw,96px);font-weight:900;line-height:.88;letter-spacing:-.025em;text-transform:uppercase}
@@ -33,14 +25,14 @@ body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Ge
 .mast-rule{height:2px;background:var(--ink);margin:10px 0 8px}
 .mast-sub{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}
 
-/* ── TICKER ──────────────────────────────────────────────────────────────── */
+/* ── TICKER ─────────────────────────────────────────────────────────────── */
 .ticker-bar{background:var(--navy);color:#e8dfc8;padding:7px 0;display:flex;overflow:hidden}
 .ticker-label{background:var(--red);color:white;font-family:'IBM Plex Mono',monospace;font-size:9px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;padding:0 14px;display:flex;align-items:center;white-space:nowrap;flex-shrink:0}
 .ticker-track{overflow:hidden;flex:1;display:flex;align-items:center}
 .ticker-inner{font-family:'IBM Plex Mono',monospace;font-size:10px;white-space:nowrap;animation:tick 70s linear infinite;padding-left:24px}
 @keyframes tick{from{transform:translateX(100vw)}to{transform:translateX(-100%)}}
 
-/* ── CONTROLS ────────────────────────────────────────────────────────────── */
+/* ── CONTROLS ───────────────────────────────────────────────────────────── */
 .controls{background:var(--paper2);border-bottom:1px solid var(--rule);padding:9px var(--pad);display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .ctrl-label{font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);white-space:nowrap}
 .ctrl-group{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
@@ -55,16 +47,14 @@ body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Ge
 .ctrl-search input{font-family:'IBM Plex Mono',monospace;font-size:10px;border:none;background:transparent;color:var(--ink);outline:none;width:140px}
 .ctrl-search input::placeholder{color:var(--muted)}
 
-/* ── COUNT BAR ───────────────────────────────────────────────────────────── */
+/* ── COUNT BAR ──────────────────────────────────────────────────────────── */
 .count-bar{padding:7px var(--pad);font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;border-bottom:1px solid var(--rule);background:var(--paper);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px}
 .last-updated{display:flex;align-items:center;gap:5px}
 .update-dot{width:5px;height:5px;border-radius:50%;background:var(--green);animation:pdot 2.5s ease infinite;flex-shrink:0}
 @keyframes pdot{0%,100%{opacity:1}50%{opacity:.3}}
 
-/* ── GRID WRAPPER ────────────────────────────────────────────────────────── */
+/* ── LAYOUT ─────────────────────────────────────────────────────────────── */
 .grid-wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--pad)}
-
-/* ── HERO ROW ────────────────────────────────────────────────────────────── */
 .hero-row{display:grid;grid-template-columns:1.5fr 1fr;border-bottom:3px double var(--ink)}
 .hero-main{padding:28px 28px 24px 0;border-right:1px solid var(--rule)}
 .hero-side{padding:28px 0 24px 28px}
@@ -72,14 +62,14 @@ body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Ge
 .hero-side p{font-size:13px;line-height:1.65;color:#2a2520}
 .hero-side p.who{font-size:12.5px;font-style:italic;color:var(--muted);line-height:1.6}
 
-/* ── BILL GRID ───────────────────────────────────────────────────────────── */
+/* ── CARD GRID ──────────────────────────────────────────────────────────── */
 .bill-grid{display:grid;grid-template-columns:repeat(3,1fr)}
 .bill-card{padding:20px 20px 16px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);cursor:pointer;transition:background .15s;min-width:0}
 .bill-card:nth-child(3n){border-right:none}
-.bill-card:hover{background:rgba(0,0,0,.025)}
-.bill-card.active{background:#fff;box-shadow:inset 0 0 0 2px var(--ink)}
+.bill-card:hover{background:rgba(0,0,0,.03)}
+.bill-card.active{background:rgba(0,0,0,.03)}
 
-/* ── BILL PARTS ──────────────────────────────────────────────────────────── */
+/* ── BILL PARTS ─────────────────────────────────────────────────────────── */
 .kicker{font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:5px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
 .dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
 .dot.rights{background:var(--red)}.dot.money{background:var(--navy)}.dot.env{background:var(--green)}.dot.social{background:var(--gold)}.dot.other{background:var(--muted)}
@@ -90,14 +80,14 @@ body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Ge
 .hero-main .deck{font-size:14px}
 .bill-card .deck{font-size:12.5px}
 
-/* ── IMPACT TAG ──────────────────────────────────────────────────────────── */
+/* ── IMPACT TAG ─────────────────────────────────────────────────────────── */
 .itag{display:inline-flex;align-items:center;font-family:'IBM Plex Mono',monospace;font-size:8px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:8px;border:1px solid currentColor;overflow:hidden;flex-shrink:0}
 .itag-level{padding:2px 6px}
 .itag-div{width:1px;background:currentColor;opacity:.4;align-self:stretch}
 .itag-cat{padding:2px 6px;opacity:.75}
 .itag.high{color:var(--red)}.itag.medium{color:var(--gold)}.itag.low{color:var(--muted)}
 
-/* ── STATUS PILL ─────────────────────────────────────────────────────────── */
+/* ── STATUS PILL ────────────────────────────────────────────────────────── */
 .spill{font-family:'IBM Plex Mono',monospace;font-size:8px;text-transform:uppercase;letter-spacing:.06em;padding:2px 6px;border-radius:2px;cursor:pointer;display:inline-flex;align-items:center;gap:3px;white-space:nowrap}
 .spill::after{content:'?';font-size:7px;opacity:.6;font-weight:700}
 .spill:hover{filter:brightness(1.1)}
@@ -108,104 +98,119 @@ body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Ge
 .s-signed{background:#166534;color:white}
 .s-vetoed{background:var(--red);color:white}
 
-/* ── DATES ───────────────────────────────────────────────────────────────── */
+/* ── DATES ──────────────────────────────────────────────────────────────── */
 .bill-dates{display:flex;align-items:center;gap:5px;font-family:'IBM Plex Mono',monospace;font-size:8px;color:var(--muted);margin-bottom:7px;flex-wrap:wrap}
 .date-label{opacity:.7;text-transform:uppercase;letter-spacing:.06em}
 .date-val{color:var(--ink)}
 .date-val.signed{color:var(--green);font-weight:500}
 .date-arrow{opacity:.35}
 
-/* ── BYLINE ──────────────────────────────────────────────────────────────── */
+/* ── BYLINE ─────────────────────────────────────────────────────────────── */
 .byline{font-family:'IBM Plex Mono',monospace;font-size:8px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;border-top:1px solid var(--rule);padding-top:8px;margin-top:10px}
 
-/* ── DRAWER ──────────────────────────────────────────────────────────────── */
-/* Drawer lives OUTSIDE the grid, anchored below grid-wrap */
-.drawer-wrap{
-  max-width:var(--wrap);
-  margin:0 auto;
-  padding:0 var(--pad);
+/* ── BILL MODAL ─────────────────────────────────────────────────────────── */
+.bill-modal-overlay{
+  position:fixed;inset:0;
+  background:rgba(10,8,5,.7);
+  z-index:800;
+  display:flex;align-items:center;justify-content:center;
+  padding:24px;
+  animation:fadein .18s ease;
 }
-.drawer{
-  display:none;
-  background:#fff;
-  border:2px solid var(--ink);
-  border-top:3px solid var(--ink);
-  animation:sdown .2s ease;
-  margin-bottom:2px;
-}
-@keyframes sdown{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
-.drawer.open{display:block}
-
-/* Which card is active gets a bottom highlight */
-.bill-card.active{
-  background:#fff;
-  box-shadow:inset 0 -3px 0 var(--ink);
-}
-
-.drawer-inner{
-  display:grid;
-  grid-template-columns:1fr 1fr 1fr;
-  gap:0;
-}
-
-.dsec{padding:28px 28px 24px;border-right:1px solid var(--rule)}
-.dsec:last-child{border-right:none}
-
-.dsec h3{
-  font-family:'IBM Plex Mono',monospace;
-  font-size:9px;
-  text-transform:uppercase;
-  letter-spacing:.14em;
-  color:var(--muted);
-  margin-bottom:12px;
-  padding-bottom:6px;
-  border-bottom:1px solid var(--rule);
-}
-.dsec p{font-size:13.5px;line-height:1.75;color:#2a2520}
-.dsec ul{list-style:none;padding:0}
-.dsec li{
-  font-size:13.5px;
-  line-height:1.65;
-  color:#2a2520;
-  padding-left:18px;
-  position:relative;
-  margin-bottom:10px;
-}
-.dsec li::before{content:'▸';position:absolute;left:0;font-size:11px;top:3px}
-.dsec li.negative::before{color:var(--red)}
-.dsec li.positive::before{color:var(--green)}
-.dsec li.neutral::before{color:var(--gold)}
-
-.bill-detail-grid{
-  display:grid;
-  grid-template-columns:90px 1fr;
-  gap:6px 10px;
-  font-family:'IBM Plex Mono',monospace;
-  font-size:10px;
-  color:var(--muted);
-  line-height:1.6;
-  margin-top:14px;
-}
-.bill-detail-grid strong{color:var(--ink);font-weight:500}
-
-.dclose{
-  font-family:'IBM Plex Mono',monospace;
-  font-size:9px;
-  text-transform:uppercase;
-  letter-spacing:.1em;
-  padding:10px 28px;
-  background:var(--paper2);
-  border-top:1px solid var(--rule);
-  cursor:pointer;
-  color:var(--muted);
-  text-align:right;
-  transition:color .15s;
-}
-.dclose:hover{color:var(--red)}
-
-/* ── PIPELINE OVERLAY ────────────────────────────────────────────────────── */
-.pipeline-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:900;display:flex;align-items:center;justify-content:center;padding:20px;animation:fadein .15s ease}
 @keyframes fadein{from{opacity:0}to{opacity:1}}
+
+.bill-modal{
+  background:var(--paper);
+  border:2px solid var(--ink);
+  width:100%;max-width:860px;
+  max-height:88vh;
+  display:flex;flex-direction:column;
+  animation:modal-up .22s ease;
+  box-shadow:0 20px 60px rgba(0,0,0,.35);
+}
+@keyframes modal-up{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+
+/* Modal header */
+.modal-head{
+  padding:20px 24px 16px;
+  border-bottom:2px solid var(--ink);
+  flex-shrink:0;
+  background:var(--paper);
+  display:flex;align-items:flex-start;justify-content:space-between;gap:16px;
+}
+.modal-head-left{flex:1;min-width:0}
+.modal-kicker{
+  font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;
+  letter-spacing:.14em;color:var(--muted);
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:7px;
+}
+.modal-title{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(18px,2.2vw,24px);
+  font-weight:700;line-height:1.2;color:var(--ink);
+}
+.modal-close{
+  background:none;border:none;
+  font-family:'IBM Plex Mono',monospace;font-size:11px;
+  text-transform:uppercase;letter-spacing:.1em;
+  cursor:pointer;color:var(--muted);
+  flex-shrink:0;padding:2px 0;
+  transition:color .15s;
+  display:flex;align-items:center;gap:5px;
+}
+.modal-close:hover{color:var(--red)}
+
+/* Modal body — scrollable two-column */
+.modal-body{
+  display:grid;
+  grid-template-columns:1.15fr 1fr;
+  overflow-y:auto;
+  flex:1;
+}
+
+/* Left col: summary + impacts */
+.modal-left{
+  padding:24px 28px;
+  border-right:1px solid var(--rule);
+}
+.modal-section-label{
+  font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;
+  letter-spacing:.14em;color:var(--muted);
+  border-bottom:1px solid var(--rule);padding-bottom:6px;margin-bottom:12px;
+}
+.modal-summary{
+  font-size:14px;line-height:1.78;color:#2a2520;
+  margin-bottom:24px;
+}
+.modal-impacts{list-style:none;padding:0;margin:0}
+.modal-impacts li{
+  font-size:13.5px;line-height:1.65;color:#2a2520;
+  padding-left:20px;position:relative;margin-bottom:11px;
+}
+.modal-impacts li::before{content:'▸';position:absolute;left:0;top:3px;font-size:11px}
+.modal-impacts li.negative::before{color:var(--red)}
+.modal-impacts li.positive::before{color:var(--green)}
+.modal-impacts li.neutral::before{color:var(--gold)}
+
+/* Right col: who + details */
+.modal-right{padding:24px 24px 24px 24px}
+.modal-who{
+  font-size:13px;font-style:italic;
+  color:var(--muted);line-height:1.65;
+  margin-bottom:24px;
+}
+.modal-details{
+  display:grid;
+  grid-template-columns:80px 1fr;
+  gap:9px 12px;
+  font-family:'IBM Plex Mono',monospace;
+  font-size:10px;color:var(--muted);line-height:1.5;
+}
+.modal-details strong{color:var(--ink);font-weight:500}
+.modal-details .signed-val{color:var(--green);font-weight:500}
+
+/* ── PIPELINE OVERLAY ───────────────────────────────────────────────────── */
+.pipeline-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:900;display:flex;align-items:center;justify-content:center;padding:20px;animation:fadein .15s ease}
 .pipeline-box{background:var(--paper);border:2px solid var(--ink);max-width:520px;width:100%;max-height:90vh;overflow-y:auto}
 .pipeline-head{padding:18px 20px 14px;border-bottom:2px solid var(--ink);display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
 .pipeline-head h2{font-family:'Playfair Display',serif;font-size:18px;font-weight:700}
@@ -229,30 +234,21 @@ body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Ge
 .step-desc{font-size:12px;line-height:1.55;color:var(--muted)}
 .pipeline-footer{padding:14px 20px;border-top:1px solid var(--rule);font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
 
-/* ── PAGINATION ──────────────────────────────────────────────────────────── */
+/* ── PAGINATION ─────────────────────────────────────────────────────────── */
 .pagination{padding:20px var(--pad);display:flex;align-items:center;gap:10px;border-top:1px solid var(--rule)}
 .pgbtn{padding:5px 14px;border:1px solid var(--rule);background:transparent;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);transition:all .15s}
 .pgbtn:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 .pgbtn:disabled{opacity:.3;cursor:default;pointer-events:none}
 .pginfo{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted)}
 
-/* ── MISC ────────────────────────────────────────────────────────────────── */
+/* ── MISC ───────────────────────────────────────────────────────────────── */
 .loading-msg{font-family:'Playfair Display',serif;font-size:22px;font-style:italic;color:var(--muted);animation:blink 1.4s ease infinite;padding:80px;text-align:center;grid-column:1/-1}
 @keyframes blink{0%,100%{opacity:1}50%{opacity:.35}}
 .error-msg{grid-column:1/-1;padding:60px var(--pad);text-align:center}
 .error-msg h2{font-family:'Playfair Display',serif;font-size:22px;margin-bottom:12px}
 .error-msg p{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted)}
 
-/* ── RESPONSIVE ──────────────────────────────────────────────────────────── */
-
-/* Large desktop: full 3-col */
-@media(min-width:1100px){
-  .bill-grid{grid-template-columns:repeat(3,1fr)}
-  .bill-card:nth-child(3n){border-right:none}
-  .drawer-inner{grid-template-columns:1fr 1fr 1fr}
-}
-
-/* Medium: 2-col cards, hero stacks, drawer 2-col */
+/* ── RESPONSIVE ─────────────────────────────────────────────────────────── */
 @media(max-width:1099px){
   .hero-row{grid-template-columns:1fr}
   .hero-main{border-right:none;border-bottom:2px solid var(--rule);padding-right:0;padding-bottom:20px}
@@ -260,27 +256,23 @@ body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Ge
   .bill-grid{grid-template-columns:repeat(2,1fr)}
   .bill-card:nth-child(3n){border-right:1px solid var(--rule)}
   .bill-card:nth-child(2n){border-right:none}
-  .drawer-inner{grid-template-columns:1fr 1fr}
-  .dsec:nth-child(2){border-right:none}
-  .dsec:nth-child(3){grid-column:1/-1;border-top:1px solid var(--rule);border-right:none}
 }
-
-/* Small tablet / large phone: 1-col everything */
 @media(max-width:700px){
   .bill-grid{grid-template-columns:1fr}
   .bill-card{border-right:none!important}
-  .drawer-inner{grid-template-columns:1fr}
-  .dsec{border-right:none!important;border-top:1px solid var(--rule);padding:20px 16px}
-  .dsec:first-child{border-top:none}
   .controls{gap:6px}
   .ctrl-divider{display:none}
   .ctrl-search{margin-left:0;width:100%}
   .ctrl-search input{width:100%}
   .mast-meta{justify-content:center;text-align:center}
-  .drawer-wrap{padding:0 12px}
+  /* Modal goes full-screen sheet on mobile */
+  .bill-modal-overlay{padding:0;align-items:flex-end}
+  .bill-modal{max-height:92vh;max-width:100%;border-bottom:none}
+  .modal-body{grid-template-columns:1fr}
+  .modal-left{border-right:none;border-bottom:1px solid var(--rule);padding:18px 16px}
+  .modal-right{padding:18px 16px}
+  .modal-head{padding:14px 16px 12px}
 }
-
-/* Mobile */
 @media(max-width:480px){
   .hero-main .headline{font-size:clamp(22px,6vw,30px)}
   .count-bar{flex-direction:column;align-items:flex-start}
@@ -337,8 +329,34 @@ body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Ge
   <div class="hero-row" id="hero"></div>
   <div class="bill-grid" id="grid"><p class="loading-msg">Loading bills…</p></div>
 </div>
-<div class="drawer-wrap"><div id="drawer-mount"></div></div>
 <div class="pagination" id="pgbar" style="display:none"></div>
+
+<!-- BILL DETAIL MODAL -->
+<div class="bill-modal-overlay" id="bill-modal-overlay" style="display:none" onclick="if(event.target===this)closeModal()">
+  <div class="bill-modal" id="bill-modal">
+    <div class="modal-head">
+      <div class="modal-head-left">
+        <div class="modal-kicker" id="modal-kicker"></div>
+        <div class="modal-title" id="modal-title"></div>
+      </div>
+      <button class="modal-close" onclick="closeModal()">✕ Close</button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-left">
+        <div class="modal-section-label">Plain Language Summary</div>
+        <p class="modal-summary" id="modal-summary"></p>
+        <div class="modal-section-label">Direct Impact on Americans</div>
+        <ul class="modal-impacts" id="modal-impacts"></ul>
+      </div>
+      <div class="modal-right">
+        <div class="modal-section-label">Who Is Directly Affected</div>
+        <p class="modal-who" id="modal-who"></p>
+        <div class="modal-section-label">Bill Details</div>
+        <div class="modal-details" id="modal-details"></div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- PIPELINE OVERLAY -->
 <div class="pipeline-overlay" id="pipeline-overlay" style="display:none" onclick="if(event.target===this)closePipeline()">
@@ -360,20 +378,19 @@ body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Ge
 
 <script>
 const CAT_LABEL={rights:'Civil Rights',money:'Economy',env:'Environment',social:'Social Programs',other:'General'};
-
 const STAGES=[
   {key:'s-introduced',label:'Introduced',desc:"A member of Congress formally submits the bill. It's assigned a number and sent to the relevant committee."},
   {key:'s-committee', label:'Committee Review',desc:'A smaller group of lawmakers studies the bill, holds hearings, and can amend or kill it. Most bills die here.'},
-  {key:'s-floor',     label:'Floor Vote',desc:'The full House or Senate debates and votes. Needs a simple majority to advance (218 House / 51 Senate).'},
+  {key:'s-floor',     label:'Floor Vote',desc:'The full House or Senate debates and votes. Needs a simple majority (218 House / 51 Senate) to advance.'},
   {key:'s-passed',    label:'Passed Both Chambers',desc:'The bill has passed both the House and Senate. If versions differ, a conference committee reconciles them.'},
   {key:'s-signed',    label:'Signed into Law',desc:'The President signs the bill and it becomes law. A veto can be overridden by a 2/3 majority in both chambers.'},
 ];
 
 let bills=[], flt='all', srt='recent', page=0, dataUpdatedAt=null;
 const PER=9;
-let activeDrawer=null;
+let currentModal=null;
 
-// ── LOAD DATA ─────────────────────────────────────────────────────────────
+// ── LOAD ─────────────────────────────────────────────────────────────────
 async function loadData(){
   try{
     const r=await fetch('bills.json?t='+Date.now());
@@ -387,52 +404,45 @@ async function loadData(){
     document.getElementById('grid').innerHTML=`
       <div class="error-msg">
         <h2>Data not loaded yet</h2>
-        <p>Go to your repo → Actions tab → run "Update Bills" manually to generate bills.json.</p>
+        <p>Go to your repo → Actions tab → run "Update Bills" manually.</p>
       </div>`;
   }
 }
 
 function buildTicker(items){
   const el=document.getElementById('ticker-text');
-  if(!items.length){
-    el.textContent=bills.slice(0,8).map(b=>`${b.status_label?.toUpperCase()||'ACTIVE'} · ${b.plain_title} — ${b.deck}`).join(' \u00a0·\u00a0 ');
-    return;
-  }
-  el.textContent=items.join(' \u00a0·\u00a0 ');
+  el.textContent=items.length
+    ? items.join(' \u00a0·\u00a0 ')
+    : bills.slice(0,6).map(b=>`${(b.status_label||'').toUpperCase()} · ${b.plain_title||b.title}`).join(' \u00a0·\u00a0 ');
 }
 
-// ── HELPERS ───────────────────────────────────────────────────────────────
+// ── HELPERS ──────────────────────────────────────────────────────────────
 function fmt(d){
   if(!d)return'—';
   const[y,m,day]=d.split('-');
-  const mo=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-  return`${mo[+m-1]} ${+day}, ${y}`;
+  return`${['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][+m-1]} ${+day}, ${y}`;
 }
-
 function fmtUpdated(d){
   if(!d)return'—';
-  const diff=Math.floor((new Date()-d)/1000);
-  if(diff<60)return'Updated just now';
-  if(diff<3600)return`Updated ${Math.floor(diff/60)}m ago`;
-  if(diff<86400)return`Updated ${Math.floor(diff/3600)}h ago`;
+  const s=Math.floor((new Date()-d)/1000);
+  if(s<60)return'Updated just now';
+  if(s<3600)return`Updated ${Math.floor(s/60)}m ago`;
+  if(s<86400)return`Updated ${Math.floor(s/3600)}h ago`;
   return`Updated ${d.toLocaleDateString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})}`;
 }
-
 function itag(il,cat){
-  return`<span class="itag ${il}"><span class="itag-level">⚑ ${(il||'').toUpperCase()} IMPACT</span><span class="itag-div"></span><span class="itag-cat">${CAT_LABEL[cat]||'General'}</span></span>`;
+  return`<span class="itag ${il||'low'}"><span class="itag-level">⚑ ${(il||'').toUpperCase()} IMPACT</span><span class="itag-div"></span><span class="itag-cat">${CAT_LABEL[cat]||'General'}</span></span>`;
 }
-
 function dateLine(dt,sd){
   if(sd)return`<div class="bill-dates"><span class="date-label">Introduced</span><span class="date-val">${fmt(dt)}</span><span class="date-arrow">→</span><span class="date-label">Signed</span><span class="date-val signed">✓ ${fmt(sd)}</span></div>`;
   return`<div class="bill-dates"><span class="date-label">Introduced</span><span class="date-val">${fmt(dt)}</span></div>`;
 }
-
 function spillHtml(stKey,stLabel,billId){
   const safe=(billId||'').replace(/['"]/g,'');
-  return`<span class="spill ${stKey}" onclick="event.stopPropagation();openPipeline('${safe}','${stKey}',event)">${stLabel||stKey}</span>`;
+  return`<span class="spill ${stKey||'s-introduced'}" onclick="event.stopPropagation();openPipeline('${safe}','${stKey}',event)">${stLabel||'Active'}</span>`;
 }
 
-// ── PIPELINE ──────────────────────────────────────────────────────────────
+// ── PIPELINE ─────────────────────────────────────────────────────────────
 function openPipeline(billId,currentStage,event){
   if(event)event.stopPropagation();
   document.getElementById('pipeline-bill-id').textContent=billId;
@@ -453,50 +463,87 @@ function openPipeline(billId,currentStage,event){
   document.getElementById('pipeline-overlay').style.display='flex';
   document.body.style.overflow='hidden';
 }
-
 function closePipeline(){
   document.getElementById('pipeline-overlay').style.display='none';
   document.body.style.overflow='';
 }
-document.addEventListener('keydown',e=>{if(e.key==='Escape')closePipeline();});
+
+// ── BILL MODAL ────────────────────────────────────────────────────────────
+function openModal(b){
+  currentModal=b;
+
+  // Kicker
+  document.getElementById('modal-kicker').innerHTML=`
+    <span class="dot ${b.category||'other'}"></span>
+    <span>${b.id}</span>
+    ${spillHtml(b.status,b.status_label,b.id)}
+    ${b.signed_date?`<span style="color:var(--green);font-size:9px">✓ Signed ${fmt(b.signed_date)}</span>`:''}
+  `;
+
+  // Title
+  document.getElementById('modal-title').textContent=b.plain_title||b.title||'—';
+
+  // Summary
+  document.getElementById('modal-summary').textContent=b.plain_summary||'Analysis pending — will be generated on next update.';
+
+  // Impacts
+  const impacts=b.impacts||[];
+  document.getElementById('modal-impacts').innerHTML=impacts.length
+    ? impacts.map(i=>`<li class="${i.type||'neutral'}">${i.text||''}</li>`).join('')
+    : '<li class="neutral">Analysis pending.</li>';
+
+  // Who
+  document.getElementById('modal-who').textContent=b.who_affected||'—';
+
+  // Details
+  document.getElementById('modal-details').innerHTML=`
+    <strong>Bill ID</strong><span>${b.id||'—'}</span>
+    <strong>Category</strong><span>${CAT_LABEL[b.category]||'General'}</span>
+    <strong>Sponsor</strong><span>${b.sponsor||'—'}</span>
+    <strong>Introduced</strong><span>${fmt(b.intro_date)}</span>
+    ${b.signed_date?`<strong>Signed</strong><span class="signed-val">✓ ${fmt(b.signed_date)}</span>`:''}
+    <strong>Status</strong><span>${spillHtml(b.status,b.status_label,b.id)}</span>
+  `;
+
+  document.getElementById('bill-modal-overlay').style.display='flex';
+  document.body.style.overflow='hidden';
+}
+
+function closeModal(){
+  document.getElementById('bill-modal-overlay').style.display='none';
+  document.body.style.overflow='';
+  currentModal=null;
+}
+
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape'){closeModal();closePipeline();}
+});
 
 // ── FILTER / SORT ─────────────────────────────────────────────────────────
 function latestDate(b){
-  // For "most recent" sort: use whichever date is newest — signed or intro
   const dates=[b.intro_date,b.signed_date].filter(Boolean);
   return dates.length?new Date(Math.max(...dates.map(d=>new Date(d)))):new Date(0);
 }
-
 function getFiltered(){
   const q=(document.getElementById('qinput')?.value||'').toLowerCase();
   let list=bills.filter(b=>{
     const cOk=flt==='all'||b.category===flt;
-    const qOk=!q||
-      (b.plain_title||'').toLowerCase().includes(q)||
-      (b.deck||'').toLowerCase().includes(q)||
-      (b.id||'').toLowerCase().includes(q);
+    const qOk=!q||(b.plain_title||'').toLowerCase().includes(q)||(b.deck||'').toLowerCase().includes(q)||(b.id||'').toLowerCase().includes(q);
     return cOk&&qOk;
   });
-
-  if(srt==='recent'){
-    // Sort by most recent activity — signed date beats intro date
-    list.sort((a,b)=>latestDate(b)-latestDate(a));
-  } else if(srt==='impact'){
-    list.sort((a,b)=>(b.impact_score||0)-(a.impact_score||0));
-  } else if(srt==='signed'){
-    list.sort((a,b)=>{
-      if(a.signed_date&&!b.signed_date)return -1;
-      if(!a.signed_date&&b.signed_date)return 1;
-      if(a.signed_date&&b.signed_date)return new Date(b.signed_date)-new Date(a.signed_date);
-      return new Date(b.intro_date||0)-new Date(a.intro_date||0);
-    });
-  }
+  if(srt==='recent')     list.sort((a,b)=>latestDate(b)-latestDate(a));
+  else if(srt==='impact')list.sort((a,b)=>(b.impact_score||0)-(a.impact_score||0));
+  else if(srt==='signed')list.sort((a,b)=>{
+    if(a.signed_date&&!b.signed_date)return -1;if(!a.signed_date&&b.signed_date)return 1;
+    if(a.signed_date&&b.signed_date)return new Date(b.signed_date)-new Date(a.signed_date);
+    return new Date(b.intro_date||0)-new Date(a.intro_date||0);
+  });
   return list;
 }
 
 // ── RENDER ────────────────────────────────────────────────────────────────
 function renderAll(){
-  closeDrawer();
+  closeModal();
   const filtered=getFiltered();
   const sortLabel={recent:'Most Recent',impact:'Highest Impact',signed:'Signed Laws First'}[srt];
   document.getElementById('count-text').textContent=`${filtered.length} bill${filtered.length!==1?'s':''} · 119th Congress (Trump 2nd Term) · ${sortLabel}`;
@@ -509,12 +556,10 @@ function renderAll(){
     return;
   }
 
-  const start=page*PER;
-  const slice=filtered.slice(start,start+PER);
-  const [hero,...rest]=slice;
+  const start=page*PER,slice=filtered.slice(start,start+PER),[hero,...rest]=slice;
 
   document.getElementById('hero').innerHTML=`
-    <div class="hero-main">
+    <div class="hero-main" style="cursor:pointer" onclick="openModal(${JSON.stringify(hero).replace(/"/g,'&quot;')})">
       <div class="kicker"><span class="dot ${hero.category||'other'}"></span><span>${hero.id}</span>${spillHtml(hero.status,hero.status_label,hero.id)}</div>
       ${dateLine(hero.intro_date,hero.signed_date)}
       <div class="headline">${hero.plain_title||hero.title||'—'}</div>
@@ -547,13 +592,12 @@ function renderAll(){
       <div class="byline">${b.sponsor||''}</div>`;
     c.addEventListener('click',e=>{
       if(e.target.closest('.spill'))return;
-      toggleDrawer(b,c);
+      openModal(b);
     });
     grid.appendChild(c);
   });
 
-  const total=Math.ceil(filtered.length/PER);
-  const pg=document.getElementById('pgbar');
+  const total=Math.ceil(filtered.length/PER),pg=document.getElementById('pgbar');
   if(total<=1){pg.style.display='none';return;}
   pg.style.display='flex';
   pg.innerHTML=`
@@ -564,70 +608,8 @@ function renderAll(){
 
 function goPage(n){page=n;renderAll();window.scrollTo({top:0,behavior:'smooth'});}
 
-// ── DRAWER ────────────────────────────────────────────────────────────────
-function closeDrawer(){
-  if(activeDrawer){
-    const mount=document.getElementById('drawer-mount');
-    mount.innerHTML='';
-    activeDrawer.card.classList.remove('active');
-    activeDrawer=null;
-  }
-}
-
-function toggleDrawer(b,card){
-  if(activeDrawer&&activeDrawer.card===card){closeDrawer();return;}
-  closeDrawer();
-
-  card.classList.add('active');
-
-  const mount=document.getElementById('drawer-mount');
-  const d=document.createElement('div');
-  d.className='drawer open';
-  d.innerHTML=`
-    <div class="drawer-inner">
-      <div class="dsec">
-        <h3>Plain Language Summary</h3>
-        <p>${b.plain_summary||'Analysis pending — will be generated on next update.'}</p>
-      </div>
-      <div class="dsec">
-        <h3>Direct Impact on Americans</h3>
-        <ul>${(b.impacts||[]).map(i=>`<li class="${i.type||'neutral'}">${i.text||''}</li>`).join('')||'<li class="neutral">Analysis pending.</li>'}</ul>
-      </div>
-      <div class="dsec">
-        <h3>Who Is Directly Affected</h3>
-        <p style="font-style:italic;margin-bottom:16px">${b.who_affected||'—'}</p>
-        <h3>Bill Details</h3>
-        <div class="bill-detail-grid">
-          <strong>Bill ID</strong><span>${b.id||'—'}</span>
-          <strong>Category</strong><span>${CAT_LABEL[b.category]||'General'}</span>
-          <strong>Sponsor</strong><span>${b.sponsor||'—'}</span>
-          <strong>Introduced</strong><span>${fmt(b.intro_date)}</span>
-          ${b.signed_date?`<strong>Signed</strong><span style="color:var(--green)">✓ ${fmt(b.signed_date)}</span>`:''}
-          <strong>Status</strong><span>${spillHtml(b.status,b.status_label,b.id)}</span>
-        </div>
-      </div>
-    </div>
-    <div class="dclose" onclick="closeDrawer()">↑ Collapse Analysis</div>`;
-
-  mount.appendChild(d);
-  activeDrawer={el:d,card:card};
-
-  // Scroll drawer into view
-  setTimeout(()=>{
-    d.scrollIntoView({behavior:'smooth',block:'nearest'});
-  },50);
-}
-
-// ── CONTROLS ──────────────────────────────────────────────────────────────
-function setFilter(btn,f){
-  document.querySelectorAll('[data-f]').forEach(b=>b.classList.remove('on'));
-  btn.classList.add('on');flt=f;page=0;renderAll();
-}
-function setSort(s){
-  srt=s;page=0;
-  ['recent','impact','signed'].forEach(k=>document.getElementById('s-'+k)?.classList.toggle('on',k===s));
-  renderAll();
-}
+function setFilter(btn,f){document.querySelectorAll('[data-f]').forEach(b=>b.classList.remove('on'));btn.classList.add('on');flt=f;page=0;renderAll();}
+function setSort(s){srt=s;page=0;['recent','impact','signed'].forEach(k=>document.getElementById('s-'+k)?.classList.toggle('on',k===s));renderAll();}
 
 // ── INIT ──────────────────────────────────────────────────────────────────
 setInterval(()=>{document.getElementById('last-updated-text').textContent=fmtUpdated(dataUpdatedAt);},60000);
