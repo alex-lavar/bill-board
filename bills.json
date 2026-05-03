@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-02T07:51:55.580730Z",
+  "updated_at": "2026-05-03T08:08:08.914198Z",
   "congress": 119,
-  "total": 1545,
+  "total": 1587,
   "ticker": [
     "✅ SIGNED · Laken Riley Act — ICE must detain undocumented immigrants charged with theft, no conviction needed",
     "🚨 Signed into law: Major tax cuts and social program reductions affecting millions",
@@ -1590,6 +1590,68 @@
       "signed_date": null,
       "sponsor": "See Congress.gov",
       "ticker_alert": "⚡ House bill would expand offshore drilling and federal land energy leasing nationwide"
+    },
+    {
+      "id": "HR 4823",
+      "title": "Promoting Free and Fair Elections Act of 2025",
+      "plain_title": "Election Integrity and Voter Verification Reform Act",
+      "deck": "This bill sets new rules for federal elections, including voter ID and citizenship verification requirements.",
+      "plain_summary": "The Promoting Free and Fair Elections Act of 2025 (HR 4823) proposes changes to how federal elections are conducted, including requirements to verify voter citizenship and strengthen identification rules. The bill was introduced in the House and has been referred to multiple committees, including House Administration and the Judiciary, for review. It has not yet been voted on and is in the early stages of the legislative process.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics say stricter ID and citizenship verification requirements could disenfranchise eligible voters, including elderly, low-income, and minority Americans who lack certain documents."
+        },
+        {
+          "type": "positive",
+          "text": "Supporters argue the bill would increase confidence in election results by ensuring only eligible citizens cast ballots in federal elections."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill involves multiple federal agencies and committees, meaning its final form, cost to states, and implementation timeline are still uncertain and subject to negotiation."
+        }
+      ],
+      "who_affected": "Registered voters, unregistered eligible voters, state election officials, local election administrators, naturalized citizens, low-income Americans, racial and ethnic minorities",
+      "category": "rights",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 4,
+      "impact_label": "high",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🗳️ New bill proposes federal voter ID and citizenship verification rules for elections"
+    },
+    {
+      "id": "HR 6544",
+      "title": "REVIEW Act of 2025",
+      "plain_title": "Require Review of Major Federal Regulations Before They Take Effect",
+      "deck": "This bill would require Congress to approve major federal regulations before they can become enforceable law.",
+      "plain_summary": "The REVIEW Act of 2025 (HR 6544) would require that any major federal regulation — generally those costing the economy $100 million or more annually — cannot take effect until Congress explicitly votes to approve it. This gives Congress a direct check on executive branch rulemaking by federal agencies. The bill has been placed on the Union Calendar, meaning it has passed committee and is awaiting a full House vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Important consumer, environmental, and safety rules could be delayed or blocked indefinitely if Congress fails to act on agency regulations in time."
+        },
+        {
+          "type": "positive",
+          "text": "Americans gain stronger democratic oversight of costly federal rules, since elected representatives — not unelected agency officials — would have final say on major regulations."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill shifts power from the executive branch to Congress, a change that supporters call restoring balance and critics call gridlock-inducing given Congress's busy legislative schedule."
+        }
+      ],
+      "who_affected": "Small and large businesses subject to federal regulations, consumers protected by agency rules, environmental advocates, workers covered by labor regulations, federal agency employees, members of Congress",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 4,
+      "impact_label": "high",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "⚖️ House bill would force Congress to vote before major federal rules take effect"
     },
     {
       "id": "H.R.3322",
@@ -4175,8 +4237,8 @@
       ],
       "who_affected": "Federal contractor employees, federal subcontractor employees, grant recipients, taxpayers, federal agencies, private defense and government service companies",
       "category": "other",
-      "status": "s-floor",
-      "status_label": "Passed Chamber",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 3,
       "impact_label": "medium",
       "intro_date": "",
@@ -4206,8 +4268,8 @@
       ],
       "who_affected": "Small business owners who received SBA pandemic loans, federal fraud investigators, taxpayers, defense attorneys, PPP and EIDL loan recipients",
       "category": "other",
-      "status": "s-floor",
-      "status_label": "Passed Chamber",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 3,
       "impact_label": "medium",
       "intro_date": "",
@@ -4237,8 +4299,8 @@
       ],
       "who_affected": "Residents near oil and gas pipelines, pipeline companies and workers, energy consumers, environmental advocates, emergency first responders, rural and suburban landowners",
       "category": "other",
-      "status": "s-floor",
-      "status_label": "Passed Chamber",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 3,
       "impact_label": "medium",
       "intro_date": "",
@@ -5609,6 +5671,688 @@
       "signed_date": null,
       "sponsor": "See Congress.gov",
       "ticker_alert": "🏷️ Senate bill would require labels on lab-grown and gene-edited foods"
+    },
+    {
+      "id": "HR 6546",
+      "title": "Merger Process Review Act",
+      "plain_title": "Review How Government Approves or Blocks Corporate Mergers",
+      "deck": "This bill would study and potentially reform the federal process for reviewing corporate mergers and acquisitions.",
+      "plain_summary": "The Merger Process Review Act directs a review of how federal agencies currently evaluate proposed corporate mergers to determine if the process is fair, efficient, and transparent. It examines whether companies seeking to merge face unclear rules or inconsistent enforcement from agencies like the FTC and DOJ. The bill has been placed on the Union Calendar, meaning it is eligible for a full House vote but has not yet passed.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics worry the review could be used to weaken merger oversight, allowing monopolies that raise prices for consumers."
+        },
+        {
+          "type": "positive",
+          "text": "Supporters say clearer merger rules could reduce costly legal uncertainty for businesses and potentially encourage investment and job creation."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill's outcome depends entirely on what the review recommends — it could lead to stronger or weaker antitrust enforcement."
+        }
+      ],
+      "who_affected": "Corporate executives, antitrust lawyers, small business competitors, consumers buying goods from merging industries, investors, federal regulators",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "📋 Congress may reform how feds approve or block corporate mergers"
+    },
+    {
+      "id": "HR 940",
+      "title": "FAIR Exams Act",
+      "plain_title": "Allow Private Exam Centers to Compete with College Board",
+      "deck": "This bill lets independent testing centers administer AP exams, breaking College Board's monopoly on Advanced Placement testing.",
+      "plain_summary": "The FAIR Exams Act would require the College Board to allow third-party, non-school testing centers to administer Advanced Placement (AP) exams, not just schools. This would give students more options for where and when they take AP tests. The bill has been placed on the Union Calendar, meaning it has passed committee review and is awaiting a full House vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics worry that loosening College Board oversight of testing sites could increase cheating risks or inconsistent testing conditions, potentially undermining AP exam credibility."
+        },
+        {
+          "type": "positive",
+          "text": "Students without access to AP courses at their schools — including homeschooled or rural students — could more easily access affordable AP testing at nearby independent centers."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill shifts control over exam site approval away from the College Board, a private nonprofit, which could spark legal or contractual disputes over who sets quality standards."
+        }
+      ],
+      "who_affected": "High school students, homeschooled students, rural students, College Board, private tutoring and test prep centers, K-12 schools",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "📋 FAIR Exams Act would open AP testing beyond school campuses nationwide"
+    },
+    {
+      "id": "HR 4460",
+      "title": "SAFE Guidance Act",
+      "plain_title": "Require Congress Approval for Major Federal Agency Guidance",
+      "deck": "This bill would require Congress to approve major federal agency guidance documents before they take effect.",
+      "plain_summary": "The SAFE Guidance Act would require federal agencies to submit significant guidance documents to Congress for review and approval before those guidelines can be enforced. Guidance documents are instructions agencies issue to explain how they interpret laws and regulations, and critics argue agencies sometimes use them to create new rules without going through the normal public comment process. The bill has been placed on the Union Calendar, meaning it has passed committee and is awaiting a full House vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Could slow down important public health, safety, or environmental protections if Congress delays approving agency guidance"
+        },
+        {
+          "type": "positive",
+          "text": "Businesses and individuals would have more democratic oversight and predictability over rules that affect them before enforcement begins"
+        },
+        {
+          "type": "neutral",
+          "text": "The definition of what counts as a 'significant' guidance document subject to review remains a contested and debated threshold"
+        }
+      ],
+      "who_affected": "Small business owners, corporations subject to federal regulation, environmental advocates, public health officials, federal agency employees, lawmakers and their staff",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "📋 Bill would give Congress veto power over major federal agency guidance rules"
+    },
+    {
+      "id": "HR 6556",
+      "title": "Failing Bank Acquisition Fairness Act",
+      "plain_title": "Fair Rules for Buying Failing Banks",
+      "deck": "This bill sets new rules for how the government handles sales of failing banks to private buyers.",
+      "plain_summary": "The Failing Bank Acquisition Fairness Act would change the process the FDIC uses when selling a failing bank, requiring more transparency and competitive bidding to prevent large banks from getting unfair advantages when buying collapsed rivals. It was placed on the Union Calendar, meaning it has cleared committee and is awaiting a full House vote. The bill responds to concerns raised after high-profile bank failures in 2023, where critics argued the acquisition process favored big banks over smaller competitors.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Could slow down emergency bank rescues if stricter bidding rules delay deals during financial crises, potentially increasing risks to depositors."
+        },
+        {
+          "type": "positive",
+          "text": "More competitive bidding for failing banks could reduce costs to the FDIC's deposit insurance fund, which ultimately protects taxpayers and depositors."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill could reshape which types of financial institutions are able to acquire failing banks, shifting market power in ways that are debated by economists."
+        }
+      ],
+      "who_affected": "Bank depositors, small and regional banks, large national banks, FDIC regulators, taxpayers who back deposit insurance",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏦 House bill seeks fairer rules when government sells failing banks"
+    },
+    {
+      "id": "HR 3234",
+      "title": "Keeping Deposits Local Act",
+      "plain_title": "Keep Bank Deposits in Local Communities Act",
+      "deck": "Requires banks to reinvest a portion of deposits back into the local communities where those deposits were collected.",
+      "plain_summary": "The Keeping Deposits Local Act would require banks and financial institutions to reinvest a set percentage of deposits into the communities where customers made those deposits, rather than funneling money to distant markets. This bill aims to ensure that community savings stay accessible for local lending, small business loans, and neighborhood development. It has been placed on the Union Calendar, meaning it has passed committee and is eligible for a full House vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Banks may face higher compliance costs, potentially leading to reduced interest rates on savings accounts or higher loan fees for customers."
+        },
+        {
+          "type": "positive",
+          "text": "Residents in underserved or rural communities could gain better access to local loans and credit that might otherwise flow to wealthier markets."
+        },
+        {
+          "type": "neutral",
+          "text": "How 'local' reinvestment is defined and enforced remains contested, with ongoing debate about whether geographic deposit-matching truly improves community economic outcomes."
+        }
+      ],
+      "who_affected": "Community bank customers, small business owners, rural residents, low-income neighborhoods, large national banks, mortgage borrowers",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏦 New bill would force banks to reinvest deposits in local communities"
+    },
+    {
+      "id": "HR 6553",
+      "title": "TIER Act of 2025",
+      "plain_title": "Tax Incentives for Employee Retirement Savings Act",
+      "deck": "This bill would expand tax benefits for employer-sponsored retirement plans to encourage more workplace savings.",
+      "plain_summary": "The TIER Act of 2025 (HR 6553) proposes changes to tax incentives related to employer-provided retirement plans, aiming to make it easier and more attractive for businesses to offer retirement benefits to workers. The bill has been placed on the Union Calendar, meaning it has cleared committee and is awaiting a full House vote. Details on the specific sponsor are available on Congress.gov, but the bill reflects ongoing congressional efforts to strengthen retirement security for American workers.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Tax incentives for employers could reduce federal revenue, potentially requiring spending cuts or tax increases elsewhere to offset the cost."
+        },
+        {
+          "type": "positive",
+          "text": "Workers at small and mid-sized businesses may gain access to better employer-sponsored retirement plans, boosting long-term savings security."
+        },
+        {
+          "type": "neutral",
+          "text": "Critics debate whether tax incentives primarily benefit higher-income workers and larger businesses rather than lower-wage employees who need retirement support most."
+        }
+      ],
+      "who_affected": "Private-sector employees, small business owners, self-employed workers, retirement plan administrators, lower-income workers without current retirement benefits",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "💼 TIER Act advances in House, targeting expanded workplace retirement savings incentives"
+    },
+    {
+      "id": "HR 478",
+      "title": "Promoting New Bank Formation Act",
+      "plain_title": "Make It Easier to Start New Banks",
+      "deck": "This bill reduces regulatory burdens to encourage the creation of new community and small banks across the U.S.",
+      "plain_summary": "The Promoting New Bank Formation Act (HR 478) aims to make it easier and less costly to open new banks in the United States by easing certain federal regulatory requirements that critics say have discouraged new bank formation since the 2008 financial crisis. The number of new bank applications has dropped dramatically in recent decades, and supporters argue this bill would help restore competition and expand access to credit, especially in underserved communities. The bill has been placed on the Union Calendar, meaning it has cleared committee and is awaiting a full House vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Loosening startup requirements for new banks could increase the risk of bank failures, potentially exposing depositors and taxpayers to financial losses."
+        },
+        {
+          "type": "positive",
+          "text": "More new banks could mean greater access to loans and financial services for small businesses and residents in rural or underserved communities."
+        },
+        {
+          "type": "neutral",
+          "text": "Whether reduced regulatory barriers will actually lead to meaningful new bank formation — or simply lower safety standards — is actively debated among economists and banking experts."
+        }
+      ],
+      "who_affected": "Small business owners, rural and underserved community residents, prospective bank founders, existing community banks, bank regulators, investors",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏦 House bill seeks to lower barriers for starting new community banks"
+    },
+    {
+      "id": "HR 3161",
+      "title": "Preventing Environmental Hazards Act of 2025",
+      "plain_title": "Bill to Reduce Environmental Hazard Financial Risks",
+      "deck": "This bill would require financial institutions to account for environmental hazard risks in their lending and investment decisions.",
+      "plain_summary": "The Preventing Environmental Hazards Act of 2025 (HR 3161) would direct financial regulators and institutions to consider environmental hazard risks — such as pollution or toxic exposure — when making loans or investments. The bill has been referred to the House Committee on Financial Services, meaning it is in the early stages of the legislative process. Sponsor information is available on Congress.gov, and the bill has not yet moved to a full House vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Banks and lenders may face new compliance costs, potentially making loans harder or more expensive to obtain in affected areas"
+        },
+        {
+          "type": "positive",
+          "text": "Communities near environmental hazards could gain stronger financial protections and clearer risk disclosures from lenders"
+        },
+        {
+          "type": "neutral",
+          "text": "How 'environmental hazard' is defined in practice will significantly shape which industries and regions are most affected"
+        }
+      ],
+      "who_affected": "Homebuyers near industrial sites, small business owners, banks and lenders, real estate investors, residents of low-income or environmentally burdened communities",
+      "category": "env",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🌿 New bill would require banks to factor environmental hazards into lending decisions"
+    },
+    {
+      "id": "HR 6570",
+      "title": "Merger Agreement Approvals Clarity and Predictability Act",
+      "plain_title": "Clearer Rules for Corporate Merger Vote Approvals",
+      "deck": "This bill sets clear federal standards for how shareholders must approve major company mergers and acquisitions.",
+      "plain_summary": "This bill clarifies the legal rules governing how shareholder votes on corporate mergers and acquisitions must be conducted and approved. It aims to reduce legal uncertainty and costly litigation by standardizing when a merger agreement is considered properly approved. The bill has been placed on the Union Calendar, meaning it has passed committee review and awaits a full House vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Could make it harder for shareholders to challenge merger deals they believe undervalue their stock or harm their interests"
+        },
+        {
+          "type": "positive",
+          "text": "Reduces expensive legal battles over merger approvals, potentially lowering costs that companies pass on to investors and consumers"
+        },
+        {
+          "type": "neutral",
+          "text": "Shifts some authority over merger approval standards from state courts, like Delaware's, to a federal framework, altering long-standing corporate law traditions"
+        }
+      ],
+      "who_affected": "Corporate shareholders, public company executives and boards, mergers and acquisitions lawyers, institutional investors, pension fund managers",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "📋 House bill would standardize corporate merger shareholder approval rules nationwide"
+    },
+    {
+      "id": "HR 6555",
+      "title": "Enhancing Bank Resolution Participation Act",
+      "plain_title": "Bank Failure Resolution Process Transparency Act",
+      "deck": "Requires federal regulators to include more private-sector experts when planning how to handle large bank failures.",
+      "plain_summary": "This bill requires federal banking regulators to expand who participates in planning for the orderly wind-down of large, failing banks. It would bring in private-sector financial experts alongside government officials in the resolution planning process. The bill has passed committee review and is awaiting a full House vote, having been placed on the Union Calendar.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics warn private-sector participants in bank resolution planning could face conflicts of interest, potentially benefiting certain Wall Street firms over ordinary depositors."
+        },
+        {
+          "type": "positive",
+          "text": "Broader expert involvement could lead to better, faster plans for handling bank failures, potentially protecting taxpayers and account holders from costly bailouts."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill shifts some oversight influence from career government regulators to outside financial industry experts, changing who shapes bank failure policy."
+        }
+      ],
+      "who_affected": "Bank customers and depositors, large financial institutions, federal banking regulators, taxpayers, Wall Street firms",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏦 House bill would add private experts to big-bank failure planning process"
+    },
+    {
+      "id": "HR 5317",
+      "title": "Community Bank Deposit Access Act of 2025",
+      "plain_title": "Helping Community Banks Access Federal Deposit Insurance",
+      "deck": "This bill makes it easier for small community banks to offer federally insured deposits to customers.",
+      "plain_summary": "The Community Bank Deposit Access Act of 2025 (HR 5317) aims to improve how community banks can access and offer deposit programs backed by federal insurance, potentially allowing them to hold more insured deposits for their customers. The bill has been placed on the Union Calendar, meaning it has passed committee review and is awaiting a full House vote. It targets the competitive disadvantage smaller community banks face compared to larger financial institutions when it comes to deposit insurance programs.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics warn it could increase taxpayer exposure to risk if community banks expand insured deposits beyond their financial capacity to manage safely."
+        },
+        {
+          "type": "positive",
+          "text": "Customers at small community banks could gain access to higher levels of federally insured deposit protection, making their savings safer."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill shifts how deposit insurance access is structured for community banks, but the full competitive effects on large versus small banks remain debated."
+        }
+      ],
+      "who_affected": "Community bank customers, small and community bank owners, rural Americans who rely on local banks, small business depositors",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏦 Community Bank Bill advances to House floor vote — depositor protections at stake"
+    },
+    {
+      "id": "HR 7056",
+      "title": "Community Bank Regulatory Tailoring Act",
+      "plain_title": "Reduce Red Tape for Small Community Banks",
+      "deck": "This bill would ease federal regulations on small community banks to reduce their compliance costs.",
+      "plain_summary": "The Community Bank Regulatory Tailoring Act would adjust federal banking rules to be less burdensome on smaller community banks, recognizing that one-size-fits-all regulations designed for giant banks can be costly for local institutions. The bill aims to scale regulatory requirements based on a bank's size and risk level. It has passed committee review and is awaiting a full House vote, having been placed on the Union Calendar.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Looser oversight of community banks could increase risk of bank failures, potentially harming local depositors and small business borrowers."
+        },
+        {
+          "type": "positive",
+          "text": "Community banks may lower fees and offer more loans to local residents and small businesses if compliance costs are reduced."
+        },
+        {
+          "type": "neutral",
+          "text": "Debate continues over whether current regulations are genuinely excessive for small banks or serve as necessary consumer protections."
+        }
+      ],
+      "who_affected": "Community bank customers, small business owners, rural residents, community bank employees, local homebuyers seeking mortgages",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏦 House bill would cut red tape for local community banks nationwide"
+    },
+    {
+      "id": "HR 5913",
+      "title": "Community Investment and Prosperity Act",
+      "plain_title": "Tax Credits for Community Development Financial Institutions",
+      "deck": "Creates tax incentives to encourage investment in underserved and low-income communities through community lenders.",
+      "plain_summary": "This bill would establish new tax credits to attract private investment into Community Development Financial Institutions (CDFIs), which are specialized lenders that serve low-income and underserved areas. The goal is to boost economic activity in communities that traditional banks often overlook. The bill has been referred to the House Committee on Financial Services, meaning it is in the early stages of the legislative process.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Tax credits reduce federal revenue, potentially adding to the deficit or offsetting funding from other programs"
+        },
+        {
+          "type": "positive",
+          "text": "Low-income residents in underserved communities could gain greater access to affordable loans, small business funding, and homeownership opportunities"
+        },
+        {
+          "type": "neutral",
+          "text": "Effectiveness depends on whether private investors actually redirect capital to targeted communities or claim credits for investments they would have made anyway"
+        }
+      ],
+      "who_affected": "Low-income residents, small business owners in underserved areas, community development lenders, private investors, rural communities, minority communities",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "💰 Bill would create new tax credits to boost lending in underserved communities"
+    },
+    {
+      "id": "HR 3446",
+      "title": "FDIC Board Accountability Act",
+      "plain_title": "Reform How FDIC Board Members Are Held Accountable",
+      "deck": "This bill changes rules for removing FDIC board members and requires more transparency from the agency.",
+      "plain_summary": "The FDIC Board Accountability Act would change the rules around how members of the Federal Deposit Insurance Corporation's board can be removed and would require more congressional oversight of the agency. The FDIC is the government body that insures American bank deposits up to $250,000. The bill has been placed on the Union Calendar, meaning it has passed committee review and is eligible for a House floor vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Could make the FDIC more politically vulnerable if board removal becomes easier, potentially weakening independent banking oversight"
+        },
+        {
+          "type": "positive",
+          "text": "Increases accountability and transparency at a powerful financial regulator that protects everyday Americans' bank deposits"
+        },
+        {
+          "type": "neutral",
+          "text": "Shifts the balance of power between Congress and independent regulatory agencies, a long-debated constitutional question"
+        }
+      ],
+      "who_affected": "Bank depositors, commercial banks, community banks, FDIC employees, financial regulators, Congress",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏦 House bill would reform oversight rules for the agency protecting your bank deposits"
+    },
+    {
+      "id": "HR 6552",
+      "title": "Bank-Fintech Partnership Enhancement Act",
+      "plain_title": "Rules for Banks Partnering with Financial Technology Companies",
+      "deck": "Sets federal standards for how traditional banks can work with fintech companies to offer financial products.",
+      "plain_summary": "This bill creates clearer rules for partnerships between traditional banks and financial technology (fintech) companies, such as when a bank teams up with an app to offer loans or savings accounts. It aims to define who is responsible for following banking laws when banks and fintechs collaborate. The bill has passed committee and is awaiting a vote by the full House of Representatives.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics warn looser fintech-bank partnerships could expose consumers to less oversight, increasing risks of predatory lending or data misuse."
+        },
+        {
+          "type": "positive",
+          "text": "More Americans, including those in underserved communities, could gain access to innovative financial products through expanded bank-fintech partnerships."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill shifts some regulatory responsibility between banks and their fintech partners, which may change how disputes over fees or errors are resolved."
+        }
+      ],
+      "who_affected": "Bank customers, fintech app users, small community banks, fintech startups, underbanked Americans, financial regulators",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏦 Congress moves to set rules for bank-fintech company partnerships nationwide"
+    },
+    {
+      "id": "S 2155",
+      "title": "Keeping Gun Dealers Honest Act of 2025",
+      "plain_title": "Gun Dealer Compliance and Accountability Act",
+      "deck": "This bill would increase penalties and oversight for licensed gun dealers who break federal firearms laws.",
+      "plain_summary": "The Keeping Gun Dealers Honest Act of 2025 would strengthen enforcement against federally licensed firearms dealers who violate existing gun sale rules, such as failing to conduct background checks or falsifying records. It was introduced in the U.S. Senate and has been referred to the Senate Judiciary Committee, meaning it has not yet received a vote. The bill aims to close gaps in how the ATF monitors and penalizes gun dealers who repeatedly break the law.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Small, independent gun shop owners could face harsher penalties or license revocation for administrative errors that critics say are minor or unintentional."
+        },
+        {
+          "type": "positive",
+          "text": "Stricter dealer accountability could reduce illegal gun sales and straw purchases, potentially keeping more firearms out of criminal hands."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill's effectiveness depends heavily on ATF enforcement resources and how broadly 'violations' are defined and prosecuted in practice."
+        }
+      ],
+      "who_affected": "Licensed gun dealers, gun buyers, gun shop employees, law enforcement agencies, ATF inspectors, Second Amendment advocacy groups",
+      "category": "rights",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🔫 Senate bill targets gun dealers who break federal firearms sales laws"
+    },
+    {
+      "id": "HR 5276",
+      "title": "Community Bank LIFT Act",
+      "plain_title": "Tax Relief for Small Community Banks",
+      "deck": "This bill lets small community banks deduct more loan losses from their taxes, freeing up money to lend locally.",
+      "plain_summary": "The Community Bank LIFT Act would allow small community banks to use a more favorable accounting method for deducting loan losses on their taxes, reducing their tax burden and potentially freeing up more capital for local lending. The bill targets banks with under $10 billion in assets, aiming to help them compete with larger financial institutions. It has been placed on the Union Calendar, meaning it is eligible for a full House floor vote but has not yet passed.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Reduces federal tax revenue from community banks, potentially shifting the tax burden to other taxpayers or cutting funding for public programs."
+        },
+        {
+          "type": "positive",
+          "text": "Community banks could lend more to small businesses and rural borrowers who are often underserved by large national banks."
+        },
+        {
+          "type": "neutral",
+          "text": "Critics debate whether tax savings would actually flow to consumers as better loan rates or simply boost bank profits and shareholder returns."
+        }
+      ],
+      "who_affected": "Community bank customers, small business owners, rural residents, community bank shareholders and employees, federal taxpayers",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏦 Community Bank LIFT Act would cut taxes on small local banks to boost lending"
+    },
+    {
+      "id": "HR 6547",
+      "title": "Least Cost Exception Act",
+      "plain_title": "Allow Cheaper Power Grid Alternatives for Federal Projects",
+      "deck": "This bill lets federal agencies choose lower-cost alternatives when upgrading or expanding the electrical grid.",
+      "plain_summary": "The Least Cost Exception Act would allow federal agencies to select the most cost-effective option when making decisions about electricity transmission infrastructure, even if it differs from a standard default requirement. The bill has been placed on the Union Calendar, meaning it has passed committee review and is awaiting a full House vote. It aims to reduce costs associated with federal energy transmission projects by giving agencies more flexibility in their procurement choices.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics worry that prioritizing lowest cost could lead to selection of less reliable or less environmentally friendly grid infrastructure, potentially affecting long-term grid stability."
+        },
+        {
+          "type": "positive",
+          "text": "Taxpayers could save money if federal agencies are allowed to choose cheaper transmission options rather than being locked into more expensive default requirements."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill shifts decision-making authority to agency administrators, which could lead to inconsistent standards across different federal energy projects depending on interpretation."
+        }
+      ],
+      "who_affected": "Electric utility ratepayers, federal taxpayers, energy transmission companies, rural electric cooperatives, federal energy regulators",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "⚡ House bill would let federal agencies pick cheaper power grid options"
+    },
+    {
+      "id": "HR 4551",
+      "title": "Employee Paycheck and Small Business Protection Act",
+      "plain_title": "Paycheck and Small Business Protection from Regulation",
+      "deck": "This bill would limit certain federal regulatory actions affecting employee pay and small business operations.",
+      "plain_summary": "The Employee Paycheck and Small Business Protection Act appears designed to restrict or delay certain federal agency rules that could impact how workers are paid and how small businesses operate. The bill was referred to the House Committee on Financial Services and the Committee on Rules, meaning it is still in early stages and has not been debated or voted on. Without full bill text available, the exact mechanisms remain unclear, but the title suggests it targets regulations seen as burdensome to small employers and workers' take-home pay.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics argue limiting financial regulations could reduce worker protections against wage theft or predatory lending practices."
+        },
+        {
+          "type": "positive",
+          "text": "Supporters say reducing regulatory burdens on small businesses could lower compliance costs and help preserve jobs and paychecks."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill's actual effect depends heavily on which specific regulations it targets, a detail requiring full bill text to assess."
+        }
+      ],
+      "who_affected": "Small business owners, hourly and salaried employees, payroll administrators, federal regulatory agencies",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "💼 Bill seeks to shield small businesses and paychecks from certain federal rules"
+    },
+    {
+      "id": "HR 3380",
+      "title": "TAILOR Act of 2025",
+      "plain_title": "Financial Regulators Must Tailor Rules to Bank Size",
+      "deck": "Requires federal financial regulators to customize rules based on the size and risk level of each financial institution.",
+      "plain_summary": "The TAILOR Act of 2025 would require federal financial regulators — like the FDIC, Federal Reserve, and OCC — to consider the size, complexity, and risk profile of banks and credit unions before imposing regulations, rather than applying one-size-fits-all rules. The idea is that small community banks shouldn't face the same regulatory burden as giant Wall Street institutions. The bill has been placed on the Union Calendar, meaning it has cleared committee and is awaiting a full House vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics warn this could weaken consumer protections by allowing regulators to reduce oversight of mid-size banks that still pose significant risks to depositors."
+        },
+        {
+          "type": "positive",
+          "text": "Community banks and credit unions could face less regulatory paperwork, potentially freeing up resources to offer more loans to small businesses and local borrowers."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill shifts regulatory discretion to agency officials, meaning its real-world impact depends heavily on how those agencies choose to apply the new tailoring standard."
+        }
+      ],
+      "who_affected": "Community bank customers, small business borrowers, credit union members, bank shareholders, federal financial regulators, Wall Street banks",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏦 House bill would require regulators to customize rules by bank size"
+    },
+    {
+      "id": "HR 6551",
+      "title": "New BANK Act of 2025",
+      "plain_title": "New Rules for Bank Accounts at Federal Reserve",
+      "deck": "This bill would allow everyday Americans to open bank accounts directly at the Federal Reserve.",
+      "plain_summary": "The New BANK Act of 2025 would require the Federal Reserve to offer basic bank accounts directly to all U.S. residents, bypassing traditional commercial banks. This could give millions of unbanked Americans access to a free, federally backed account. The bill has been placed on the Union Calendar, meaning it is eligible for full House consideration.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Private banks could lose customers and fee revenue, potentially reducing lending and financial services in local communities."
+        },
+        {
+          "type": "positive",
+          "text": "Roughly 5-6 million unbanked American households could gain free, safe access to basic banking and direct deposit services."
+        },
+        {
+          "type": "neutral",
+          "text": "The Federal Reserve would take on a new retail banking role it has never performed, raising debate about government's proper role in finance."
+        }
+      ],
+      "who_affected": "Unbanked and underbanked Americans, low-income households, commercial and community banks, credit unions, Federal Reserve staff",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏦 Bill would let Americans bank directly with the Federal Reserve"
+    },
+    {
+      "id": "HR 3390",
+      "title": "Bringing the Discount Window into the 21st Century Act",
+      "plain_title": "Modernizing the Federal Reserve's Emergency Bank Lending Program",
+      "deck": "This bill updates rules for how banks can borrow emergency funds directly from the Federal Reserve.",
+      "plain_summary": "This bill reforms the Federal Reserve's 'discount window,' which is the system banks use to borrow emergency funds from the Fed during financial stress. It aims to modernize the process, reduce the stigma banks feel about using it, and make the system work better in a crisis. The bill passed the House and is now awaiting action in the Senate Banking Committee.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics worry easier Fed lending could encourage banks to take excessive risks, knowing a safety net is readily available."
+        },
+        {
+          "type": "positive",
+          "text": "A more effective emergency lending system could prevent bank runs and financial crises that harm everyday Americans' savings and jobs."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill would increase transparency and reporting requirements around discount window use, which some see as helpful and others see as burdensome."
+        }
+      ],
+      "who_affected": "Bank customers, small and regional bank depositors, taxpayers, financial industry workers, investors",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏦 House passes bill to modernize Fed's emergency bank lending system"
     },
     {
       "id": "HR 6409",
@@ -27211,8 +27955,8 @@
       ],
       "who_affected": "Small business owners, minority-owned businesses, federal contractors, SBA-approved surety bond companies, taxpayers",
       "category": "other",
-      "status": "s-floor",
-      "status_label": "Passed Chamber",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 2,
       "impact_label": "low",
       "intro_date": "",
@@ -32790,8 +33534,8 @@
       ],
       "who_affected": "To be determined.",
       "category": "other",
-      "status": "s-floor",
-      "status_label": "Passed Chamber",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 2,
       "impact_label": "medium",
       "intro_date": "",
@@ -34863,8 +35607,8 @@
       ],
       "who_affected": "To be determined.",
       "category": "other",
-      "status": "s-floor",
-      "status_label": "Passed Chamber",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 2,
       "impact_label": "medium",
       "intro_date": "",
@@ -37219,6 +37963,468 @@
       "ticker_alert": null
     },
     {
+      "id": "HR 3034",
+      "title": "NFA SBS Act",
+      "plain_title": "Remove Short-Barreled Shotguns from Strict Federal Gun Registry",
+      "deck": "This bill would take short-barreled shotguns off the National Firearms Act's heavily regulated list of weapons.",
+      "plain_summary": "The NFA SBS Act would remove short-barreled shotguns (shotguns with barrels shorter than 18 inches) from the National Firearms Act, eliminating the current requirement for owners to pay a $200 tax, register the weapon with the federal government, and undergo an extensive background check process. This would make purchasing and owning short-barreled shotguns as straightforward as buying a standard rifle or handgun. The bill has been referred to the House Committees on Ways and Means and the Judiciary, meaning it is in early stages and has not yet been voted on.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics warn removing regulatory barriers could make it easier for dangerous individuals to obtain short-barreled shotguns, which are concealable and powerful weapons."
+        },
+        {
+          "type": "positive",
+          "text": "Law-abiding gun owners would no longer face months-long wait times, $200 taxes, and burdensome federal registration to legally own a short-barreled shotgun for home defense or sport."
+        },
+        {
+          "type": "neutral",
+          "text": "The federal government would lose NFA tax revenue from short-barreled shotgun registrations, while state-level regulations on these firearms would remain in effect and vary widely."
+        }
+      ],
+      "who_affected": "Licensed firearms owners, gun dealers and manufacturers, hunters and sport shooters, home defense gun owners, federal law enforcement agencies, gun control advocates",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🔫 Bill would deregulate short-barreled shotguns, removing federal NFA restrictions"
+    },
+    {
+      "id": "HR 6536",
+      "title": "Rural Depositories Revitalization Study Act",
+      "plain_title": "Study on Reviving Rural Banks and Credit Unions",
+      "deck": "This bill orders a government study on how to help rural banks and credit unions survive and grow.",
+      "plain_summary": "This bill directs federal regulators to conduct a study examining why rural banks and credit unions are declining and what policies could help revitalize them. It focuses on the challenges rural communities face in accessing banking services as local financial institutions close. The bill has been placed on the Union Calendar, meaning it has passed committee review and is awaiting a full House vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "The bill only mandates a study with no guaranteed action, meaning rural communities could wait years for real banking relief while closures continue."
+        },
+        {
+          "type": "positive",
+          "text": "Rural residents who already struggle to access loans, mortgages, and basic banking could benefit if study findings lead to policies that keep local banks open."
+        },
+        {
+          "type": "neutral",
+          "text": "The study's recommendations could favor either deregulation of small banks or increased federal support programs, depending on findings — both are contested policy approaches."
+        }
+      ],
+      "who_affected": "Rural residents, small-town farmers, rural small business owners, community bank employees, rural credit union members",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "📋 Congress considers study to help save rural banks across America"
+    },
+    {
+      "id": "HR 7775",
+      "title": "CDFI Fund Transparency Act",
+      "plain_title": "Make Community Development Finance Fund More Transparent",
+      "deck": "Requires the CDFI Fund to publicly report more details about how it awards grants and loans to community lenders.",
+      "plain_summary": "This bill would require the Treasury Department's CDFI Fund — which provides money to lenders that serve low-income and underserved communities — to publicly disclose more information about how it awards funding. The goal is to increase accountability and let taxpayers see exactly where federal dollars are going. The bill has been referred to the House Committee on Financial Services, meaning it is in the early stages of the legislative process.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Increased reporting requirements could burden smaller community lenders with added administrative costs and paperwork."
+        },
+        {
+          "type": "positive",
+          "text": "Taxpayers and communities gain clearer visibility into how federal funds are awarded to local lenders serving low-income neighborhoods."
+        },
+        {
+          "type": "neutral",
+          "text": "Greater transparency could shift how the CDFI Fund prioritizes applicants, potentially changing which organizations receive awards."
+        }
+      ],
+      "who_affected": "Low-income and rural community residents, Community Development Financial Institutions (CDFIs), small business owners in underserved areas, taxpayers, Treasury Department officials",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "📋 Bill would require greater public disclosure of community lending federal awards"
+    },
+    {
+      "id": "HR 2835",
+      "title": "Small Bank Holding Company Relief Act",
+      "plain_title": "Easing Rules for Small Bank Holding Companies",
+      "deck": "This bill raises the asset threshold allowing small bank holding companies to carry more debt with less federal oversight.",
+      "plain_summary": "The Small Bank Holding Company Relief Act raises the asset limit under the Federal Reserve's Small Bank Holding Company Policy Statement, making it easier for smaller community banks to take on debt when buying other banks or expanding. This reduces some federal regulatory requirements for these institutions. The bill has been placed on the Union Calendar, meaning it has passed committee and is awaiting a full House vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Reduced oversight of small bank holding companies could increase financial risk if leveraged banks face downturns, potentially threatening depositors and local economies."
+        },
+        {
+          "type": "positive",
+          "text": "Community banks gain more flexibility to expand and merge, which could improve banking access and loan availability in rural or underserved areas."
+        },
+        {
+          "type": "neutral",
+          "text": "The policy shifts regulatory burden from small banks to broader market forces, a trade-off that economists debate in terms of safety versus economic growth."
+        }
+      ],
+      "who_affected": "Community bank customers, small and regional bank holding companies, rural residents relying on local banks, bank investors and shareholders, small business borrowers",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏦 House bill would loosen rules for small community bank holding companies"
+    },
+    {
+      "id": "HR 3379",
+      "title": "HUMPS Act of 2025",
+      "plain_title": "Federal Hiring Freeze Exception for Military Spouses",
+      "deck": "This bill would exempt military spouses from federal civilian hiring freezes, making it easier for them to get government jobs.",
+      "plain_summary": "The HUMPS Act of 2025 (Helping Underemployed Military Partners Succeed Act) would require that military spouses be excluded from any federal civilian hiring freezes, giving them continued access to federal employment opportunities. Military spouses often face chronic unemployment and underemployment due to frequent relocations following their service member's orders. The bill has been placed on the Union Calendar, meaning it has passed committee review and is awaiting a full House vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics argue it creates a preference class that could be seen as unfair to other qualified civilian job seekers during hiring freezes."
+        },
+        {
+          "type": "positive",
+          "text": "Military spouses, who face an unemployment rate roughly 3 times the national average due to frequent moves, would gain more stable federal job access."
+        },
+        {
+          "type": "neutral",
+          "text": "The practical impact depends on how often and broadly future administrations implement federal hiring freezes, which vary widely between administrations."
+        }
+      ],
+      "who_affected": "Military spouses, active-duty service members, federal job applicants, Department of Defense families, federal agency HR departments",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "⚖️ Bill would protect military spouses from federal civilian hiring freezes"
+    },
+    {
+      "id": "HR 5291",
+      "title": "Merchant Banking Modernization Act",
+      "plain_title": "Bank Investment Rules Update for Large Banks",
+      "deck": "This bill expands what types of companies large banks can invest in using their own money.",
+      "plain_summary": "The Merchant Banking Modernization Act updates rules that govern when and how large financial holding companies can make investments in commercial businesses. It loosens restrictions originally set by the Bank Holding Company Act, giving big banks more flexibility to invest in non-financial companies. The bill has been placed on the Union Calendar, meaning it has passed committee and is awaiting a full House vote.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics warn it could blur the line between banking and commerce, increasing systemic financial risk if banks make bad bets with federally insured funds."
+        },
+        {
+          "type": "positive",
+          "text": "Supporters say it helps U.S. banks compete globally and could channel more capital into startups and growing businesses, potentially creating jobs."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill primarily changes how long banks can hold merchant banking investments and updates procedural rules, with effects largely felt in financial markets rather than by most consumers directly."
+        }
+      ],
+      "who_affected": "Large bank holding companies, private equity investors, startup businesses seeking investment, bank regulators, Wall Street financial firms",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏦 Congress considers loosening investment rules for large U.S. banks"
+    },
+    {
+      "id": "HR 6550",
+      "title": "American FIRST Act of 2025",
+      "plain_title": "American FIRST Act of 2025",
+      "deck": "Placed on the Union Calendar, Calendar No. 454.",
+      "plain_summary": "American FIRST Act of 2025. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 5262",
+      "title": "Bank Competition Modernization Act",
+      "plain_title": "Bank Competition Modernization Act",
+      "deck": "Placed on the Union Calendar, Calendar No. 317.",
+      "plain_summary": "Bank Competition Modernization Act. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 2702",
+      "title": "FIRM Act",
+      "plain_title": "FIRM Act",
+      "deck": "Placed on the Union Calendar, Calendar No. 131.",
+      "plain_summary": "FIRM Act. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 7733",
+      "title": "Ensuring OB–GYN Care in Prisons Act",
+      "plain_title": "Ensuring OB–GYN Care in Prisons Act",
+      "deck": "Referred to the House Committee on the Judiciary.",
+      "plain_summary": "Ensuring OB–GYN Care in Prisons Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 1900",
+      "title": "Bank Failure Prevention Act of 2025",
+      "plain_title": "Bank Failure Prevention Act of 2025",
+      "deck": "Placed on the Union Calendar, Calendar No. 101.",
+      "plain_summary": "Bank Failure Prevention Act of 2025. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 4437",
+      "title": "SMART Act of 2025",
+      "plain_title": "SMART Act of 2025",
+      "deck": "Placed on the Union Calendar, Calendar No. 206.",
+      "plain_summary": "SMART Act of 2025. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 4478",
+      "title": "TRUST Act of 2025",
+      "plain_title": "TRUST Act of 2025",
+      "deck": "Placed on the Union Calendar, Calendar No. 209.",
+      "plain_summary": "TRUST Act of 2025. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 4128",
+      "title": "CIRCUIT Act",
+      "plain_title": "CIRCUIT Act",
+      "deck": "Referred to the House Committee on Ways and Means.",
+      "plain_summary": "CIRCUIT Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "S 448",
+      "title": "CIRCUIT Act",
+      "plain_title": "CIRCUIT Act",
+      "deck": "Read twice and referred to the Committee on Finance.",
+      "plain_summary": "CIRCUIT Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "S 3220",
+      "title": "VISIT USA Act",
+      "plain_title": "VISIT USA Act",
+      "deck": "Read twice and referred to the Committee on Commerce, Science, and Transportatio",
+      "plain_summary": "VISIT USA Act. Status: In Committee.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "S 272",
+      "title": "Protect Infant Formula from Contamination Act",
+      "plain_title": "Protect Infant Formula from Contamination Act",
+      "deck": "Message on Senate action sent to the House.",
+      "plain_summary": "Protect Infant Formula from Contamination Act. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8646",
+      "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027",
+      "plain_title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027",
+      "deck": "Placed on the Union Calendar, Calendar No. 548.",
+      "plain_summary": "Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027. Status: Introduced.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "money",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
       "id": "HRES 1202",
       "title": "Electing a Member to a certain standing committee of the House of Representatives.",
       "plain_title": "House Committee Seat Assignment Resolution",
@@ -37519,8 +38725,8 @@
       ],
       "who_affected": "Harpers Ferry residents, National Park Service visitors, West Virginia outdoor recreationists, federal land management employees, local tourism businesses",
       "category": "env",
-      "status": "s-floor",
-      "status_label": "Passed Chamber",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 1,
       "impact_label": "low",
       "intro_date": "",
