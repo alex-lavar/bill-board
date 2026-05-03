@@ -8,90 +8,185 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=IBM+Plex+Mono:wght@400;500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
+/* ── RESET & TOKENS ─────────────────────────────────────────────────────── */
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
-  --ink:#111010;--paper:#f5f0e8;--paper2:#ede8dc;--rule:#c0b89a;
-  --muted:#7a7060;--red:#b91c1c;--navy:#1e3a5f;--gold:#c9850a;--green:#1a5c3a;
+  --ink:#111010;
+  --paper:#f5f0e8;
+  --paper2:#ede8dc;
+  --rule:#c0b89a;
+  --muted:#7a7060;
+  --red:#b91c1c;
+  --navy:#1e3a5f;
+  --gold:#c9850a;
+  --green:#1a5c3a;
+  --wrap:1380px;
+  --pad:clamp(16px,3vw,40px);
 }
 body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Georgia,serif;font-size:15px;min-height:100vh}
 
-.masthead{background:var(--paper);border-bottom:4px double var(--ink);padding:18px 36px 14px;text-align:center}
-.mast-meta{display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px}
-.mast-title{font-family:'Playfair Display',serif;font-size:clamp(50px,8vw,96px);font-weight:900;line-height:.88;letter-spacing:-.025em;text-transform:uppercase}
+/* ── MASTHEAD ────────────────────────────────────────────────────────────── */
+.masthead{background:var(--paper);border-bottom:4px double var(--ink);padding:16px var(--pad) 12px;text-align:center}
+.mast-meta{display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px;flex-wrap:wrap;gap:4px}
+.mast-title{font-family:'Playfair Display',serif;font-size:clamp(44px,8vw,96px);font-weight:900;line-height:.88;letter-spacing:-.025em;text-transform:uppercase}
 .mast-title .the{font-size:.32em;display:block;letter-spacing:.35em;color:var(--muted);font-weight:400;font-style:italic}
 .mast-rule{height:2px;background:var(--ink);margin:10px 0 8px}
-.mast-sub{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+.mast-sub{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}
 
+/* ── TICKER ──────────────────────────────────────────────────────────────── */
 .ticker-bar{background:var(--navy);color:#e8dfc8;padding:7px 0;display:flex;overflow:hidden}
-.ticker-label{background:var(--red);color:white;font-family:'IBM Plex Mono',monospace;font-size:9.5px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;padding:0 14px;display:flex;align-items:center;white-space:nowrap;flex-shrink:0}
+.ticker-label{background:var(--red);color:white;font-family:'IBM Plex Mono',monospace;font-size:9px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;padding:0 14px;display:flex;align-items:center;white-space:nowrap;flex-shrink:0}
 .ticker-track{overflow:hidden;flex:1;display:flex;align-items:center}
 .ticker-inner{font-family:'IBM Plex Mono',monospace;font-size:10px;white-space:nowrap;animation:tick 70s linear infinite;padding-left:24px}
 @keyframes tick{from{transform:translateX(100vw)}to{transform:translateX(-100%)}}
 
-.controls{background:var(--paper2);border-bottom:1px solid var(--rule);padding:10px 36px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-.ctrl-label{font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
-.chip{font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.05em;padding:3px 11px;border:1px solid var(--rule);background:transparent;cursor:pointer;color:var(--muted);transition:all .15s;border-radius:2px}
+/* ── CONTROLS ────────────────────────────────────────────────────────────── */
+.controls{background:var(--paper2);border-bottom:1px solid var(--rule);padding:9px var(--pad);display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.ctrl-label{font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);white-space:nowrap}
+.ctrl-group{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.chip{font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.05em;padding:4px 10px;border:1px solid var(--rule);background:transparent;cursor:pointer;color:var(--muted);transition:all .15s;border-radius:2px;white-space:nowrap}
 .chip:hover,.chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 .chip.on.rights{background:var(--red);border-color:var(--red)}
 .chip.on.money{background:var(--navy);border-color:var(--navy)}
 .chip.on.env{background:var(--green);border-color:var(--green)}
 .chip.on.social{background:var(--gold);border-color:var(--gold)}
-.ctrl-search{margin-left:auto;border:1px solid var(--rule);display:flex;align-items:center;padding:3px 10px;gap:6px;background:var(--paper)}
-.ctrl-search input{font-family:'IBM Plex Mono',monospace;font-size:10px;border:none;background:transparent;color:var(--ink);outline:none;width:160px}
+.ctrl-divider{width:1px;height:18px;background:var(--rule);flex-shrink:0}
+.ctrl-search{margin-left:auto;border:1px solid var(--rule);display:flex;align-items:center;padding:4px 10px;gap:6px;background:var(--paper)}
+.ctrl-search input{font-family:'IBM Plex Mono',monospace;font-size:10px;border:none;background:transparent;color:var(--ink);outline:none;width:140px}
 .ctrl-search input::placeholder{color:var(--muted)}
 
-.count-bar{padding:7px 36px;font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;border-bottom:1px solid var(--rule);background:var(--paper);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px}
-.last-updated{display:flex;align-items:center;gap:5px;font-size:9px}
+/* ── COUNT BAR ───────────────────────────────────────────────────────────── */
+.count-bar{padding:7px var(--pad);font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;border-bottom:1px solid var(--rule);background:var(--paper);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px}
+.last-updated{display:flex;align-items:center;gap:5px}
 .update-dot{width:5px;height:5px;border-radius:50%;background:var(--green);animation:pdot 2.5s ease infinite;flex-shrink:0}
 @keyframes pdot{0%,100%{opacity:1}50%{opacity:.3}}
 
-.grid-wrap{max-width:1380px;margin:0 auto;padding:0 28px}
+/* ── GRID WRAPPER ────────────────────────────────────────────────────────── */
+.grid-wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--pad)}
+
+/* ── HERO ROW ────────────────────────────────────────────────────────────── */
 .hero-row{display:grid;grid-template-columns:1.5fr 1fr;border-bottom:3px double var(--ink)}
 .hero-main{padding:28px 28px 24px 0;border-right:1px solid var(--rule)}
 .hero-side{padding:28px 0 24px 28px}
+.side-label{font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin-bottom:8px;border-bottom:1px solid var(--rule);padding-bottom:5px}
+.hero-side p{font-size:13px;line-height:1.65;color:#2a2520}
+.hero-side p.who{font-size:12.5px;font-style:italic;color:var(--muted);line-height:1.6}
+
+/* ── BILL GRID ───────────────────────────────────────────────────────────── */
 .bill-grid{display:grid;grid-template-columns:repeat(3,1fr)}
-.bill-card{padding:22px 22px 18px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);cursor:pointer;transition:background .15s}
+.bill-card{padding:20px 20px 16px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);cursor:pointer;transition:background .15s;min-width:0}
 .bill-card:nth-child(3n){border-right:none}
 .bill-card:hover{background:rgba(0,0,0,.025)}
 .bill-card.active{background:#fff;box-shadow:inset 0 0 0 2px var(--ink)}
 
-.kicker{font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin-bottom:5px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+/* ── BILL PARTS ──────────────────────────────────────────────────────────── */
+.kicker{font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:5px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
 .dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
 .dot.rights{background:var(--red)}.dot.money{background:var(--navy)}.dot.env{background:var(--green)}.dot.social{background:var(--gold)}.dot.other{background:var(--muted)}
-.headline{font-family:'Playfair Display',serif;font-weight:700;line-height:1.2;margin-bottom:8px}
-.hero-main .headline{font-size:clamp(22px,2.4vw,34px)}.hero-side .headline{font-size:19px}.bill-card .headline{font-size:16px}
+.headline{font-family:'Playfair Display',serif;font-weight:700;line-height:1.2;margin-bottom:8px;word-break:break-word}
+.hero-main .headline{font-size:clamp(20px,2.2vw,32px)}
+.bill-card .headline{font-size:clamp(14px,1.2vw,17px)}
 .deck{font-size:13px;line-height:1.6;color:#2a2520;margin-bottom:10px}
-.hero-main .deck{font-size:14.5px}
+.hero-main .deck{font-size:14px}
+.bill-card .deck{font-size:12.5px}
 
-.itag{display:inline-flex;align-items:center;font-family:'IBM Plex Mono',monospace;font-size:8.5px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:8px;border:1px solid currentColor;overflow:hidden}
-.itag-level{padding:2px 7px}.itag-div{width:1px;background:currentColor;opacity:.4;align-self:stretch}.itag-cat{padding:2px 7px;opacity:.75}
+/* ── IMPACT TAG ──────────────────────────────────────────────────────────── */
+.itag{display:inline-flex;align-items:center;font-family:'IBM Plex Mono',monospace;font-size:8px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:8px;border:1px solid currentColor;overflow:hidden;flex-shrink:0}
+.itag-level{padding:2px 6px}
+.itag-div{width:1px;background:currentColor;opacity:.4;align-self:stretch}
+.itag-cat{padding:2px 6px;opacity:.75}
 .itag.high{color:var(--red)}.itag.medium{color:var(--gold)}.itag.low{color:var(--muted)}
 
-.spill{font-family:'IBM Plex Mono',monospace;font-size:8.5px;text-transform:uppercase;letter-spacing:.06em;padding:2px 7px;border-radius:2px;cursor:pointer;display:inline-flex;align-items:center;gap:4px}
+/* ── STATUS PILL ─────────────────────────────────────────────────────────── */
+.spill{font-family:'IBM Plex Mono',monospace;font-size:8px;text-transform:uppercase;letter-spacing:.06em;padding:2px 6px;border-radius:2px;cursor:pointer;display:inline-flex;align-items:center;gap:3px;white-space:nowrap}
 .spill::after{content:'?';font-size:7px;opacity:.6;font-weight:700}
 .spill:hover{filter:brightness(1.1)}
-.s-introduced{background:#dbeafe;color:#1e3a8a}.s-committee{background:#fef3c7;color:#92400e}.s-floor{background:#d1fae5;color:#065f46}.s-passed{background:var(--green);color:white}.s-signed{background:#166534;color:white}.s-vetoed{background:var(--red);color:white}
+.s-introduced{background:#dbeafe;color:#1e3a8a}
+.s-committee{background:#fef3c7;color:#92400e}
+.s-floor{background:#d1fae5;color:#065f46}
+.s-passed{background:var(--green);color:white}
+.s-signed{background:#166534;color:white}
+.s-vetoed{background:var(--red);color:white}
 
-.bill-dates{display:flex;align-items:center;gap:6px;font-family:'IBM Plex Mono',monospace;font-size:8.5px;color:var(--muted);margin-bottom:8px;flex-wrap:wrap}
-.bill-dates .date-label{opacity:.7;text-transform:uppercase;letter-spacing:.06em}
-.bill-dates .date-val{color:var(--ink)}.bill-dates .date-val.signed{color:var(--green);font-weight:500}
-.bill-dates .arrow{opacity:.35}
+/* ── DATES ───────────────────────────────────────────────────────────────── */
+.bill-dates{display:flex;align-items:center;gap:5px;font-family:'IBM Plex Mono',monospace;font-size:8px;color:var(--muted);margin-bottom:7px;flex-wrap:wrap}
+.date-label{opacity:.7;text-transform:uppercase;letter-spacing:.06em}
+.date-val{color:var(--ink)}
+.date-val.signed{color:var(--green);font-weight:500}
+.date-arrow{opacity:.35}
 
-.byline{font-family:'IBM Plex Mono',monospace;font-size:8.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;border-top:1px solid var(--rule);padding-top:8px;margin-top:10px}
+/* ── BYLINE ──────────────────────────────────────────────────────────────── */
+.byline{font-family:'IBM Plex Mono',monospace;font-size:8px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;border-top:1px solid var(--rule);padding-top:8px;margin-top:10px}
 
-.drawer{display:none;background:#fff;border:2px solid var(--ink);border-top:none;animation:sdown .18s ease}
+/* ── DRAWER ──────────────────────────────────────────────────────────────── */
+.drawer{display:none;background:#fff;border-left:2px solid var(--ink);border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);animation:sdown .18s ease}
 @keyframes sdown{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
 .drawer.open{display:block}
-.drawer-inner{display:grid;grid-template-columns:1fr 1fr 1fr;gap:32px;padding:36px 40px;max-width:1380px;margin:0 auto}
-.dsec h3{font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid var(--rule)}
-.dsec p,.dsec li{font-size:13px;line-height:1.65;color:#2a2520}
+
+.drawer-inner{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:0;
+  max-width:var(--wrap);
+  margin:0 auto;
+}
+
+.dsec{padding:28px 24px;border-right:1px solid var(--rule)}
+.dsec:last-child{border-right:none}
+
+.dsec h3{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:9px;
+  text-transform:uppercase;
+  letter-spacing:.14em;
+  color:var(--muted);
+  margin-bottom:10px;
+  padding-bottom:6px;
+  border-bottom:1px solid var(--rule);
+}
+.dsec p{font-size:13px;line-height:1.7;color:#2a2520}
 .dsec ul{list-style:none;padding:0}
-.dsec li{padding-left:14px;position:relative;margin-bottom:7px}
-.dsec li::before{content:'▸';position:absolute;left:0;font-size:10px}
-.dsec li.negative::before{color:var(--red)}.dsec li.positive::before{color:var(--green)}.dsec li.neutral::before{color:var(--gold)}
-.dclose{font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.1em;padding:8px 28px;background:var(--paper2);border-top:1px solid var(--rule);cursor:pointer;color:var(--muted);text-align:right}
+.dsec li{
+  font-size:13px;
+  line-height:1.6;
+  color:#2a2520;
+  padding-left:16px;
+  position:relative;
+  margin-bottom:9px;
+}
+.dsec li::before{content:'▸';position:absolute;left:0;font-size:10px;top:2px}
+.dsec li.negative::before{color:var(--red)}
+.dsec li.positive::before{color:var(--green)}
+.dsec li.neutral::before{color:var(--gold)}
+
+.bill-detail-grid{
+  display:grid;
+  grid-template-columns:auto 1fr;
+  gap:4px 12px;
+  font-family:'IBM Plex Mono',monospace;
+  font-size:10px;
+  color:var(--muted);
+  line-height:1.7;
+  margin-top:12px;
+}
+.bill-detail-grid strong{color:var(--ink);font-weight:500}
+
+.dclose{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:9px;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  padding:10px var(--pad);
+  background:var(--paper2);
+  border-top:1px solid var(--rule);
+  cursor:pointer;
+  color:var(--muted);
+  text-align:right;
+  transition:color .15s;
+}
 .dclose:hover{color:var(--red)}
 
+/* ── PIPELINE OVERLAY ────────────────────────────────────────────────────── */
 .pipeline-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:900;display:flex;align-items:center;justify-content:center;padding:20px;animation:fadein .15s ease}
 @keyframes fadein{from{opacity:0}to{opacity:1}}
 .pipeline-box{background:var(--paper);border:2px solid var(--ink);max-width:520px;width:100%;max-height:90vh;overflow-y:auto}
@@ -117,28 +212,61 @@ body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Ge
 .step-desc{font-size:12px;line-height:1.55;color:var(--muted)}
 .pipeline-footer{padding:14px 20px;border-top:1px solid var(--rule);font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
 
-.pagination{padding:20px 36px;display:flex;align-items:center;gap:10px;border-top:1px solid var(--rule)}
-.pgbtn{padding:4px 14px;border:1px solid var(--rule);background:transparent;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);transition:all .15s}
+/* ── PAGINATION ──────────────────────────────────────────────────────────── */
+.pagination{padding:20px var(--pad);display:flex;align-items:center;gap:10px;border-top:1px solid var(--rule)}
+.pgbtn{padding:5px 14px;border:1px solid var(--rule);background:transparent;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);transition:all .15s}
 .pgbtn:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 .pgbtn:disabled{opacity:.3;cursor:default;pointer-events:none}
 .pginfo{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted)}
 
+/* ── MISC ────────────────────────────────────────────────────────────────── */
 .loading-msg{font-family:'Playfair Display',serif;font-size:22px;font-style:italic;color:var(--muted);animation:blink 1.4s ease infinite;padding:80px;text-align:center;grid-column:1/-1}
 @keyframes blink{0%,100%{opacity:1}50%{opacity:.35}}
-
-.error-msg{grid-column:1/-1;padding:60px;text-align:center}
+.error-msg{grid-column:1/-1;padding:60px var(--pad);text-align:center}
 .error-msg h2{font-family:'Playfair Display',serif;font-size:22px;margin-bottom:12px}
 .error-msg p{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted)}
 
-@media(max-width:900px){
-  .hero-row{grid-template-columns:1fr}.hero-main{border-right:none;border-bottom:1px solid var(--rule);padding-right:0}.hero-side{padding-left:0}
-  .bill-grid{grid-template-columns:1fr 1fr}.bill-card:nth-child(3n){border-right:1px solid var(--rule)}.bill-card:nth-child(2n){border-right:none}
-  .drawer-inner{grid-template-columns:1fr}
+/* ── RESPONSIVE ──────────────────────────────────────────────────────────── */
+
+/* Large desktop: full 3-col */
+@media(min-width:1100px){
+  .bill-grid{grid-template-columns:repeat(3,1fr)}
+  .bill-card:nth-child(3n){border-right:none}
+  .drawer-inner{grid-template-columns:1fr 1fr 1fr}
 }
-@media(max-width:600px){
-  .bill-grid{grid-template-columns:1fr}.bill-card{border-right:none!important}
-  .masthead,.controls,.count-bar{padding-left:16px;padding-right:16px}
-  .grid-wrap{padding:0 12px}.count-bar{flex-direction:column;align-items:flex-start}
+
+/* Medium: 2-col cards, hero stacks */
+@media(max-width:1099px){
+  .hero-row{grid-template-columns:1fr}
+  .hero-main{border-right:none;border-bottom:2px solid var(--rule);padding-right:0;padding-bottom:20px}
+  .hero-side{padding-left:0;padding-top:20px}
+  .bill-grid{grid-template-columns:repeat(2,1fr)}
+  .bill-card:nth-child(3n){border-right:1px solid var(--rule)}
+  .bill-card:nth-child(2n){border-right:none}
+  .drawer-inner{grid-template-columns:1fr 1fr}
+  .dsec:nth-child(2){border-right:none}
+  .dsec:nth-child(3){grid-column:1/-1;border-top:1px solid var(--rule);border-right:none}
+}
+
+/* Small tablet / large phone */
+@media(max-width:700px){
+  .bill-grid{grid-template-columns:1fr}
+  .bill-card{border-right:none!important}
+  .drawer-inner{grid-template-columns:1fr}
+  .dsec{border-right:none!important;border-top:1px solid var(--rule)}
+  .dsec:first-child{border-top:none}
+  .controls{gap:6px}
+  .ctrl-divider{display:none}
+  .ctrl-search{margin-left:0;width:100%}
+  .ctrl-search input{width:100%}
+  .mast-meta{justify-content:center;text-align:center}
+}
+
+/* Mobile */
+@media(max-width:480px){
+  .hero-main .headline{font-size:clamp(22px,6vw,30px)}
+  .count-bar{flex-direction:column;align-items:flex-start}
+  .pagination{flex-wrap:wrap;justify-content:center}
 }
 </style>
 </head>
@@ -162,15 +290,20 @@ body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Ge
 
 <div class="controls">
   <span class="ctrl-label">Filter:</span>
-  <button class="chip on" data-f="all" onclick="setFilter(this,'all')">All Bills</button>
-  <button class="chip rights" data-f="rights" onclick="setFilter(this,'rights')">Civil Rights</button>
-  <button class="chip money" data-f="money" onclick="setFilter(this,'money')">Economy</button>
-  <button class="chip env" data-f="env" onclick="setFilter(this,'env')">Environment</button>
-  <button class="chip social" data-f="social" onclick="setFilter(this,'social')">Social Programs</button>
-  <span class="ctrl-label" style="margin-left:8px">Sort:</span>
-  <button class="chip on" id="s-recent" onclick="setSort('recent')">Most Recent</button>
-  <button class="chip" id="s-impact" onclick="setSort('impact')">Highest Impact</button>
-  <button class="chip" id="s-signed" onclick="setSort('signed')">Signed Laws First</button>
+  <div class="ctrl-group">
+    <button class="chip on" data-f="all" onclick="setFilter(this,'all')">All Bills</button>
+    <button class="chip rights" data-f="rights" onclick="setFilter(this,'rights')">Civil Rights</button>
+    <button class="chip money" data-f="money" onclick="setFilter(this,'money')">Economy</button>
+    <button class="chip env" data-f="env" onclick="setFilter(this,'env')">Environment</button>
+    <button class="chip social" data-f="social" onclick="setFilter(this,'social')">Social Programs</button>
+  </div>
+  <div class="ctrl-divider"></div>
+  <span class="ctrl-label">Sort:</span>
+  <div class="ctrl-group">
+    <button class="chip on" id="s-recent" onclick="setSort('recent')">Most Recent</button>
+    <button class="chip" id="s-impact" onclick="setSort('impact')">Highest Impact</button>
+    <button class="chip" id="s-signed" onclick="setSort('signed')">Signed Laws First</button>
+  </div>
   <div class="ctrl-search">
     <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
     <input type="text" id="qinput" placeholder="Search bills…" oninput="page=0;renderAll()">
@@ -188,7 +321,7 @@ body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Ge
 </div>
 <div class="pagination" id="pgbar" style="display:none"></div>
 
-<!-- PIPELINE POPOVER -->
+<!-- PIPELINE OVERLAY -->
 <div class="pipeline-overlay" id="pipeline-overlay" style="display:none" onclick="if(event.target===this)closePipeline()">
   <div class="pipeline-box">
     <div class="pipeline-head">
@@ -208,6 +341,7 @@ body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Ge
 
 <script>
 const CAT_LABEL={rights:'Civil Rights',money:'Economy',env:'Environment',social:'Social Programs',other:'General'};
+
 const STAGES=[
   {key:'s-introduced',label:'Introduced',desc:"A member of Congress formally submits the bill. It's assigned a number and sent to the relevant committee."},
   {key:'s-committee', label:'Committee Review',desc:'A smaller group of lawmakers studies the bill, holds hearings, and can amend or kill it. Most bills die here.'},
@@ -220,36 +354,41 @@ let bills=[], flt='all', srt='recent', page=0, dataUpdatedAt=null;
 const PER=9;
 let activeDrawer=null;
 
-// ── LOAD DATA FROM bills.json ─────────────────────────────────────────────────
-async function loadData() {
-  try {
-    const r = await fetch('bills.json?t=' + Date.now());
-    if (!r.ok) throw new Error(r.status);
-    const data = await r.json();
-    bills = data.bills || [];
-    dataUpdatedAt = data.updated_at ? new Date(data.updated_at) : new Date();
-    buildTicker(data.ticker || []);
+// ── LOAD DATA ─────────────────────────────────────────────────────────────
+async function loadData(){
+  try{
+    const r=await fetch('bills.json?t='+Date.now());
+    if(!r.ok)throw new Error(r.status);
+    const data=await r.json();
+    bills=data.bills||[];
+    dataUpdatedAt=data.updated_at?new Date(data.updated_at):new Date();
+    buildTicker(data.ticker||[]);
     renderAll();
-  } catch(e) {
-    document.getElementById('grid').innerHTML = `
+  }catch(e){
+    document.getElementById('grid').innerHTML=`
       <div class="error-msg">
-        <h2>Data file not loaded yet</h2>
-        <p>The GitHub Action hasn't run yet. Go to your repo → Actions tab → run "Update Bills" manually to generate bills.json.</p>
+        <h2>Data not loaded yet</h2>
+        <p>Go to your repo → Actions tab → run "Update Bills" manually to generate bills.json.</p>
       </div>`;
   }
 }
 
-function buildTicker(items) {
-  const el = document.getElementById('ticker-text');
-  if (!items.length) {
-    el.textContent = bills.map(b => `${b.status_label?.toUpperCase() || 'ACTIVE'} · ${b.plain_title} — ${b.deck}`).join(' &nbsp;·&nbsp; ');
+function buildTicker(items){
+  const el=document.getElementById('ticker-text');
+  if(!items.length){
+    el.textContent=bills.slice(0,8).map(b=>`${b.status_label?.toUpperCase()||'ACTIVE'} · ${b.plain_title} — ${b.deck}`).join(' \u00a0·\u00a0 ');
     return;
   }
-  el.textContent = items.join(' \u00a0·\u00a0 ');
+  el.textContent=items.join(' \u00a0·\u00a0 ');
 }
 
-// ── HELPERS ───────────────────────────────────────────────────────────────────
-function fmt(d){if(!d)return'—';const[y,m,day]=d.split('-');const mo=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];return`${mo[+m-1]} ${+day}, ${y}`;}
+// ── HELPERS ───────────────────────────────────────────────────────────────
+function fmt(d){
+  if(!d)return'—';
+  const[y,m,day]=d.split('-');
+  const mo=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  return`${mo[+m-1]} ${+day}, ${y}`;
+}
 
 function fmtUpdated(d){
   if(!d)return'—';
@@ -261,21 +400,22 @@ function fmtUpdated(d){
 }
 
 function itag(il,cat){
-  return`<span class="itag ${il}"><span class="itag-level">⚑ ${il.toUpperCase()} IMPACT</span><span class="itag-div"></span><span class="itag-cat">${CAT_LABEL[cat]||'General'}</span></span>`;
+  return`<span class="itag ${il}"><span class="itag-level">⚑ ${(il||'').toUpperCase()} IMPACT</span><span class="itag-div"></span><span class="itag-cat">${CAT_LABEL[cat]||'General'}</span></span>`;
 }
 
 function dateLine(dt,sd){
-  if(sd)return`<div class="bill-dates"><span class="date-label">Introduced</span><span class="date-val">${fmt(dt)}</span><span class="arrow">→</span><span class="date-label">Signed</span><span class="date-val signed">✓ ${fmt(sd)}</span></div>`;
+  if(sd)return`<div class="bill-dates"><span class="date-label">Introduced</span><span class="date-val">${fmt(dt)}</span><span class="date-arrow">→</span><span class="date-label">Signed</span><span class="date-val signed">✓ ${fmt(sd)}</span></div>`;
   return`<div class="bill-dates"><span class="date-label">Introduced</span><span class="date-val">${fmt(dt)}</span></div>`;
 }
 
 function spillHtml(stKey,stLabel,billId){
-  return`<span class="spill ${stKey}" onclick="openPipeline('${billId}','${stKey}',event)">${stLabel}</span>`;
+  const safe=(billId||'').replace(/['"]/g,'');
+  return`<span class="spill ${stKey}" onclick="event.stopPropagation();openPipeline('${safe}','${stKey}',event)">${stLabel||stKey}</span>`;
 }
 
-// ── PIPELINE ──────────────────────────────────────────────────────────────────
+// ── PIPELINE ──────────────────────────────────────────────────────────────
 function openPipeline(billId,currentStage,event){
-  event.stopPropagation();
+  if(event)event.stopPropagation();
   document.getElementById('pipeline-bill-id').textContent=billId;
   const ci=STAGES.findIndex(s=>s.key===currentStage);
   document.getElementById('pipeline-steps').innerHTML=STAGES.map((s,i)=>{
@@ -301,28 +441,46 @@ function closePipeline(){
 }
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closePipeline();});
 
-// ── RENDER ────────────────────────────────────────────────────────────────────
+// ── FILTER / SORT ─────────────────────────────────────────────────────────
+function latestDate(b){
+  // For "most recent" sort: use whichever date is newest — signed or intro
+  const dates=[b.intro_date,b.signed_date].filter(Boolean);
+  return dates.length?new Date(Math.max(...dates.map(d=>new Date(d)))):new Date(0);
+}
+
 function getFiltered(){
   const q=(document.getElementById('qinput')?.value||'').toLowerCase();
   let list=bills.filter(b=>{
     const cOk=flt==='all'||b.category===flt;
-    const qOk=!q||b.plain_title?.toLowerCase().includes(q)||b.deck?.toLowerCase().includes(q)||b.id?.toLowerCase().includes(q);
+    const qOk=!q||
+      (b.plain_title||'').toLowerCase().includes(q)||
+      (b.deck||'').toLowerCase().includes(q)||
+      (b.id||'').toLowerCase().includes(q);
     return cOk&&qOk;
   });
-  if(srt==='recent')list.sort((a,b)=>new Date(b.intro_date)-new Date(a.intro_date));
-  else if(srt==='impact')list.sort((a,b)=>b.impact_score-a.impact_score);
-  else if(srt==='signed')list.sort((a,b)=>{
-    if(a.signed_date&&!b.signed_date)return -1;if(!a.signed_date&&b.signed_date)return 1;
-    if(a.signed_date&&b.signed_date)return new Date(b.signed_date)-new Date(a.signed_date);
-    return new Date(b.intro_date)-new Date(a.intro_date);
-  });
+
+  if(srt==='recent'){
+    // Sort by most recent activity — signed date beats intro date
+    list.sort((a,b)=>latestDate(b)-latestDate(a));
+  } else if(srt==='impact'){
+    list.sort((a,b)=>(b.impact_score||0)-(a.impact_score||0));
+  } else if(srt==='signed'){
+    list.sort((a,b)=>{
+      if(a.signed_date&&!b.signed_date)return -1;
+      if(!a.signed_date&&b.signed_date)return 1;
+      if(a.signed_date&&b.signed_date)return new Date(b.signed_date)-new Date(a.signed_date);
+      return new Date(b.intro_date||0)-new Date(a.intro_date||0);
+    });
+  }
   return list;
 }
 
+// ── RENDER ────────────────────────────────────────────────────────────────
 function renderAll(){
   closeDrawer();
   const filtered=getFiltered();
-  document.getElementById('count-text').textContent=`${filtered.length} bill${filtered.length!==1?'s':''} · 119th Congress (Trump 2nd Term) · Sort: ${{'recent':'Most Recent','impact':'Highest Impact','signed':'Signed Laws First'}[srt]}`;
+  const sortLabel={recent:'Most Recent',impact:'Highest Impact',signed:'Signed Laws First'}[srt];
+  document.getElementById('count-text').textContent=`${filtered.length} bill${filtered.length!==1?'s':''} · 119th Congress (Trump 2nd Term) · ${sortLabel}`;
   document.getElementById('last-updated-text').textContent=fmtUpdated(dataUpdatedAt);
 
   if(!filtered.length){
@@ -332,25 +490,27 @@ function renderAll(){
     return;
   }
 
-  const start=page*PER,slice=filtered.slice(start,start+PER),[hero,...rest]=slice;
+  const start=page*PER;
+  const slice=filtered.slice(start,start+PER);
+  const [hero,...rest]=slice;
 
   document.getElementById('hero').innerHTML=`
     <div class="hero-main">
-      <div class="kicker"><span class="dot ${hero.category}"></span><span>${hero.id}</span>${spillHtml(hero.status,hero.status_label,hero.id)}</div>
+      <div class="kicker"><span class="dot ${hero.category||'other'}"></span><span>${hero.id}</span>${spillHtml(hero.status,hero.status_label,hero.id)}</div>
       ${dateLine(hero.intro_date,hero.signed_date)}
-      <div class="headline">${hero.plain_title}</div>
-      <div class="deck">${hero.deck}</div>
+      <div class="headline">${hero.plain_title||hero.title||'—'}</div>
+      <div class="deck">${hero.deck||''}</div>
       ${itag(hero.impact_label,hero.category)}
-      <div class="byline">${hero.sponsor}</div>
+      <div class="byline">${hero.sponsor||''}</div>
     </div>
     <div class="hero-side">
-      <div style="margin-bottom:14px">
-        <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin-bottom:8px;border-bottom:1px solid var(--rule);padding-bottom:5px">Plain Language Summary</div>
-        <p style="font-size:13px;line-height:1.65;color:#2a2520">${hero.plain_summary}</p>
+      <div style="margin-bottom:16px">
+        <div class="side-label">Plain Language Summary</div>
+        <p>${hero.plain_summary||''}</p>
       </div>
       <div>
-        <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin-bottom:8px;border-bottom:1px solid var(--rule);padding-bottom:5px">Who Is Affected</div>
-        <p style="font-size:12.5px;font-style:italic;color:var(--muted);line-height:1.6">${hero.who_affected}</p>
+        <div class="side-label">Who Is Affected</div>
+        <p class="who">${hero.who_affected||''}</p>
       </div>
     </div>`;
 
@@ -360,60 +520,101 @@ function renderAll(){
     const c=document.createElement('div');
     c.className='bill-card';
     c.innerHTML=`
-      <div class="kicker"><span class="dot ${b.category}"></span><span>${b.id}</span>${spillHtml(b.status,b.status_label,b.id)}</div>
+      <div class="kicker"><span class="dot ${b.category||'other'}"></span><span>${b.id}</span>${spillHtml(b.status,b.status_label,b.id)}</div>
       ${dateLine(b.intro_date,b.signed_date)}
-      <div class="headline">${b.plain_title}</div>
-      <div class="deck">${b.deck}</div>
+      <div class="headline">${b.plain_title||b.title||'—'}</div>
+      <div class="deck">${b.deck||''}</div>
       ${itag(b.impact_label,b.category)}
-      <div class="byline">${b.sponsor}</div>`;
-    c.addEventListener('click',e=>{if(e.target.classList.contains('spill'))return;toggleDrawer(b,c);});
+      <div class="byline">${b.sponsor||''}</div>`;
+    c.addEventListener('click',e=>{
+      if(e.target.closest('.spill'))return;
+      toggleDrawer(b,c);
+    });
     grid.appendChild(c);
   });
 
-  const total=Math.ceil(filtered.length/PER),pg=document.getElementById('pgbar');
+  const total=Math.ceil(filtered.length/PER);
+  const pg=document.getElementById('pgbar');
   if(total<=1){pg.style.display='none';return;}
   pg.style.display='flex';
-  pg.innerHTML=`<button class="pgbtn" onclick="goPage(${page-1})" ${page===0?'disabled':''}>← Prev</button><span class="pginfo">Page ${page+1} of ${total} · ${filtered.length} bills</span><button class="pgbtn" onclick="goPage(${page+1})" ${page>=total-1?'disabled':''}>Next →</button>`;
+  pg.innerHTML=`
+    <button class="pgbtn" onclick="goPage(${page-1})" ${page===0?'disabled':''}>← Prev</button>
+    <span class="pginfo">Page ${page+1} of ${total} · ${filtered.length} bills</span>
+    <button class="pgbtn" onclick="goPage(${page+1})" ${page>=total-1?'disabled':''}>Next →</button>`;
 }
 
 function goPage(n){page=n;renderAll();window.scrollTo({top:0,behavior:'smooth'});}
 
-function closeDrawer(){if(activeDrawer){activeDrawer.el.remove();activeDrawer.card.classList.remove('active');activeDrawer=null;}}
+// ── DRAWER ────────────────────────────────────────────────────────────────
+function closeDrawer(){
+  if(activeDrawer){
+    activeDrawer.el.remove();
+    activeDrawer.card.classList.remove('active');
+    activeDrawer=null;
+  }
+}
 
 function toggleDrawer(b,card){
   if(activeDrawer&&activeDrawer.card===card){closeDrawer();return;}
   closeDrawer();
-  window.scrollTo({top:card.getBoundingClientRect().top+window.scrollY-12,behavior:'smooth'});
-  setTimeout(()=>{
+
+  // On mobile: scroll card to top. On desktop: no scroll needed.
+  if(window.innerWidth<700){
+    window.scrollTo({top:card.getBoundingClientRect().top+window.scrollY-12,behavior:'smooth'});
+  }
+
+  const open=()=>{
     card.classList.add('active');
     const d=document.createElement('div');
     d.className='drawer open';
     d.innerHTML=`
       <div class="drawer-inner">
-        <div class="dsec"><h3>Plain Language Summary</h3><p>${b.plain_summary}</p></div>
-        <div class="dsec"><h3>Direct Impact on Americans</h3><ul>${(b.impacts||[]).map(i=>`<li class="${i.type}">${i.text}</li>`).join('')}</ul></div>
         <div class="dsec">
-          <h3>Who Is Directly Affected</h3><p style="margin-bottom:14px;font-style:italic">${b.who_affected}</p>
-          <h3 style="margin-top:4px">Bill Details</h3>
-          <p style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--muted);line-height:2.1">
-            <strong>Bill ID:</strong> ${b.id}<br>
-            <strong>Category:</strong> ${CAT_LABEL[b.category]||'General'}<br>
-            <strong>Sponsor:</strong> ${b.sponsor}<br>
-            <strong>Introduced:</strong> ${fmt(b.intro_date)}<br>
-            ${b.signed_date?`<strong>Signed:</strong> <span style="color:var(--green)">✓ ${fmt(b.signed_date)}</span><br>`:''}
-            <strong>Status:</strong> ${spillHtml(b.status,b.status_label,b.id)}
-          </p>
+          <h3>Plain Language Summary</h3>
+          <p>${b.plain_summary||'Analysis pending.'}</p>
+        </div>
+        <div class="dsec">
+          <h3>Direct Impact on Americans</h3>
+          <ul>${(b.impacts||[]).map(i=>`<li class="${i.type||'neutral'}">${i.text||''}</li>`).join('')||'<li class="neutral">Analysis pending.</li>'}</ul>
+        </div>
+        <div class="dsec">
+          <h3>Who Is Directly Affected</h3>
+          <p style="font-style:italic;margin-bottom:16px">${b.who_affected||'—'}</p>
+          <h3>Bill Details</h3>
+          <div class="bill-detail-grid">
+            <strong>Bill ID</strong><span>${b.id||'—'}</span>
+            <strong>Category</strong><span>${CAT_LABEL[b.category]||'General'}</span>
+            <strong>Sponsor</strong><span>${b.sponsor||'—'}</span>
+            <strong>Introduced</strong><span>${fmt(b.intro_date)}</span>
+            ${b.signed_date?`<strong>Signed</strong><span style="color:var(--green)">✓ ${fmt(b.signed_date)}</span>`:''}
+            <strong>Status</strong><span>${spillHtml(b.status,b.status_label,b.id)}</span>
+          </div>
         </div>
       </div>
       <div class="dclose" onclick="closeDrawer()">↑ Collapse Analysis</div>`;
     card.insertAdjacentElement('afterend',d);
     activeDrawer={el:d,card:card};
-  },320);
+  };
+
+  if(window.innerWidth<700){
+    setTimeout(open,320);
+  } else {
+    open();
+  }
 }
 
-function setFilter(btn,f){document.querySelectorAll('[data-f]').forEach(b=>b.classList.remove('on'));btn.classList.add('on');flt=f;page=0;renderAll();}
-function setSort(s){srt=s;page=0;['recent','impact','signed'].forEach(k=>document.getElementById('s-'+k)?.classList.toggle('on',k===s));renderAll();}
+// ── CONTROLS ──────────────────────────────────────────────────────────────
+function setFilter(btn,f){
+  document.querySelectorAll('[data-f]').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');flt=f;page=0;renderAll();
+}
+function setSort(s){
+  srt=s;page=0;
+  ['recent','impact','signed'].forEach(k=>document.getElementById('s-'+k)?.classList.toggle('on',k===s));
+  renderAll();
+}
 
+// ── INIT ──────────────────────────────────────────────────────────────────
 setInterval(()=>{document.getElementById('last-updated-text').textContent=fmtUpdated(dataUpdatedAt);},60000);
 document.getElementById('live-date').textContent=new Date().toLocaleDateString('en-US',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
 loadData();
