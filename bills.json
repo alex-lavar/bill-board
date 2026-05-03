@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T22:17:18.058692Z",
+  "updated_at": "2026-05-03T22:28:31.594927Z",
   "congress": 119,
   "total": 1587,
   "ticker": [
@@ -8,6 +8,7 @@
     "✅ SIGNED · Biden SAVE student loan plan cancelled — 8M borrowers face higher payments under older repayment rules",
     "✅ SIGNED · EPA tailpipe rule repealed — 2032 EV emissions targets cancelled, EPA blocked from similar rules",
     "⚠️ WATCH · TikTok law enforcement in flux — sale not finalized, 170M U.S. users in uncertainty",
+    "✅ Government stays open: DHS gets full 2026 budget, others get extension",
     "⏳ IN COMMITTEE · DOGE Authorization Act — would give DOGE legal access to federal databases on 3M+ employees",
     "🔴 WATCH · H.R.7 Federal Abortion Ban — 15-week nationwide limit would override laws in 20+ states",
     "📋 MOVING · H.R.1 'One Big Beautiful Bill' — would cut Medicaid for up to 13M Americans while eliminating taxes on tips",
@@ -21,8 +22,7 @@
     "⛽ Bill proposes suspending federal gas tax to cut pump prices for all drivers",
     "🦷 Senate bill aims to expand dental and health care for millions of low-income children",
     "🚫 House bill seeks new federal restrictions on medication abortion drug mifepristone",
-    "🗳️ Bill would cut congressional seats in states with large immigrant populations",
-    "🤱 Momnibus Act targets maternal mortality crisis affecting millions of American mothers"
+    "🗳️ Bill would cut congressional seats in states with large immigrant populations"
   ],
   "bills": [
     {
@@ -197,6 +197,37 @@
       "ticker_alert": "⚠️ WATCH · TikTok law enforcement in flux — sale not finalized, 170M U.S. users in uncertainty"
     },
     {
+      "id": "HR 7147",
+      "title": "Homeland Security and Further Additional Continuing Appropriations Act, 2026.",
+      "plain_title": "Government Funding Extension and Homeland Security Budget 2026",
+      "deck": "Keeps the federal government funded temporarily while providing full-year funding for the Department of Homeland Security.",
+      "plain_summary": "This law extends temporary government funding to prevent a shutdown while providing a complete budget for the Department of Homeland Security for fiscal year 2026. It passed Congress and was signed into law as Public Law 119-86. The bill ensures border security agencies, FEMA, and other DHS programs continue operating with full funding while other parts of the government run on a short-term stopgap budget.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Continuing resolution funding for non-DHS agencies limits budget flexibility, potentially freezing new spending on programs like housing assistance, scientific research, and education."
+        },
+        {
+          "type": "positive",
+          "text": "Americans benefit from uninterrupted federal services and disaster relief through FEMA, avoiding the economic disruption and furloughs caused by a government shutdown."
+        },
+        {
+          "type": "neutral",
+          "text": "Prioritizing full DHS funding while other agencies stay on temporary budgets reflects a contested political choice about immigration enforcement versus broader domestic spending."
+        }
+      ],
+      "who_affected": "Federal employees, DHS and border security personnel, FEMA disaster relief recipients, government contractors, immigrants and asylum seekers, recipients of federally funded social programs",
+      "category": "money",
+      "status": "s-signed",
+      "status_label": "Signed Law",
+      "impact_score": 4,
+      "impact_label": "high",
+      "intro_date": "",
+      "signed_date": "2026-04-30",
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "✅ Government stays open: DHS gets full 2026 budget, others get extension"
+    },
+    {
       "id": "HR 8322",
       "title": "To amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978 through April 30, 2026, and for other purposes.",
       "plain_title": "To amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978 through April 30, 2026, and for other purposes.",
@@ -239,29 +270,6 @@
       "impact_label": "medium",
       "intro_date": "",
       "signed_date": "2025-12-02",
-      "sponsor": "See Congress.gov",
-      "ticker_alert": null
-    },
-    {
-      "id": "HR 7147",
-      "title": "Further Additional Continuing Appropriations Act, 2026",
-      "plain_title": "Further Additional Continuing Appropriations Act, 2026",
-      "deck": "Message on Senate action sent to the House.",
-      "plain_summary": "Further Additional Continuing Appropriations Act, 2026. Status: Introduced. Analysis unavailable.",
-      "impacts": [
-        {
-          "type": "neutral",
-          "text": "Analysis temporarily unavailable."
-        }
-      ],
-      "who_affected": "See Congress.gov for details.",
-      "category": "money",
-      "status": "s-signed",
-      "status_label": "Signed Law",
-      "impact_score": 2,
-      "impact_label": "medium",
-      "intro_date": "",
-      "signed_date": "2026-04-30",
       "sponsor": "See Congress.gov",
       "ticker_alert": null
     },
@@ -6355,6 +6363,223 @@
       "ticker_alert": "🏦 House passes bill to modernize Fed's emergency bank lending system"
     },
     {
+      "id": "SJRES 184",
+      "title": "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress.",
+      "plain_title": "Require Congressional Approval Before War With Iran",
+      "deck": "This bill would force the military to withdraw from any unauthorized hostilities against Iran unless Congress formally approves.",
+      "plain_summary": "This resolution would require the President to remove U.S. troops from any military conflict with Iran that Congress has not officially authorized. It invokes the War Powers Resolution, asserting that only Congress has the constitutional authority to declare war. The Senate voted 47-50 to even consider the measure, effectively killing it before a full debate could occur.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics say it could limit the President's ability to respond quickly to Iranian threats, potentially weakening national security deterrence."
+        },
+        {
+          "type": "positive",
+          "text": "Supporters say it protects American troops and taxpayers by ensuring elected representatives — not just the executive branch — decide when to go to war."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill reignites a long-standing constitutional debate over the balance of war powers between Congress and the President, with no clear legal resolution."
+        }
+      ],
+      "who_affected": "Active-duty military personnel, military families, veterans, U.S. taxpayers, Americans living in the Middle East, defense contractors",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "⚠️ Senate blocks vote on bill requiring Congress to approve Iran military action"
+    },
+    {
+      "id": "HR 7886",
+      "title": "Failed Bank Executives Accountability and Consequences Act",
+      "plain_title": "Punish Executives Who Run Banks Into the Ground",
+      "deck": "This bill lets regulators claw back pay and ban executives whose poor decisions caused banks to fail.",
+      "plain_summary": "This bill would allow federal regulators to recover bonuses and compensation paid to executives at banks that fail, and permanently ban those executives from working in the banking industry again. It was introduced in response to high-profile bank collapses like Silicon Valley Bank, where executives collected large payouts even as their institutions collapsed. The bill has been referred to the House Committee on Financial Services, where it awaits further action.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Bank executives could lose previously earned compensation even if their specific decisions were not the sole cause of a bank's failure, raising due-process concerns."
+        },
+        {
+          "type": "positive",
+          "text": "Taxpayers and bank customers gain stronger protection, as the threat of clawbacks and bans may deter reckless risk-taking by bank leaders."
+        },
+        {
+          "type": "neutral",
+          "text": "Stricter penalties could make it harder to recruit qualified executives to lead banks, potentially affecting the overall quality of banking leadership."
+        }
+      ],
+      "who_affected": "Bank executives and senior managers, bank employees, bank shareholders, depositors and customers of regional and mid-size banks, federal banking regulators",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "💰 Bill targets failed bank execs with pay clawbacks and industry bans"
+    },
+    {
+      "id": "SRES 670",
+      "title": "A resolution supporting the goals and ideals of the 2026 Day of Silence in bringing attention to anti-LGBTQI+ bullying, harassment, discrimination, and other forms of victimization faced by individuals in schools, and calling on communities across the country to take action to demand equal educational opportunity, basic civil rights protections, and freedom from erasure for all students, particularly LGBTQI+ young people, in K-12 schools.",
+      "plain_title": "Senate Support for LGBTQ+ Anti-Bullying Day in Schools",
+      "deck": "This resolution expresses Senate support for the 2026 Day of Silence, which raises awareness of anti-LGBTQ+ bullying in K-12 schools.",
+      "plain_summary": "This is a non-binding Senate resolution that formally expresses support for the 2026 Day of Silence, an annual student-led event highlighting bullying and discrimination against LGBTQ+ students in schools. It calls on communities to work toward equal educational opportunities and civil rights protections for all students, especially LGBTQ+ youth. The resolution has been referred to the Senate Committee on Health, Education, Labor, and Pensions and does not create any new laws or mandates.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics argue the resolution uses federal legislative prestige to promote specific ideological positions on gender and sexuality that some parents and communities oppose being introduced in K-12 settings."
+        },
+        {
+          "type": "positive",
+          "text": "LGBTQ+ students, who face statistically higher rates of bullying and harassment, could benefit from increased public attention and community action to improve school safety and inclusivity."
+        },
+        {
+          "type": "neutral",
+          "text": "As a symbolic, non-binding resolution, the measure carries no legal force, creates no funding, and imposes no requirements on schools, states, or communities."
+        }
+      ],
+      "who_affected": "LGBTQ+ K-12 students, parents of K-12 students, school administrators and teachers, civil rights advocates, religious and conservative community organizations",
+      "category": "rights",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏫 Senate resolution backs 2026 Day of Silence against LGBTQ+ school bullying"
+    },
+    {
+      "id": "HR 8392",
+      "title": "No Free Passes for Cronies Act",
+      "plain_title": "Ban on Presidential Pardons for Political Allies",
+      "deck": "This bill would prohibit presidents from pardoning family members, campaign donors, or close associates.",
+      "plain_summary": "The No Free Passes for Cronies Act would make it illegal for a president to pardon individuals who have a personal, financial, or political relationship with them, such as family members, major campaign contributors, or close advisors. It aims to prevent what critics call 'crony pardons' — clemency granted to protect allies rather than serve justice. The bill was referred to the House Committee on the Judiciary, where it must be approved before moving forward.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Could face serious constitutional challenges since the president's pardon power is broadly granted by Article II and has rarely been successfully restricted by Congress."
+        },
+        {
+          "type": "positive",
+          "text": "Could deter presidents from using pardons to shield political allies or family members from accountability, strengthening public trust in the justice system."
+        },
+        {
+          "type": "neutral",
+          "text": "Defining who qualifies as a 'crony' or close associate is legally ambiguous, leaving enforcement and interpretation open to significant debate."
+        }
+      ],
+      "who_affected": "President and executive branch, political donors and fundraisers, presidential family members, federal prosecutors, legal scholars, general public concerned with rule of law",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "⚖️ Bill would ban presidents from pardoning family members and political donors"
+    },
+    {
+      "id": "HR 8387",
+      "title": "Measures Against Marxism’s Dangerous Adherents and Noxious Islamists Act of 2026",
+      "plain_title": "Ban on Visas for Marxists and Islamists",
+      "deck": "This bill would bar people identified as Marxists or Islamists from entering or remaining in the United States.",
+      "plain_summary": "This bill would prohibit individuals deemed to be Marxists or Islamists from receiving visas, green cards, or other immigration benefits, and could lead to deportation of current residents holding those beliefs. The bill was introduced in the House and has been referred to the House Judiciary Committee, meaning it has not yet received a vote. It targets people based on political ideology and religious identity, raising significant constitutional and civil liberties questions.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Could enable deportation or visa denial based on political beliefs or religious identity, raising First Amendment and due process concerns for immigrants and citizens alike."
+        },
+        {
+          "type": "positive",
+          "text": "Supporters argue it would prevent entry of individuals whose ideologies they believe are hostile to U.S. constitutional democracy and national security."
+        },
+        {
+          "type": "neutral",
+          "text": "The bill's broad and politically charged terminology — 'Marxists' and 'Islamists' — is legally undefined, making enforcement scope unclear and likely subject to court challenges."
+        }
+      ],
+      "who_affected": "Muslim immigrants and visa applicants, left-leaning political activists, academics studying Marxist theory, international students, naturalized citizens with relevant political or religious views, immigration attorneys",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🚨 Bill would bar Marxists and Islamists from U.S. entry or residency"
+    },
+    {
+      "id": "HR 8393",
+      "title": "Consumer Protection and Corporate Accountability in Bankruptcy Act of 2026",
+      "plain_title": "Protecting Consumers When Companies Go Bankrupt",
+      "deck": "This bill strengthens protections for everyday people when corporations use bankruptcy to avoid paying claims.",
+      "plain_summary": "This bill proposes reforms to bankruptcy law to make it harder for large corporations to use bankruptcy proceedings to escape accountability to consumers, such as those harmed by defective products or corporate wrongdoing. It would place greater limits on how companies restructure debts and potentially limit settlements that shield executives or parent companies from liability. The bill has been referred to the House Judiciary Committee, meaning it is in its earliest stage and has not yet been voted on.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Could make corporate restructuring more expensive and complex, potentially reducing the chances that troubled companies survive bankruptcy and preserve jobs."
+        },
+        {
+          "type": "positive",
+          "text": "Consumers injured by corporate wrongdoing, such as victims of defective products, would have stronger legal standing to recover compensation during bankruptcy proceedings."
+        },
+        {
+          "type": "neutral",
+          "text": "Changes the balance of power between corporate creditors and individual claimants in bankruptcy court, a contested area where outcomes depend heavily on case specifics."
+        }
+      ],
+      "who_affected": "Consumers with legal claims against bankrupt companies, product liability victims, corporate creditors, bankruptcy attorneys, large corporations facing mass tort litigation, employees of restructuring companies",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "⚖️ New bill aims to protect consumers when corporations file for bankruptcy"
+    },
+    {
+      "id": "HR 8394",
+      "title": "Higher Education Marijuana Research Act of 2026",
+      "plain_title": "Allow Universities to Research Marijuana Legally",
+      "deck": "This bill makes it easier for colleges and universities to study marijuana for scientific and medical purposes.",
+      "plain_summary": "The Higher Education Marijuana Research Act of 2026 would allow accredited colleges and universities to conduct marijuana research without facing the same federal legal barriers that currently block most academic institutions. Under current federal law, marijuana is a Schedule I controlled substance, making research extremely difficult and bureaucratic. This bill has been referred to four House committees and is in its early stages, with no vote scheduled yet.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics warn it could create a patchwork of research rules and may not fully resolve conflicts between federal drug law and state marijuana policies."
+        },
+        {
+          "type": "positive",
+          "text": "Patients and doctors could benefit from better scientific data on marijuana's medical uses, safety, and risks generated by reputable academic institutions."
+        },
+        {
+          "type": "neutral",
+          "text": "Universities would need to navigate new federal registration and compliance requirements, and it remains unclear how funding and oversight would be structured."
+        }
+      ],
+      "who_affected": "University researchers, medical patients, cannabis industry, federal drug enforcement agencies, college students in research programs, healthcare providers",
+      "category": "other",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🔬 Bill would let colleges legally research marijuana for medical science"
+    },
+    {
       "id": "HR 6409",
       "title": "FENCES Act",
       "plain_title": "FENCES Act",
@@ -7303,29 +7528,6 @@
       "plain_title": "ESA Amendments Act of 2025",
       "deck": "Rules Committee Resolution H. Res. 1189 Reported to House. Rule provides for con",
       "plain_summary": "ESA Amendments Act of 2025. Status: In Committee. Analysis unavailable.",
-      "impacts": [
-        {
-          "type": "neutral",
-          "text": "Analysis temporarily unavailable."
-        }
-      ],
-      "who_affected": "See Congress.gov for details.",
-      "category": "other",
-      "status": "s-committee",
-      "status_label": "In Committee",
-      "impact_score": 2,
-      "impact_label": "medium",
-      "intro_date": "",
-      "signed_date": null,
-      "sponsor": "See Congress.gov",
-      "ticker_alert": null
-    },
-    {
-      "id": "SJRES 184",
-      "title": "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress.",
-      "plain_title": "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress.",
-      "deck": "Read twice and referred to the Committee on Foreign Relations.",
-      "plain_summary": "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress.. Status: In Committee. Analysis unavailable.",
       "impacts": [
         {
           "type": "neutral",
@@ -9253,29 +9455,6 @@
       "ticker_alert": null
     },
     {
-      "id": "HR 7886",
-      "title": "Failed Bank Executives Accountability and Consequences Act",
-      "plain_title": "Failed Bank Executives Accountability and Consequences Act",
-      "deck": "Referred to the House Committee on Financial Services.",
-      "plain_summary": "Failed Bank Executives Accountability and Consequences Act. Status: In Committee. Analysis unavailable.",
-      "impacts": [
-        {
-          "type": "neutral",
-          "text": "Analysis temporarily unavailable."
-        }
-      ],
-      "who_affected": "See Congress.gov for details.",
-      "category": "other",
-      "status": "s-committee",
-      "status_label": "In Committee",
-      "impact_score": 2,
-      "impact_label": "medium",
-      "intro_date": "",
-      "signed_date": null,
-      "sponsor": "See Congress.gov",
-      "ticker_alert": null
-    },
-    {
       "id": "HR 8286",
       "title": "Protecting Americans’ Retirement Savings From Politics Act",
       "plain_title": "Protecting Americans’ Retirement Savings From Politics Act",
@@ -9795,29 +9974,6 @@
       ],
       "who_affected": "See Congress.gov for details.",
       "category": "other",
-      "status": "s-committee",
-      "status_label": "In Committee",
-      "impact_score": 2,
-      "impact_label": "medium",
-      "intro_date": "",
-      "signed_date": null,
-      "sponsor": "See Congress.gov",
-      "ticker_alert": null
-    },
-    {
-      "id": "SRES 670",
-      "title": "A resolution supporting the goals and ideals of the 2026 Day of Silence in bringing attention to anti-LGBTQI+ bullying, harassment, discrimination, and other forms of victimization faced by individuals in schools, and calling on communities across the country to take action to demand equal educational opportunity, basic civil rights protections, and freedom from erasure for all students, particularly LGBTQI+ young people, in K-12 schools.",
-      "plain_title": "A resolution supporting the goals and ideals of the 2026 Day of Silence in bringing attention to anti-LGBTQI+ bullying, harassment, discrimination, and other forms of victimization faced by individuals in schools, and calling on communities across the country to take action to demand equal educational opportunity, basic civil rights protections, and freedom from erasure for all students, particularly LGBTQI+ young people, in K-12 schools.",
-      "deck": "Read twice and referred to the Committee on Health, Education, Labor, and Pensio",
-      "plain_summary": "A resolution supporting the goals and ideals of the 2026 Day of Silence in bringing attention to anti-LGBTQI+ bullying, harassment, discrimination, and other forms of victimization faced by individuals in schools, and calling on communities across the country to take action to demand equal educational opportunity, basic civil rights protections, and freedom from erasure for all students, particularly LGBTQI+ young people, in K-12 schools.. Status: In Committee. Analysis unavailable.",
-      "impacts": [
-        {
-          "type": "neutral",
-          "text": "Analysis temporarily unavailable."
-        }
-      ],
-      "who_affected": "See Congress.gov for details.",
-      "category": "rights",
       "status": "s-committee",
       "status_label": "In Committee",
       "impact_score": 2,
@@ -10932,29 +11088,6 @@
       "ticker_alert": null
     },
     {
-      "id": "HR 8364",
-      "title": "To amend title 5, United States Code, to authorize the increase of the retirement age in the United States Capitol Police.",
-      "plain_title": "To amend title 5, United States Code, to authorize the increase of the retirement age in the United States Capitol Police.",
-      "deck": "Referred to the Committee on House Administration, and in addition to the Commit",
-      "plain_summary": "To amend title 5, United States Code, to authorize the increase of the retirement age in the United States Capitol Police.. Status: In Committee. Analysis unavailable.",
-      "impacts": [
-        {
-          "type": "neutral",
-          "text": "Analysis temporarily unavailable."
-        }
-      ],
-      "who_affected": "See Congress.gov for details.",
-      "category": "other",
-      "status": "s-introduced",
-      "status_label": "Introduced",
-      "impact_score": 2,
-      "impact_label": "medium",
-      "intro_date": "",
-      "signed_date": null,
-      "sponsor": "See Congress.gov",
-      "ticker_alert": null
-    },
-    {
       "id": "HR 8389",
       "title": "Rural Area Population Act",
       "plain_title": "Rural Area Population Act",
@@ -11024,29 +11157,6 @@
       "ticker_alert": null
     },
     {
-      "id": "HR 8392",
-      "title": "To amend the Federal Rules of Criminal Procedure to provide for when the government may move the court to dismiss an indictment, information, or complaint, and for other purposes.",
-      "plain_title": "To amend the Federal Rules of Criminal Procedure to provide for when the government may move the court to dismiss an indictment, information, or complaint, and for other purposes.",
-      "deck": "Referred to the House Committee on the Judiciary.",
-      "plain_summary": "To amend the Federal Rules of Criminal Procedure to provide for when the government may move the court to dismiss an indictment, information, or complaint, and for other purposes.. Status: In Committee. Analysis unavailable.",
-      "impacts": [
-        {
-          "type": "neutral",
-          "text": "Analysis temporarily unavailable."
-        }
-      ],
-      "who_affected": "See Congress.gov for details.",
-      "category": "other",
-      "status": "s-committee",
-      "status_label": "In Committee",
-      "impact_score": 2,
-      "impact_label": "medium",
-      "intro_date": "",
-      "signed_date": null,
-      "sponsor": "See Congress.gov",
-      "ticker_alert": null
-    },
-    {
       "id": "HR 8368",
       "title": "To appropriate funds for the Federal Emergency Management Agency's Disaster Relief Fund, and for other purposes.",
       "plain_title": "To appropriate funds for the Federal Emergency Management Agency's Disaster Relief Fund, and for other purposes.",
@@ -11106,29 +11216,6 @@
       ],
       "who_affected": "See Congress.gov for details.",
       "category": "social",
-      "status": "s-committee",
-      "status_label": "In Committee",
-      "impact_score": 2,
-      "impact_label": "medium",
-      "intro_date": "",
-      "signed_date": null,
-      "sponsor": "See Congress.gov",
-      "ticker_alert": null
-    },
-    {
-      "id": "HR 8387",
-      "title": "To amend the Immigration and Nationality Act to limit alien eligibility for admission and naturalization and enable deportation and denaturalization for any membership, affiliation, or advocacy of socialist, communist, Chinese communist, Marxist, or Islamic fundamentalist doctrines, and for other purposes.",
-      "plain_title": "To amend the Immigration and Nationality Act to limit alien eligibility for admission and naturalization and enable deportation and denaturalization for any membership, affiliation, or advocacy of socialist, communist, Chinese communist, Marxist, or Islamic fundamentalist doctrines, and for other purposes.",
-      "deck": "Referred to the House Committee on the Judiciary.",
-      "plain_summary": "To amend the Immigration and Nationality Act to limit alien eligibility for admission and naturalization and enable deportation and denaturalization for any membership, affiliation, or advocacy of socialist, communist, Chinese communist, Marxist, or Islamic fundamentalist doctrines, and for other purposes.. Status: In Committee. Analysis unavailable.",
-      "impacts": [
-        {
-          "type": "neutral",
-          "text": "Analysis temporarily unavailable."
-        }
-      ],
-      "who_affected": "See Congress.gov for details.",
-      "category": "rights",
       "status": "s-committee",
       "status_label": "In Committee",
       "impact_score": 2,
@@ -11415,29 +11502,6 @@
       "ticker_alert": null
     },
     {
-      "id": "HR 8393",
-      "title": "To amend title 11, United States Code, to make the filing of a petition for relief under chapter 11 that is objectively futile or in subjective bad faith a cause for dismissal of the case, and for other purposes.",
-      "plain_title": "To amend title 11, United States Code, to make the filing of a petition for relief under chapter 11 that is objectively futile or in subjective bad faith a cause for dismissal of the case, and for other purposes.",
-      "deck": "Referred to the House Committee on the Judiciary.",
-      "plain_summary": "To amend title 11, United States Code, to make the filing of a petition for relief under chapter 11 that is objectively futile or in subjective bad faith a cause for dismissal of the case, and for other purposes.. Status: In Committee. Analysis unavailable.",
-      "impacts": [
-        {
-          "type": "neutral",
-          "text": "Analysis temporarily unavailable."
-        }
-      ],
-      "who_affected": "See Congress.gov for details.",
-      "category": "other",
-      "status": "s-committee",
-      "status_label": "In Committee",
-      "impact_score": 2,
-      "impact_label": "medium",
-      "intro_date": "",
-      "signed_date": null,
-      "sponsor": "See Congress.gov",
-      "ticker_alert": null
-    },
-    {
       "id": "HR 8377",
       "title": "To amend title XVIII of the Social Security Act to prohibit the use of prior authorization under Medicare Advantage plans, to amend title XI of the Social Security Act to limit the implementation of payment models testing prior authorization under traditional Medicare, and for other purposes.",
       "plain_title": "To amend title XVIII of the Social Security Act to prohibit the use of prior authorization under Medicare Advantage plans, to amend title XI of the Social Security Act to limit the implementation of payment models testing prior authorization under traditional Medicare, and for other purposes.",
@@ -11520,29 +11584,6 @@
       ],
       "who_affected": "See Congress.gov for details.",
       "category": "social",
-      "status": "s-committee",
-      "status_label": "In Committee",
-      "impact_score": 2,
-      "impact_label": "medium",
-      "intro_date": "",
-      "signed_date": null,
-      "sponsor": "See Congress.gov",
-      "ticker_alert": null
-    },
-    {
-      "id": "HR 8394",
-      "title": "To streamline the process for institutions of higher education to research marijuana.",
-      "plain_title": "To streamline the process for institutions of higher education to research marijuana.",
-      "deck": "Referred to the Committee on Energy and Commerce, and in addition to the Committ",
-      "plain_summary": "To streamline the process for institutions of higher education to research marijuana.. Status: In Committee. Analysis unavailable.",
-      "impacts": [
-        {
-          "type": "neutral",
-          "text": "Analysis temporarily unavailable."
-        }
-      ],
-      "who_affected": "See Congress.gov for details.",
-      "category": "other",
       "status": "s-committee",
       "status_label": "In Committee",
       "impact_score": 2,
@@ -38423,6 +38464,37 @@
       "signed_date": null,
       "sponsor": "See Congress.gov",
       "ticker_alert": null
+    },
+    {
+      "id": "HR 8364",
+      "title": "To amend title 5, United States Code, to authorize the increase of the retirement age in the United States Capitol Police.",
+      "plain_title": "Capitol Police Retirement Age Flexibility Act",
+      "deck": "This bill allows the U.S. Capitol Police to raise the mandatory retirement age for its officers.",
+      "plain_summary": "This bill would change federal law to give the U.S. Capitol Police the authority to increase the age at which its officers must retire. Currently, federal law sets a fixed mandatory retirement age for Capitol Police officers, and this bill would allow that ceiling to be raised. The bill passed the House and has been received by the Senate, where it awaits further action.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Older officers staying on longer could slow promotion pipelines and career advancement for younger Capitol Police recruits."
+        },
+        {
+          "type": "positive",
+          "text": "Experienced Capitol Police officers could continue serving longer, potentially improving security for Congress and the Capitol complex."
+        },
+        {
+          "type": "neutral",
+          "text": "Whether raising the retirement age improves or strains the force depends on how the Capitol Police chooses to use this new flexibility."
+        }
+      ],
+      "who_affected": "U.S. Capitol Police officers, Capitol Police recruits and applicants, Members of Congress, Capitol Hill staff and visitors",
+      "category": "other",
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 1,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": null,
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏛️ Bill would let Capitol Police officers work past current mandatory retirement age"
     },
     {
       "id": "HRES 1202",
