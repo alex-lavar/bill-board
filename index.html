@@ -119,19 +119,36 @@ body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Ge
 .byline{font-family:'IBM Plex Mono',monospace;font-size:8px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;border-top:1px solid var(--rule);padding-top:8px;margin-top:10px}
 
 /* ── DRAWER ──────────────────────────────────────────────────────────────── */
-.drawer{display:none;background:#fff;border-left:2px solid var(--ink);border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);animation:sdown .18s ease}
-@keyframes sdown{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
+/* Drawer lives OUTSIDE the grid, anchored below grid-wrap */
+.drawer-wrap{
+  max-width:var(--wrap);
+  margin:0 auto;
+  padding:0 var(--pad);
+}
+.drawer{
+  display:none;
+  background:#fff;
+  border:2px solid var(--ink);
+  border-top:3px solid var(--ink);
+  animation:sdown .2s ease;
+  margin-bottom:2px;
+}
+@keyframes sdown{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
 .drawer.open{display:block}
+
+/* Which card is active gets a bottom highlight */
+.bill-card.active{
+  background:#fff;
+  box-shadow:inset 0 -3px 0 var(--ink);
+}
 
 .drawer-inner{
   display:grid;
   grid-template-columns:1fr 1fr 1fr;
   gap:0;
-  max-width:var(--wrap);
-  margin:0 auto;
 }
 
-.dsec{padding:28px 24px;border-right:1px solid var(--rule)}
+.dsec{padding:28px 28px 24px;border-right:1px solid var(--rule)}
 .dsec:last-child{border-right:none}
 
 .dsec h3{
@@ -140,34 +157,34 @@ body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Ge
   text-transform:uppercase;
   letter-spacing:.14em;
   color:var(--muted);
-  margin-bottom:10px;
+  margin-bottom:12px;
   padding-bottom:6px;
   border-bottom:1px solid var(--rule);
 }
-.dsec p{font-size:13px;line-height:1.7;color:#2a2520}
+.dsec p{font-size:13.5px;line-height:1.75;color:#2a2520}
 .dsec ul{list-style:none;padding:0}
 .dsec li{
-  font-size:13px;
-  line-height:1.6;
+  font-size:13.5px;
+  line-height:1.65;
   color:#2a2520;
-  padding-left:16px;
+  padding-left:18px;
   position:relative;
-  margin-bottom:9px;
+  margin-bottom:10px;
 }
-.dsec li::before{content:'▸';position:absolute;left:0;font-size:10px;top:2px}
+.dsec li::before{content:'▸';position:absolute;left:0;font-size:11px;top:3px}
 .dsec li.negative::before{color:var(--red)}
 .dsec li.positive::before{color:var(--green)}
 .dsec li.neutral::before{color:var(--gold)}
 
 .bill-detail-grid{
   display:grid;
-  grid-template-columns:auto 1fr;
-  gap:4px 12px;
+  grid-template-columns:90px 1fr;
+  gap:6px 10px;
   font-family:'IBM Plex Mono',monospace;
   font-size:10px;
   color:var(--muted);
-  line-height:1.7;
-  margin-top:12px;
+  line-height:1.6;
+  margin-top:14px;
 }
 .bill-detail-grid strong{color:var(--ink);font-weight:500}
 
@@ -176,7 +193,7 @@ body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Ge
   font-size:9px;
   text-transform:uppercase;
   letter-spacing:.1em;
-  padding:10px var(--pad);
+  padding:10px 28px;
   background:var(--paper2);
   border-top:1px solid var(--rule);
   cursor:pointer;
@@ -235,7 +252,7 @@ body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Ge
   .drawer-inner{grid-template-columns:1fr 1fr 1fr}
 }
 
-/* Medium: 2-col cards, hero stacks */
+/* Medium: 2-col cards, hero stacks, drawer 2-col */
 @media(max-width:1099px){
   .hero-row{grid-template-columns:1fr}
   .hero-main{border-right:none;border-bottom:2px solid var(--rule);padding-right:0;padding-bottom:20px}
@@ -248,18 +265,19 @@ body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Ge
   .dsec:nth-child(3){grid-column:1/-1;border-top:1px solid var(--rule);border-right:none}
 }
 
-/* Small tablet / large phone */
+/* Small tablet / large phone: 1-col everything */
 @media(max-width:700px){
   .bill-grid{grid-template-columns:1fr}
   .bill-card{border-right:none!important}
   .drawer-inner{grid-template-columns:1fr}
-  .dsec{border-right:none!important;border-top:1px solid var(--rule)}
+  .dsec{border-right:none!important;border-top:1px solid var(--rule);padding:20px 16px}
   .dsec:first-child{border-top:none}
   .controls{gap:6px}
   .ctrl-divider{display:none}
   .ctrl-search{margin-left:0;width:100%}
   .ctrl-search input{width:100%}
   .mast-meta{justify-content:center;text-align:center}
+  .drawer-wrap{padding:0 12px}
 }
 
 /* Mobile */
@@ -319,6 +337,7 @@ body{background:var(--paper);color:var(--ink);font-family:'Libre Baskerville',Ge
   <div class="hero-row" id="hero"></div>
   <div class="bill-grid" id="grid"><p class="loading-msg">Loading bills…</p></div>
 </div>
+<div class="drawer-wrap"><div id="drawer-mount"></div></div>
 <div class="pagination" id="pgbar" style="display:none"></div>
 
 <!-- PIPELINE OVERLAY -->
@@ -548,7 +567,8 @@ function goPage(n){page=n;renderAll();window.scrollTo({top:0,behavior:'smooth'})
 // ── DRAWER ────────────────────────────────────────────────────────────────
 function closeDrawer(){
   if(activeDrawer){
-    activeDrawer.el.remove();
+    const mount=document.getElementById('drawer-mount');
+    mount.innerHTML='';
     activeDrawer.card.classList.remove('active');
     activeDrawer=null;
   }
@@ -558,49 +578,44 @@ function toggleDrawer(b,card){
   if(activeDrawer&&activeDrawer.card===card){closeDrawer();return;}
   closeDrawer();
 
-  // On mobile: scroll card to top. On desktop: no scroll needed.
-  if(window.innerWidth<700){
-    window.scrollTo({top:card.getBoundingClientRect().top+window.scrollY-12,behavior:'smooth'});
-  }
+  card.classList.add('active');
 
-  const open=()=>{
-    card.classList.add('active');
-    const d=document.createElement('div');
-    d.className='drawer open';
-    d.innerHTML=`
-      <div class="drawer-inner">
-        <div class="dsec">
-          <h3>Plain Language Summary</h3>
-          <p>${b.plain_summary||'Analysis pending.'}</p>
-        </div>
-        <div class="dsec">
-          <h3>Direct Impact on Americans</h3>
-          <ul>${(b.impacts||[]).map(i=>`<li class="${i.type||'neutral'}">${i.text||''}</li>`).join('')||'<li class="neutral">Analysis pending.</li>'}</ul>
-        </div>
-        <div class="dsec">
-          <h3>Who Is Directly Affected</h3>
-          <p style="font-style:italic;margin-bottom:16px">${b.who_affected||'—'}</p>
-          <h3>Bill Details</h3>
-          <div class="bill-detail-grid">
-            <strong>Bill ID</strong><span>${b.id||'—'}</span>
-            <strong>Category</strong><span>${CAT_LABEL[b.category]||'General'}</span>
-            <strong>Sponsor</strong><span>${b.sponsor||'—'}</span>
-            <strong>Introduced</strong><span>${fmt(b.intro_date)}</span>
-            ${b.signed_date?`<strong>Signed</strong><span style="color:var(--green)">✓ ${fmt(b.signed_date)}</span>`:''}
-            <strong>Status</strong><span>${spillHtml(b.status,b.status_label,b.id)}</span>
-          </div>
+  const mount=document.getElementById('drawer-mount');
+  const d=document.createElement('div');
+  d.className='drawer open';
+  d.innerHTML=`
+    <div class="drawer-inner">
+      <div class="dsec">
+        <h3>Plain Language Summary</h3>
+        <p>${b.plain_summary||'Analysis pending — will be generated on next update.'}</p>
+      </div>
+      <div class="dsec">
+        <h3>Direct Impact on Americans</h3>
+        <ul>${(b.impacts||[]).map(i=>`<li class="${i.type||'neutral'}">${i.text||''}</li>`).join('')||'<li class="neutral">Analysis pending.</li>'}</ul>
+      </div>
+      <div class="dsec">
+        <h3>Who Is Directly Affected</h3>
+        <p style="font-style:italic;margin-bottom:16px">${b.who_affected||'—'}</p>
+        <h3>Bill Details</h3>
+        <div class="bill-detail-grid">
+          <strong>Bill ID</strong><span>${b.id||'—'}</span>
+          <strong>Category</strong><span>${CAT_LABEL[b.category]||'General'}</span>
+          <strong>Sponsor</strong><span>${b.sponsor||'—'}</span>
+          <strong>Introduced</strong><span>${fmt(b.intro_date)}</span>
+          ${b.signed_date?`<strong>Signed</strong><span style="color:var(--green)">✓ ${fmt(b.signed_date)}</span>`:''}
+          <strong>Status</strong><span>${spillHtml(b.status,b.status_label,b.id)}</span>
         </div>
       </div>
-      <div class="dclose" onclick="closeDrawer()">↑ Collapse Analysis</div>`;
-    card.insertAdjacentElement('afterend',d);
-    activeDrawer={el:d,card:card};
-  };
+    </div>
+    <div class="dclose" onclick="closeDrawer()">↑ Collapse Analysis</div>`;
 
-  if(window.innerWidth<700){
-    setTimeout(open,320);
-  } else {
-    open();
-  }
+  mount.appendChild(d);
+  activeDrawer={el:d,card:card};
+
+  // Scroll drawer into view
+  setTimeout(()=>{
+    d.scrollIntoView({behavior:'smooth',block:'nearest'});
+  },50);
 }
 
 // ── CONTROLS ──────────────────────────────────────────────────────────────
