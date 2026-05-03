@@ -187,7 +187,7 @@ def main():
             signed_date = action_date
 
         # Check if we already have AI analysis for this bill
-        if bill_id in merged and merged[bill_id].get("plain_title"):
+        if bill_id in merged and merged[bill_id].get("plain_summary") and "Analysis pending" not in merged[bill_id].get("plain_summary", "") and "Analysis unavailable" not in merged[bill_id].get("plain_summary", ""):
             # Update status/dates but keep AI analysis
             merged[bill_id]["status"]       = status_key
             merged[bill_id]["status_label"] = status_label
