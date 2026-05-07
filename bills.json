@@ -1,300 +1,96 @@
 {
-  "updated_at": "2026-05-03T23:53:01.702614Z",
+  "updated_at": "2026-05-07T08:38:31.845529Z",
   "congress": 119,
-  "total": 1587,
+  "total": 1590,
   "ticker": [
-    "✅ SIGNED · Laken Riley Act — ICE must detain undocumented immigrants charged with theft, no conviction needed",
+    "🏠 New law expands home loan access for Native Americans on tribal lands",
+    "✅ Government stays open: DHS gets full 2026 budget, others get extension",
+    "🔍 Congress extends warrantless foreign surveillance law through April 2026",
+    "✅ 2026 federal spending law signed — funds entire U.S. government now active",
+    "🏅 Congress honors 1980 'Miracle on Ice' hockey team with Gold Medal",
     "🚨 Signed into law: Major tax cuts and social program reductions affecting millions",
     "✅ SIGNED · Biden SAVE student loan plan cancelled — 8M borrowers face higher payments under older repayment rules",
     "✅ SIGNED · EPA tailpipe rule repealed — 2032 EV emissions targets cancelled, EPA blocked from similar rules",
-    "⚠️ WATCH · TikTok law enforcement in flux — sale not finalized, 170M U.S. users in uncertainty",
-    "✅ Government stays open: DHS gets full 2026 budget, others get extension",
     "⏳ IN COMMITTEE · DOGE Authorization Act — would give DOGE legal access to federal databases on 3M+ employees",
+    "⏳ IN COMMITTEE · Energy Dominance Act — would fast-track oil and mining permits on federal land",
     "🔴 WATCH · H.R.7 Federal Abortion Ban — 15-week nationwide limit would override laws in 20+ states",
     "📋 MOVING · H.R.1 'One Big Beautiful Bill' — would cut Medicaid for up to 13M Americans while eliminating taxes on tips",
+    "📋 PASSED HOUSE · SAVE Act — proof of citizenship required to register to vote, now heads to Senate",
     "🌾 House farm bill advances, affecting food aid and farm support for millions",
     "📊 Congress proposes 10-year budget blueprint with major spending cut targets",
     "🏛️ House passes 2026 Homeland Security budget; Senate review pending",
-    "🗽 DIGNIDAD Act proposes legal status for millions of undocumented U.S. residents",
-    "💰 Bill proposes monthly child tax payments up to $300 per child for families",
-    "⏳ IN COMMITTEE · Energy Dominance Act — would fast-track oil and mining permits on federal land",
-    "📋 PASSED HOUSE · SAVE Act — proof of citizenship required to register to vote, now heads to Senate",
-    "⛽ Bill proposes suspending federal gas tax to cut pump prices for all drivers",
-    "🦷 Senate bill aims to expand dental and health care for millions of low-income children",
-    "🚫 House bill seeks new federal restrictions on medication abortion drug mifepristone",
-    "🗳️ Bill would cut congressional seats in states with large immigrant populations"
+    "📋 PASSED HOUSE · IRS nonprofit tax status bill — Treasury could strip tax-exempt status without conviction"
   ],
   "bills": [
     {
-      "id": "S.5",
-      "title": "Laken Riley Act",
-      "plain_title": "Mandatory ICE Detention for Immigrants Charged with Crimes",
-      "deck": "Requires ICE to detain undocumented immigrants arrested or charged with theft or violent crimes — before any conviction.",
-      "plain_summary": "This law makes it mandatory for ICE to hold undocumented immigrants if they are even accused — not yet convicted — of crimes like shoplifting, burglary, or assault. Before this, ICE used its own judgment on who to detain. It was the very first bill President Trump signed in his second term, on January 29, 2025.",
+      "id": "H.R.3322",
+      "title": "No Tax on Social Security Benefits Act",
+      "plain_title": "Eliminating Federal Taxes on Social Security Benefits",
+      "deck": "Would eliminate the federal income tax on Social Security benefits entirely — currently up to 85% of benefits are taxable for higher-income recipients.",
+      "plain_summary": "If you receive Social Security and have income above ~$25,000/year, you currently pay federal income tax on up to 85% of your benefits. This bill makes all Social Security income tax-free. The cost is ~$1.6 trillion in federal revenue over 10 years, which could accelerate Social Security's insolvency.",
       "impacts": [
         {
-          "type": "negative",
-          "text": "Detention based only on an arrest or charge — no conviction required."
-        },
-        {
-          "type": "negative",
-          "text": "Immigrants who've lived in the U.S. for years can be detained and deported for a misdemeanor accusation."
+          "type": "positive",
+          "text": "~70 million Social Security recipients would pay less in federal taxes."
         },
         {
           "type": "positive",
-          "text": "Supporters say it closes a loophole that let dangerous individuals avoid detention."
-        },
-        {
-          "type": "neutral",
-          "text": "Republican-led states gain new legal standing to sue the federal government over immigration enforcement."
-        }
-      ],
-      "who_affected": "Undocumented immigrants, mixed-status families, immigration attorneys, state and local law enforcement.",
-      "category": "rights",
-      "status": "s-signed",
-      "status_label": "Signed Law",
-      "impact_score": 5,
-      "impact_label": "high",
-      "intro_date": "2025-01-08",
-      "signed_date": "2025-01-29",
-      "sponsor": "Sen. Katie Britt (R-AL)",
-      "ticker_alert": "✅ SIGNED · Laken Riley Act — ICE must detain undocumented immigrants charged with theft, no conviction needed"
-    },
-    {
-      "id": "HR 1",
-      "title": "An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.",
-      "plain_title": "Big Beautiful Bill: Tax Cuts and Spending Changes Act",
-      "deck": "Extends Trump-era tax cuts, increases defense and border spending, and cuts some social programs.",
-      "plain_summary": "This sweeping reconciliation law makes the 2017 Trump tax cuts permanent, adds new tax breaks for tips and overtime pay, boosts spending on border security and the military, and cuts hundreds of billions from Medicaid, food stamps, and student loan programs. It was driven by House Republicans and signed into law as Public Law 119-21. It is one of the largest tax and spending packages in recent American history.",
-      "impacts": [
-        {
-          "type": "negative",
-          "text": "Millions of low-income Americans could lose Medicaid coverage or SNAP food benefits due to new work requirements and eligibility cuts."
-        },
-        {
-          "type": "positive",
-          "text": "Most working Americans would see lower federal income tax bills as the 2017 tax cuts are made permanent, preventing a scheduled 2026 tax increase."
-        },
-        {
-          "type": "neutral",
-          "text": "The law is projected to add trillions to the national debt over a decade, with supporters arguing growth will offset costs and critics disputing that."
-        }
-      ],
-      "who_affected": "Low-income families on Medicaid, SNAP recipients, tipped workers, overtime workers, small business owners, military families, undocumented immigrants, student loan borrowers, wealthy taxpayers",
-      "category": "money",
-      "status": "s-signed",
-      "status_label": "Signed Law",
-      "impact_score": 5,
-      "impact_label": "high",
-      "intro_date": "",
-      "signed_date": "2025-07-04",
-      "sponsor": "See Congress.gov",
-      "ticker_alert": "🚨 Signed into law: Major tax cuts and social program reductions affecting millions"
-    },
-    {
-      "id": "S.J.Res.11",
-      "title": "Disapproving Biden SAVE Student Loan Rule",
-      "plain_title": "Canceling Biden's SAVE Student Loan Plan",
-      "deck": "Nullifies the Biden SAVE income-driven repayment plan, which capped payments at 5% of discretionary income. ~8 million borrowers in limbo.",
-      "plain_summary": "The SAVE plan calculated student loan payments as a percentage of your income and offered loan forgiveness faster than older programs. Congress cancelled it entirely and barred the Education Department from creating anything substantially similar without new legislation. About 8 million borrowers are now in repayment uncertainty.",
-      "impacts": [
-        {
-          "type": "negative",
-          "text": "~8 million enrolled borrowers face uncertain repayment status and likely higher monthly payments."
+          "text": "Largest benefit for middle-income retirees who currently pay tax on benefits."
         },
         {
           "type": "negative",
-          "text": "Low-income borrowers who benefited most face the largest payment increases."
+          "text": "Reduces federal revenue by ~$1.6 trillion over 10 years."
         },
         {
-          "type": "positive",
-          "text": "Supporters argue the plan was unconstitutional executive overreach."
-        },
-        {
-          "type": "neutral",
-          "text": "Borrowers will be migrated to older income-driven plans with less favorable terms."
+          "type": "negative",
+          "text": "Could accelerate Social Security Trust Fund insolvency."
         }
       ],
-      "who_affected": "~8 million student loan borrowers, recent college graduates, working-class and low-income borrowers.",
+      "who_affected": "All Social Security recipients (70+ million), future retirees, and taxpayers who fund the program.",
       "category": "social",
-      "status": "s-signed",
-      "status_label": "Signed Law",
-      "impact_score": 4,
-      "impact_label": "high",
-      "intro_date": "2025-02-20",
-      "signed_date": "2025-04-01",
-      "sponsor": "Sen. Bill Cassidy (R-LA)",
-      "ticker_alert": "✅ SIGNED · Biden SAVE student loan plan cancelled — 8M borrowers face higher payments under older repayment rules"
+      "status": "s-introduced",
+      "status_label": "Introduced",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "2025-05-10",
+      "signed_date": null,
+      "sponsor": "Rep. Jeff Van Drew (R-NJ)",
+      "ticker_alert": "🆕 INTRODUCED · No Tax on Social Security — would make all SS benefits tax-free for 70M recipients"
     },
     {
-      "id": "H.J.Res.25",
-      "title": "Disapproving EPA Tailpipe Emissions Rule",
-      "plain_title": "Repealing Biden's Vehicle Emissions Standards",
-      "deck": "Nullifies Biden-era EPA rules requiring automakers to reduce tailpipe emissions by 2032 and bars the EPA from issuing similar rules.",
-      "plain_summary": "The Biden EPA had set rules requiring far lower vehicle emissions by 2032, pushing automakers toward electric vehicles. This law cancels those rules entirely and blocks the EPA from creating substantially similar regulations in the future without a new act of Congress.",
+      "id": "S.1190",
+      "title": "Protecting Children on Social Media Act",
+      "plain_title": "Age Verification Required for Social Media — Under 13 Banned",
+      "deck": "Requires social media platforms to verify ages of all new users and prohibits children under 13, with parental consent required for ages 13–17.",
+      "plain_summary": "Social media companies would be required to use age verification tools for all new users. Children under 13 couldn't create accounts. Teens 13–17 would need verified parental permission. Privacy advocates warn that age verification at scale requires collecting sensitive personal data from every user.",
       "impacts": [
-        {
-          "type": "negative",
-          "text": "Expected air quality improvements from stricter emissions standards are now cancelled."
-        },
-        {
-          "type": "neutral",
-          "text": "Automakers no longer face the 2032 electrification compliance timeline."
-        },
         {
           "type": "positive",
-          "text": "Supporters say it prevents higher vehicle prices and protects consumer choice."
+          "text": "Stronger legal protection for children from predatory content and adult interactions online."
         },
         {
           "type": "negative",
-          "text": "EPA is blocked from reissuing similar rules without congressional action."
-        }
-      ],
-      "who_affected": "All Americans (air quality), autoworkers, EV manufacturers, car buyers, climate advocates.",
-      "category": "env",
-      "status": "s-signed",
-      "status_label": "Signed Law",
-      "impact_score": 4,
-      "impact_label": "high",
-      "intro_date": "2025-02-03",
-      "signed_date": "2025-03-12",
-      "sponsor": "Rep. John Joyce (R-PA)",
-      "ticker_alert": "✅ SIGNED · EPA tailpipe rule repealed — 2032 EV emissions targets cancelled, EPA blocked from similar rules"
-    },
-    {
-      "id": "H.R.7521",
-      "title": "Protecting Americans from Foreign Adversary Controlled Applications Act",
-      "plain_title": "The TikTok Divestiture Law",
-      "deck": "Forces ByteDance (TikTok's Chinese parent) to sell TikTok or face removal from U.S. app stores. Upheld by Supreme Court. Enforcement in flux.",
-      "plain_summary": "Passed in 2024 and upheld by the Supreme Court, this law required China's ByteDance to sell TikTok within ~9 months or face a ban. A sale has not been finalized. The Trump administration has signaled varying enforcement intentions, leaving the app's legal status uncertain for its 170 million U.S. users.",
-      "impacts": [
-        {
-          "type": "negative",
-          "text": "~170 million American TikTok users face potential loss of access."
-        },
-        {
-          "type": "negative",
-          "text": "Content creators earning income through TikTok face loss of livelihood."
-        },
-        {
-          "type": "positive",
-          "text": "Proponents say it protects Americans from Chinese government data collection."
+          "text": "Age verification requires collecting sensitive ID documents from all users, not just minors."
         },
         {
           "type": "neutral",
-          "text": "Sets precedent for government power to restrict access to a communications platform."
-        }
-      ],
-      "who_affected": "TikTok's 170M U.S. users, content creators, small businesses, digital rights advocates.",
-      "category": "rights",
-      "status": "s-signed",
-      "status_label": "Signed Law",
-      "impact_score": 4,
-      "impact_label": "high",
-      "intro_date": "2024-03-07",
-      "signed_date": "2024-04-24",
-      "sponsor": "Rep. Mike Gallagher (R-WI)",
-      "ticker_alert": "⚠️ WATCH · TikTok law enforcement in flux — sale not finalized, 170M U.S. users in uncertainty"
-    },
-    {
-      "id": "HR 7147",
-      "title": "Homeland Security and Further Additional Continuing Appropriations Act, 2026.",
-      "plain_title": "Government Funding Extension and Homeland Security Budget 2026",
-      "deck": "Keeps the federal government funded temporarily while providing full-year funding for the Department of Homeland Security.",
-      "plain_summary": "This law extends temporary government funding to prevent a shutdown while providing a complete budget for the Department of Homeland Security for fiscal year 2026. It passed Congress and was signed into law as Public Law 119-86. The bill ensures border security agencies, FEMA, and other DHS programs continue operating with full funding while other parts of the government run on a short-term stopgap budget.",
-      "impacts": [
-        {
-          "type": "negative",
-          "text": "Continuing resolution funding for non-DHS agencies limits budget flexibility, potentially freezing new spending on programs like housing assistance, scientific research, and education."
-        },
-        {
-          "type": "positive",
-          "text": "Americans benefit from uninterrupted federal services and disaster relief through FEMA, avoiding the economic disruption and furloughs caused by a government shutdown."
+          "text": "Significant compliance costs could disadvantage smaller platforms vs. Facebook and Instagram."
         },
         {
           "type": "neutral",
-          "text": "Prioritizing full DHS funding while other agencies stay on temporary budgets reflects a contested political choice about immigration enforcement versus broader domestic spending."
+          "text": "Could limit teen access to peer support forums and mental health communities online."
         }
       ],
-      "who_affected": "Federal employees, DHS and border security personnel, FEMA disaster relief recipients, government contractors, immigrants and asylum seekers, recipients of federally funded social programs",
-      "category": "money",
-      "status": "s-signed",
-      "status_label": "Signed Law",
-      "impact_score": 4,
-      "impact_label": "high",
-      "intro_date": "",
-      "signed_date": "2026-04-30",
-      "sponsor": "See Congress.gov",
-      "ticker_alert": "✅ Government stays open: DHS gets full 2026 budget, others get extension"
-    },
-    {
-      "id": "HR 8322",
-      "title": "To amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978 through April 30, 2026, and for other purposes.",
-      "plain_title": "To amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978 through April 30, 2026, and for other purposes.",
-      "deck": "Became Public Law No: 119-84.",
-      "plain_summary": "To amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978 through April 30, 2026, and for other purposes.. Status: Signed Law. Analysis unavailable.",
-      "impacts": [
-        {
-          "type": "neutral",
-          "text": "Analysis temporarily unavailable."
-        }
-      ],
-      "who_affected": "See Congress.gov for details.",
-      "category": "other",
-      "status": "s-signed",
-      "status_label": "Signed Law",
-      "impact_score": 2,
+      "who_affected": "All social media users (everyone must be age-verified), parents, children, tech companies, privacy advocates.",
+      "category": "social",
+      "status": "s-committee",
+      "status_label": "Senate Commerce Cmte",
+      "impact_score": 3,
       "impact_label": "medium",
-      "intro_date": "",
-      "signed_date": "2026-04-18",
-      "sponsor": "See Congress.gov",
-      "ticker_alert": null
-    },
-    {
-      "id": "HR 1512",
-      "title": "Taiwan Assurance Implementation Act",
-      "plain_title": "Taiwan Assurance Implementation Act",
-      "deck": "Became Public Law No: 119-45.",
-      "plain_summary": "Taiwan Assurance Implementation Act. Status: Signed Law.",
-      "impacts": [
-        {
-          "type": "neutral",
-          "text": "Analysis pending — will be generated on next update."
-        }
-      ],
-      "who_affected": "To be determined.",
-      "category": "other",
-      "status": "s-signed",
-      "status_label": "Signed Law",
-      "impact_score": 2,
-      "impact_label": "medium",
-      "intro_date": "",
-      "signed_date": "2025-12-02",
-      "sponsor": "See Congress.gov",
-      "ticker_alert": null
-    },
-    {
-      "id": "S 4465",
-      "title": "A bill to amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978, and for other purposes.",
-      "plain_title": "A bill to amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978, and for other purposes.",
-      "deck": "Became Public Law No: 119-87.",
-      "plain_summary": "A bill to amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978, and for other purposes.. Status: Signed Law.",
-      "impacts": [
-        {
-          "type": "neutral",
-          "text": "Analysis pending — will be generated on next update."
-        }
-      ],
-      "who_affected": "To be determined.",
-      "category": "other",
-      "status": "s-signed",
-      "status_label": "Signed Law",
-      "impact_score": 2,
-      "impact_label": "medium",
-      "intro_date": "",
-      "signed_date": "2026-04-30",
-      "sponsor": "See Congress.gov",
-      "ticker_alert": null
+      "intro_date": "2025-04-10",
+      "signed_date": null,
+      "sponsor": "Sen. Schatz (D-HI) & Sen. Cotton (R-AR)",
+      "ticker_alert": "⏳ IN COMMITTEE · Social media age verification bill — under-13 ban, parental consent required for teens"
     },
     {
       "id": "H.R.4455",
@@ -330,6 +126,115 @@
       "signed_date": null,
       "sponsor": "Rep. Marjorie Taylor Greene (R-GA)",
       "ticker_alert": "⏳ IN COMMITTEE · DOGE Authorization Act — would give DOGE legal access to federal databases on 3M+ employees"
+    },
+    {
+      "id": "H.R.2234",
+      "title": "Energy Dominance Act",
+      "plain_title": "Fast-Tracking Oil, Gas & Mining Permits on Federal Land",
+      "deck": "Streamlines permitting for oil, gas, coal, and mineral extraction on federal lands — cutting review timelines and limiting environmental legal challenges.",
+      "plain_summary": "Getting permits to drill or mine on federal land currently takes years due to environmental review requirements. This bill caps those timelines, limits legal challenges by environmental groups, and expands areas of federal land open to energy development.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Faster permitting reduces environmental review time, increasing risk of poorly-assessed projects."
+        },
+        {
+          "type": "negative",
+          "text": "Limits the ability of communities and environmental groups to challenge projects."
+        },
+        {
+          "type": "positive",
+          "text": "Lower energy production costs could reduce gas and energy prices for consumers."
+        },
+        {
+          "type": "positive",
+          "text": "Could create energy and mining jobs in rural areas."
+        },
+        {
+          "type": "negative",
+          "text": "Expands fossil fuel extraction on public lands, accelerating greenhouse gas emissions."
+        }
+      ],
+      "who_affected": "Rural communities near federal lands, energy industry workers, environmental advocates, public land users.",
+      "category": "env",
+      "status": "s-committee",
+      "status_label": "In Committee",
+      "impact_score": 4,
+      "impact_label": "high",
+      "intro_date": "2025-03-15",
+      "signed_date": null,
+      "sponsor": "Rep. Doug LaMalfa (R-CA)",
+      "ticker_alert": "⏳ IN COMMITTEE · Energy Dominance Act — would fast-track oil and mining permits on federal land"
+    },
+    {
+      "id": "S.2847",
+      "title": "No Tax on Tips Act",
+      "plain_title": "Eliminating Federal Taxes on Tip Income",
+      "deck": "Eliminates federal income taxes on tips received by workers in industries where tipping is customary — restaurants, hotels, salons, rideshare.",
+      "plain_summary": "Workers in tipped professions would pay zero federal income tax on tips. You'd still pay taxes on your base hourly wage. The average estimated benefit for full-time tipped workers is $1,700–$4,000 per year. The bill would reduce federal revenue by an estimated $100–150 billion over 10 years.",
+      "impacts": [
+        {
+          "type": "positive",
+          "text": "Workers in tipped professions take home significantly more of their earnings."
+        },
+        {
+          "type": "neutral",
+          "text": "Benefits are uneven — servers at upscale restaurants gain more than those at diners."
+        },
+        {
+          "type": "negative",
+          "text": "Reduces federal revenue by ~$100–150 billion over 10 years."
+        },
+        {
+          "type": "neutral",
+          "text": "Could incentivize employers to restructure wages as tips to exploit the exemption."
+        }
+      ],
+      "who_affected": "~4 million tipped workers in food service, hospitality, beauty, and transportation sectors.",
+      "category": "money",
+      "status": "s-committee",
+      "status_label": "Senate Finance Cmte",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "2025-03-10",
+      "signed_date": null,
+      "sponsor": "Sen. Ted Cruz (R-TX)",
+      "ticker_alert": "⏳ IN COMMITTEE · No Tax on Tips Act — could eliminate federal taxes on tip income for 4M service workers"
+    },
+    {
+      "id": "S.619",
+      "title": "PROVE IT Act",
+      "plain_title": "Carbon Border Fee on High-Pollution Imports",
+      "deck": "Creates fees on imports from countries with weaker carbon standards, leveling the playing field for American manufacturers.",
+      "plain_summary": "U.S. companies face environmental rules that raise production costs. Foreign competitors face fewer restrictions. This bill adds a fee to imported goods based on their carbon footprint, making U.S.-made products more price-competitive. Revenue would support American workers in affected industries.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Could modestly raise consumer prices on imported steel, aluminum, cement, and fertilizer."
+        },
+        {
+          "type": "positive",
+          "text": "Levels the competitive playing field for U.S. manufacturers following environmental rules."
+        },
+        {
+          "type": "positive",
+          "text": "Creates financial incentive for other countries to reduce pollution."
+        },
+        {
+          "type": "negative",
+          "text": "Trading partners could retaliate with tariffs on U.S. exports."
+        }
+      ],
+      "who_affected": "U.S. manufacturers, importers, consumers, steel and aluminum industries, global trade relationships.",
+      "category": "env",
+      "status": "s-committee",
+      "status_label": "Senate Finance Cmte",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "2025-03-04",
+      "signed_date": null,
+      "sponsor": "Sen. Brian Schatz (D-HI)",
+      "ticker_alert": "⏳ IN COMMITTEE · PROVE IT Act — carbon border fee on imports from high-pollution countries"
     },
     {
       "id": "H.R.7",
@@ -408,6 +313,76 @@
       "signed_date": null,
       "sponsor": "House Republican Leadership",
       "ticker_alert": "📋 MOVING · H.R.1 'One Big Beautiful Bill' — would cut Medicaid for up to 13M Americans while eliminating taxes on tips"
+    },
+    {
+      "id": "H.R.22",
+      "title": "Safeguard American Voter Eligibility Act",
+      "plain_title": "Proof of Citizenship Required to Register to Vote",
+      "deck": "Requires all Americans to provide documentary proof of citizenship — passport, birth certificate, or equivalent — when registering to vote.",
+      "plain_summary": "Currently, registering to vote only requires signing a form swearing you're a citizen. This bill requires physical proof — a passport, birth certificate, or naturalization papers. Supporters say it prevents non-citizen voting. Critics say millions of eligible Americans lack these documents and would be blocked from registering.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Millions of eligible voters without passports or birth certificates could be blocked from registering."
+        },
+        {
+          "type": "negative",
+          "text": "Disproportionately affects low-income, elderly, and rural Americans."
+        },
+        {
+          "type": "positive",
+          "text": "Supporters say it ensures only citizens cast ballots in federal elections."
+        },
+        {
+          "type": "neutral",
+          "text": "Non-citizen voting in federal elections is already illegal and extremely rare."
+        }
+      ],
+      "who_affected": "All unregistered Americans, naturalized citizens, elderly voters, low-income and rural households.",
+      "category": "rights",
+      "status": "s-floor",
+      "status_label": "Passed House",
+      "impact_score": 4,
+      "impact_label": "high",
+      "intro_date": "2025-01-14",
+      "signed_date": null,
+      "sponsor": "Rep. Chip Roy (R-TX)",
+      "ticker_alert": "📋 PASSED HOUSE · SAVE Act — proof of citizenship required to register to vote, now heads to Senate"
+    },
+    {
+      "id": "H.R.9495",
+      "title": "Stop Terror-Financing and Tax Penalties on American Hostages Act",
+      "plain_title": "IRS Can Revoke Nonprofit Tax Status Without Court Review",
+      "deck": "Allows the IRS to revoke nonprofit tax-exempt status from organizations designated as 'terrorist supporting' — with 90 days' notice and limited judicial review.",
+      "plain_summary": "This bill gives the Treasury Secretary power to label nonprofits as 'terrorist supporting' and strip their tax-exempt status with very limited court challenge options. Civil liberties groups warn the broad definition could target political opponents, charities, or universities.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Civil liberties groups warn it could target political opposition, journalism orgs, or advocacy groups."
+        },
+        {
+          "type": "negative",
+          "text": "Very limited due process — 90 days' notice with restricted court challenge options."
+        },
+        {
+          "type": "positive",
+          "text": "Supporters say it closes a genuine terror financing loophole."
+        },
+        {
+          "type": "neutral",
+          "text": "Could affect universities, international aid organizations, and think tanks."
+        }
+      ],
+      "who_affected": "Nonprofits, charities, universities, advocacy organizations, donors, press freedom groups.",
+      "category": "rights",
+      "status": "s-floor",
+      "status_label": "Passed House",
+      "impact_score": 3,
+      "impact_label": "medium",
+      "intro_date": "2024-09-18",
+      "signed_date": null,
+      "sponsor": "Rep. David Kustoff (R-TN)",
+      "ticker_alert": "📋 PASSED HOUSE · IRS nonprofit tax status bill — Treasury could strip tax-exempt status without conviction"
     },
     {
       "id": "HR 7567",
@@ -563,80 +538,6 @@
       "signed_date": null,
       "sponsor": "See Congress.gov",
       "ticker_alert": "💰 Bill proposes monthly child tax payments up to $300 per child for families"
-    },
-    {
-      "id": "H.R.2234",
-      "title": "Energy Dominance Act",
-      "plain_title": "Fast-Tracking Oil, Gas & Mining Permits on Federal Land",
-      "deck": "Streamlines permitting for oil, gas, coal, and mineral extraction on federal lands — cutting review timelines and limiting environmental legal challenges.",
-      "plain_summary": "Getting permits to drill or mine on federal land currently takes years due to environmental review requirements. This bill caps those timelines, limits legal challenges by environmental groups, and expands areas of federal land open to energy development.",
-      "impacts": [
-        {
-          "type": "negative",
-          "text": "Faster permitting reduces environmental review time, increasing risk of poorly-assessed projects."
-        },
-        {
-          "type": "negative",
-          "text": "Limits the ability of communities and environmental groups to challenge projects."
-        },
-        {
-          "type": "positive",
-          "text": "Lower energy production costs could reduce gas and energy prices for consumers."
-        },
-        {
-          "type": "positive",
-          "text": "Could create energy and mining jobs in rural areas."
-        },
-        {
-          "type": "negative",
-          "text": "Expands fossil fuel extraction on public lands, accelerating greenhouse gas emissions."
-        }
-      ],
-      "who_affected": "Rural communities near federal lands, energy industry workers, environmental advocates, public land users.",
-      "category": "env",
-      "status": "s-committee",
-      "status_label": "In Committee",
-      "impact_score": 4,
-      "impact_label": "high",
-      "intro_date": "2025-03-15",
-      "signed_date": null,
-      "sponsor": "Rep. Doug LaMalfa (R-CA)",
-      "ticker_alert": "⏳ IN COMMITTEE · Energy Dominance Act — would fast-track oil and mining permits on federal land"
-    },
-    {
-      "id": "H.R.22",
-      "title": "Safeguard American Voter Eligibility Act",
-      "plain_title": "Proof of Citizenship Required to Register to Vote",
-      "deck": "Requires all Americans to provide documentary proof of citizenship — passport, birth certificate, or equivalent — when registering to vote.",
-      "plain_summary": "Currently, registering to vote only requires signing a form swearing you're a citizen. This bill requires physical proof — a passport, birth certificate, or naturalization papers. Supporters say it prevents non-citizen voting. Critics say millions of eligible Americans lack these documents and would be blocked from registering.",
-      "impacts": [
-        {
-          "type": "negative",
-          "text": "Millions of eligible voters without passports or birth certificates could be blocked from registering."
-        },
-        {
-          "type": "negative",
-          "text": "Disproportionately affects low-income, elderly, and rural Americans."
-        },
-        {
-          "type": "positive",
-          "text": "Supporters say it ensures only citizens cast ballots in federal elections."
-        },
-        {
-          "type": "neutral",
-          "text": "Non-citizen voting in federal elections is already illegal and extremely rare."
-        }
-      ],
-      "who_affected": "All unregistered Americans, naturalized citizens, elderly voters, low-income and rural households.",
-      "category": "rights",
-      "status": "s-floor",
-      "status_label": "Passed House",
-      "impact_score": 4,
-      "impact_label": "high",
-      "intro_date": "2025-01-14",
-      "signed_date": null,
-      "sponsor": "Rep. Chip Roy (R-TX)",
-      "ticker_alert": "📋 PASSED HOUSE · SAVE Act — proof of citizenship required to register to vote, now heads to Senate"
     },
     {
       "id": "HR 7919",
@@ -1125,8 +1026,8 @@
       ],
       "who_affected": "Social Security recipients, veterans receiving VA benefits, Medicare and Medicaid enrollees, federal retirees, low-income families receiving assistance programs",
       "category": "other",
-      "status": "s-committee",
-      "status_label": "In Committee",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 4,
       "impact_label": "high",
       "intro_date": "",
@@ -1662,181 +1563,6 @@
       "ticker_alert": "⚖️ House bill would force Congress to vote before major federal rules take effect"
     },
     {
-      "id": "H.R.3322",
-      "title": "No Tax on Social Security Benefits Act",
-      "plain_title": "Eliminating Federal Taxes on Social Security Benefits",
-      "deck": "Would eliminate the federal income tax on Social Security benefits entirely — currently up to 85% of benefits are taxable for higher-income recipients.",
-      "plain_summary": "If you receive Social Security and have income above ~$25,000/year, you currently pay federal income tax on up to 85% of your benefits. This bill makes all Social Security income tax-free. The cost is ~$1.6 trillion in federal revenue over 10 years, which could accelerate Social Security's insolvency.",
-      "impacts": [
-        {
-          "type": "positive",
-          "text": "~70 million Social Security recipients would pay less in federal taxes."
-        },
-        {
-          "type": "positive",
-          "text": "Largest benefit for middle-income retirees who currently pay tax on benefits."
-        },
-        {
-          "type": "negative",
-          "text": "Reduces federal revenue by ~$1.6 trillion over 10 years."
-        },
-        {
-          "type": "negative",
-          "text": "Could accelerate Social Security Trust Fund insolvency."
-        }
-      ],
-      "who_affected": "All Social Security recipients (70+ million), future retirees, and taxpayers who fund the program.",
-      "category": "social",
-      "status": "s-introduced",
-      "status_label": "Introduced",
-      "impact_score": 3,
-      "impact_label": "medium",
-      "intro_date": "2025-05-10",
-      "signed_date": null,
-      "sponsor": "Rep. Jeff Van Drew (R-NJ)",
-      "ticker_alert": "🆕 INTRODUCED · No Tax on Social Security — would make all SS benefits tax-free for 70M recipients"
-    },
-    {
-      "id": "S.1190",
-      "title": "Protecting Children on Social Media Act",
-      "plain_title": "Age Verification Required for Social Media — Under 13 Banned",
-      "deck": "Requires social media platforms to verify ages of all new users and prohibits children under 13, with parental consent required for ages 13–17.",
-      "plain_summary": "Social media companies would be required to use age verification tools for all new users. Children under 13 couldn't create accounts. Teens 13–17 would need verified parental permission. Privacy advocates warn that age verification at scale requires collecting sensitive personal data from every user.",
-      "impacts": [
-        {
-          "type": "positive",
-          "text": "Stronger legal protection for children from predatory content and adult interactions online."
-        },
-        {
-          "type": "negative",
-          "text": "Age verification requires collecting sensitive ID documents from all users, not just minors."
-        },
-        {
-          "type": "neutral",
-          "text": "Significant compliance costs could disadvantage smaller platforms vs. Facebook and Instagram."
-        },
-        {
-          "type": "neutral",
-          "text": "Could limit teen access to peer support forums and mental health communities online."
-        }
-      ],
-      "who_affected": "All social media users (everyone must be age-verified), parents, children, tech companies, privacy advocates.",
-      "category": "social",
-      "status": "s-committee",
-      "status_label": "Senate Commerce Cmte",
-      "impact_score": 3,
-      "impact_label": "medium",
-      "intro_date": "2025-04-10",
-      "signed_date": null,
-      "sponsor": "Sen. Schatz (D-HI) & Sen. Cotton (R-AR)",
-      "ticker_alert": "⏳ IN COMMITTEE · Social media age verification bill — under-13 ban, parental consent required for teens"
-    },
-    {
-      "id": "S.2847",
-      "title": "No Tax on Tips Act",
-      "plain_title": "Eliminating Federal Taxes on Tip Income",
-      "deck": "Eliminates federal income taxes on tips received by workers in industries where tipping is customary — restaurants, hotels, salons, rideshare.",
-      "plain_summary": "Workers in tipped professions would pay zero federal income tax on tips. You'd still pay taxes on your base hourly wage. The average estimated benefit for full-time tipped workers is $1,700–$4,000 per year. The bill would reduce federal revenue by an estimated $100–150 billion over 10 years.",
-      "impacts": [
-        {
-          "type": "positive",
-          "text": "Workers in tipped professions take home significantly more of their earnings."
-        },
-        {
-          "type": "neutral",
-          "text": "Benefits are uneven — servers at upscale restaurants gain more than those at diners."
-        },
-        {
-          "type": "negative",
-          "text": "Reduces federal revenue by ~$100–150 billion over 10 years."
-        },
-        {
-          "type": "neutral",
-          "text": "Could incentivize employers to restructure wages as tips to exploit the exemption."
-        }
-      ],
-      "who_affected": "~4 million tipped workers in food service, hospitality, beauty, and transportation sectors.",
-      "category": "money",
-      "status": "s-committee",
-      "status_label": "Senate Finance Cmte",
-      "impact_score": 3,
-      "impact_label": "medium",
-      "intro_date": "2025-03-10",
-      "signed_date": null,
-      "sponsor": "Sen. Ted Cruz (R-TX)",
-      "ticker_alert": "⏳ IN COMMITTEE · No Tax on Tips Act — could eliminate federal taxes on tip income for 4M service workers"
-    },
-    {
-      "id": "S.619",
-      "title": "PROVE IT Act",
-      "plain_title": "Carbon Border Fee on High-Pollution Imports",
-      "deck": "Creates fees on imports from countries with weaker carbon standards, leveling the playing field for American manufacturers.",
-      "plain_summary": "U.S. companies face environmental rules that raise production costs. Foreign competitors face fewer restrictions. This bill adds a fee to imported goods based on their carbon footprint, making U.S.-made products more price-competitive. Revenue would support American workers in affected industries.",
-      "impacts": [
-        {
-          "type": "neutral",
-          "text": "Could modestly raise consumer prices on imported steel, aluminum, cement, and fertilizer."
-        },
-        {
-          "type": "positive",
-          "text": "Levels the competitive playing field for U.S. manufacturers following environmental rules."
-        },
-        {
-          "type": "positive",
-          "text": "Creates financial incentive for other countries to reduce pollution."
-        },
-        {
-          "type": "negative",
-          "text": "Trading partners could retaliate with tariffs on U.S. exports."
-        }
-      ],
-      "who_affected": "U.S. manufacturers, importers, consumers, steel and aluminum industries, global trade relationships.",
-      "category": "env",
-      "status": "s-committee",
-      "status_label": "Senate Finance Cmte",
-      "impact_score": 3,
-      "impact_label": "medium",
-      "intro_date": "2025-03-04",
-      "signed_date": null,
-      "sponsor": "Sen. Brian Schatz (D-HI)",
-      "ticker_alert": "⏳ IN COMMITTEE · PROVE IT Act — carbon border fee on imports from high-pollution countries"
-    },
-    {
-      "id": "H.R.9495",
-      "title": "Stop Terror-Financing and Tax Penalties on American Hostages Act",
-      "plain_title": "IRS Can Revoke Nonprofit Tax Status Without Court Review",
-      "deck": "Allows the IRS to revoke nonprofit tax-exempt status from organizations designated as 'terrorist supporting' — with 90 days' notice and limited judicial review.",
-      "plain_summary": "This bill gives the Treasury Secretary power to label nonprofits as 'terrorist supporting' and strip their tax-exempt status with very limited court challenge options. Civil liberties groups warn the broad definition could target political opponents, charities, or universities.",
-      "impacts": [
-        {
-          "type": "negative",
-          "text": "Civil liberties groups warn it could target political opposition, journalism orgs, or advocacy groups."
-        },
-        {
-          "type": "negative",
-          "text": "Very limited due process — 90 days' notice with restricted court challenge options."
-        },
-        {
-          "type": "positive",
-          "text": "Supporters say it closes a genuine terror financing loophole."
-        },
-        {
-          "type": "neutral",
-          "text": "Could affect universities, international aid organizations, and think tanks."
-        }
-      ],
-      "who_affected": "Nonprofits, charities, universities, advocacy organizations, donors, press freedom groups.",
-      "category": "rights",
-      "status": "s-floor",
-      "status_label": "Passed House",
-      "impact_score": 3,
-      "impact_label": "medium",
-      "intro_date": "2024-09-18",
-      "signed_date": null,
-      "sponsor": "Rep. David Kustoff (R-TN)",
-      "ticker_alert": "📋 PASSED HOUSE · IRS nonprofit tax status bill — Treasury could strip tax-exempt status without conviction"
-    },
-    {
       "id": "S 1003",
       "title": "Lulu’s Law",
       "plain_title": "Bill to Protect Children from Online Sexual Exploitation",
@@ -2075,8 +1801,8 @@
       ],
       "who_affected": "Federal agency employees, government contractors, taxpayers, recipients of federal grants and programs, congressional oversight staff",
       "category": "money",
-      "status": "s-committee",
-      "status_label": "In Committee",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 3,
       "impact_label": "medium",
       "intro_date": "",
@@ -11285,8 +11011,8 @@
       ],
       "who_affected": "See Congress.gov for details.",
       "category": "other",
-      "status": "s-committee",
-      "status_label": "In Committee",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 2,
       "impact_label": "medium",
       "intro_date": "",
@@ -19134,8 +18860,8 @@
       ],
       "who_affected": "To be determined.",
       "category": "other",
-      "status": "s-committee",
-      "status_label": "In Committee",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 2,
       "impact_label": "medium",
       "intro_date": "",
@@ -21766,8 +21492,8 @@
       ],
       "who_affected": "To be determined.",
       "category": "other",
-      "status": "s-committee",
-      "status_label": "In Committee",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 2,
       "impact_label": "medium",
       "intro_date": "",
@@ -22088,8 +21814,8 @@
       ],
       "who_affected": "To be determined.",
       "category": "money",
-      "status": "s-committee",
-      "status_label": "In Committee",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 2,
       "impact_label": "medium",
       "intro_date": "",
@@ -22134,8 +21860,8 @@
       ],
       "who_affected": "To be determined.",
       "category": "other",
-      "status": "s-committee",
-      "status_label": "In Committee",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 2,
       "impact_label": "medium",
       "intro_date": "",
@@ -22226,8 +21952,8 @@
       ],
       "who_affected": "To be determined.",
       "category": "other",
-      "status": "s-committee",
-      "status_label": "In Committee",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 2,
       "impact_label": "medium",
       "intro_date": "",
@@ -26347,8 +26073,8 @@
       ],
       "who_affected": "To be determined.",
       "category": "other",
-      "status": "s-committee",
-      "status_label": "In Committee",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 2,
       "impact_label": "medium",
       "intro_date": "",
@@ -30008,8 +29734,8 @@
       ],
       "who_affected": "To be determined.",
       "category": "other",
-      "status": "s-committee",
-      "status_label": "In Committee",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 2,
       "impact_label": "medium",
       "intro_date": "",
@@ -30974,8 +30700,8 @@
       ],
       "who_affected": "To be determined.",
       "category": "other",
-      "status": "s-committee",
-      "status_label": "In Committee",
+      "status": "s-introduced",
+      "status_label": "Introduced",
       "impact_score": 2,
       "impact_label": "medium",
       "intro_date": "",
@@ -38929,6 +38655,378 @@
       "signed_date": null,
       "sponsor": "See Congress.gov",
       "ticker_alert": "👑 Senate unanimously welcomes King Charles III to address Congress"
+    },
+    {
+      "id": "S 723",
+      "title": "Tribal Trust Land Homeownership Act of 2025",
+      "plain_title": "Easier Home Loans on Native American Tribal Land",
+      "deck": "Makes it easier for Native Americans to get home loans on tribal trust land by streamlining federal approval processes.",
+      "plain_summary": "This law simplifies the process for Native Americans to use their homes on tribal trust land as collateral for mortgages, removing bureaucratic hurdles that previously made home loans difficult or impossible to obtain. Federal land held in trust for tribes has long been difficult to mortgage because lenders couldn't easily foreclose on it. This bill became law in 2025, aiming to expand homeownership opportunities in tribal communities.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Critics worry streamlined foreclosure processes could put tribal trust land at greater risk of being lost to outside lenders."
+        },
+        {
+          "type": "positive",
+          "text": "Native Americans on tribal lands gain better access to conventional home loans, building wealth through homeownership like other Americans."
+        },
+        {
+          "type": "neutral",
+          "text": "The law changes how federal agencies handle loan approvals on trust land, which may require tribes to update their own housing regulations."
+        }
+      ],
+      "who_affected": "Native American tribal members, tribal housing authorities, mortgage lenders serving tribal communities, Bureau of Indian Affairs",
+      "category": "env",
+      "status": "s-signed",
+      "status_label": "Signed Law",
+      "impact_score": 2,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": "2026-05-04",
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏠 New law expands home loan access for Native Americans on tribal lands"
+    },
+    {
+      "id": "HR 7147",
+      "title": "Homeland Security and Further Additional Continuing Appropriations Act, 2026.",
+      "plain_title": "Government Funding Extension and Homeland Security Budget 2026",
+      "deck": "Keeps the federal government funded temporarily while providing full-year funding for the Department of Homeland Security.",
+      "plain_summary": "This law extends temporary government funding to prevent a shutdown while providing a complete budget for the Department of Homeland Security for fiscal year 2026. It passed Congress and was signed into law as Public Law 119-86. The bill ensures border security agencies, FEMA, and other DHS programs continue operating with full funding while other parts of the government run on a short-term stopgap budget.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Continuing resolution funding for non-DHS agencies limits budget flexibility, potentially freezing new spending on programs like housing assistance, scientific research, and education."
+        },
+        {
+          "type": "positive",
+          "text": "Americans benefit from uninterrupted federal services and disaster relief through FEMA, avoiding the economic disruption and furloughs caused by a government shutdown."
+        },
+        {
+          "type": "neutral",
+          "text": "Prioritizing full DHS funding while other agencies stay on temporary budgets reflects a contested political choice about immigration enforcement versus broader domestic spending."
+        }
+      ],
+      "who_affected": "Federal employees, DHS and border security personnel, FEMA disaster relief recipients, government contractors, immigrants and asylum seekers, recipients of federally funded social programs",
+      "category": "money",
+      "status": "s-signed",
+      "status_label": "Signed Law",
+      "impact_score": 4,
+      "impact_label": "high",
+      "intro_date": "",
+      "signed_date": "2026-04-30",
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "✅ Government stays open: DHS gets full 2026 budget, others get extension"
+    },
+    {
+      "id": "S 4465",
+      "title": "A bill to amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978, and for other purposes.",
+      "plain_title": "A bill to amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978, and for other purposes.",
+      "deck": "Became Public Law No: 119-87.",
+      "plain_summary": "A bill to amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978, and for other purposes.. Status: Signed Law.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-signed",
+      "status_label": "Signed Law",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": "2026-04-30",
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 8322",
+      "title": "To amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978 through April 30, 2026, and for other purposes.",
+      "plain_title": "FISA Surveillance Authority Extended Through 2026",
+      "deck": "Extends the government's legal authority to conduct foreign intelligence surveillance through April 2026.",
+      "plain_summary": "This law extends Section 702 of the Foreign Intelligence Surveillance Act, which allows U.S. intelligence agencies to collect communications of foreign targets overseas — though Americans' communications can be swept up in the process. The extension keeps these surveillance powers active until April 30, 2026, giving Congress more time to debate reforms. It has been signed into law as Public Law 119-84.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Americans' private communications can still be collected without a warrant if they contact foreign surveillance targets, raising civil liberties concerns"
+        },
+        {
+          "type": "positive",
+          "text": "Intelligence agencies retain legal tools to monitor foreign threats like terrorists and spies, helping protect national security"
+        },
+        {
+          "type": "neutral",
+          "text": "The short-term extension punts the larger debate over surveillance reform and privacy protections to 2026, leaving core controversies unresolved"
+        }
+      ],
+      "who_affected": "American citizens communicating with foreign nationals, journalists, activists, lawyers, immigrants with overseas family, U.S. intelligence agencies, civil liberties advocates",
+      "category": "rights",
+      "status": "s-signed",
+      "status_label": "Signed Law",
+      "impact_score": 4,
+      "impact_label": "high",
+      "intro_date": "",
+      "signed_date": "2026-04-18",
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🔍 Congress extends warrantless foreign surveillance law through April 2026"
+    },
+    {
+      "id": "HR 7148",
+      "title": "Consolidated Appropriations Act, 2026",
+      "plain_title": "Federal Government Spending Bill for Fiscal Year 2026",
+      "deck": "This law funds the entire U.S. federal government for fiscal year 2026, covering all major agencies and programs.",
+      "plain_summary": "The Consolidated Appropriations Act, 2026 is a large spending package that allocates federal money to government departments, military, healthcare, education, and other programs for the 2026 fiscal year. It sets spending levels across virtually every area of federal activity, from national defense to social services. This bill has already been signed into law as Public Law No. 119-75, meaning it is now in effect.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Some programs may face flat or reduced funding compared to inflation, effectively cutting their purchasing power and services delivered to beneficiaries."
+        },
+        {
+          "type": "positive",
+          "text": "Continued funding ensures Social Security payments, veterans' benefits, military salaries, and essential federal services remain uninterrupted for millions of Americans."
+        },
+        {
+          "type": "neutral",
+          "text": "The law reflects political compromise between parties, meaning spending priorities represent negotiated outcomes that fully satisfy neither fiscal conservatives nor progressive advocates."
+        }
+      ],
+      "who_affected": "All U.S. taxpayers, federal employees, military personnel, veterans, Social Security and Medicare recipients, low-income assistance recipients, students receiving federal aid, small business owners relying on federal contracts",
+      "category": "money",
+      "status": "s-signed",
+      "status_label": "Signed Law",
+      "impact_score": 5,
+      "impact_label": "high",
+      "intro_date": "",
+      "signed_date": "2026-02-03",
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "✅ 2026 federal spending law signed — funds entire U.S. government now active"
+    },
+    {
+      "id": "HR 452",
+      "title": "Miracle on Ice Congressional Gold Medal Act",
+      "plain_title": "Gold Medal for 1980 US Olympic Hockey Team",
+      "deck": "Awards the Congressional Gold Medal to the 1980 'Miracle on Ice' US Olympic hockey team.",
+      "plain_summary": "This law directs Congress to award the Congressional Gold Medal — the nation's highest civilian honor — to the members of the 1980 US Olympic hockey team, who famously defeated the Soviet Union and won gold at the Lake Placid Winter Olympics. The honor recognizes their cultural and national significance during a tense period in American history. This bill has been signed into law as Public Law No. 119-53.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "A small amount of taxpayer money is spent producing and presenting the gold medal."
+        },
+        {
+          "type": "positive",
+          "text": "Honors a nationally beloved team whose victory boosted American morale during the Cold War era."
+        },
+        {
+          "type": "neutral",
+          "text": "Congressional Gold Medals are largely symbolic and carry no policy or financial benefit to the public."
+        }
+      ],
+      "who_affected": "1980 US Olympic hockey team members and families, sports history enthusiasts, American public broadly",
+      "category": "other",
+      "status": "s-signed",
+      "status_label": "Signed Law",
+      "impact_score": 1,
+      "impact_label": "low",
+      "intro_date": "",
+      "signed_date": "2025-12-12",
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🏅 Congress honors 1980 'Miracle on Ice' hockey team with Gold Medal"
+    },
+    {
+      "id": "HR 1512",
+      "title": "Taiwan Assurance Implementation Act",
+      "plain_title": "Taiwan Assurance Implementation Act",
+      "deck": "Became Public Law No: 119-45.",
+      "plain_summary": "Taiwan Assurance Implementation Act. Status: Signed Law.",
+      "impacts": [
+        {
+          "type": "neutral",
+          "text": "Analysis pending — will be generated on next update."
+        }
+      ],
+      "who_affected": "To be determined.",
+      "category": "other",
+      "status": "s-signed",
+      "status_label": "Signed Law",
+      "impact_score": 2,
+      "impact_label": "medium",
+      "intro_date": "",
+      "signed_date": "2025-12-02",
+      "sponsor": "See Congress.gov",
+      "ticker_alert": null
+    },
+    {
+      "id": "HR 1",
+      "title": "An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.",
+      "plain_title": "Big Beautiful Bill: Tax Cuts and Spending Changes Act",
+      "deck": "Extends Trump-era tax cuts, increases defense and border spending, and cuts some social programs.",
+      "plain_summary": "This sweeping reconciliation law makes the 2017 Trump tax cuts permanent, adds new tax breaks for tips and overtime pay, boosts spending on border security and the military, and cuts hundreds of billions from Medicaid, food stamps, and student loan programs. It was driven by House Republicans and signed into law as Public Law 119-21. It is one of the largest tax and spending packages in recent American history.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Millions of low-income Americans could lose Medicaid coverage or SNAP food benefits due to new work requirements and eligibility cuts."
+        },
+        {
+          "type": "positive",
+          "text": "Most working Americans would see lower federal income tax bills as the 2017 tax cuts are made permanent, preventing a scheduled 2026 tax increase."
+        },
+        {
+          "type": "neutral",
+          "text": "The law is projected to add trillions to the national debt over a decade, with supporters arguing growth will offset costs and critics disputing that."
+        }
+      ],
+      "who_affected": "Low-income families on Medicaid, SNAP recipients, tipped workers, overtime workers, small business owners, military families, undocumented immigrants, student loan borrowers, wealthy taxpayers",
+      "category": "money",
+      "status": "s-signed",
+      "status_label": "Signed Law",
+      "impact_score": 5,
+      "impact_label": "high",
+      "intro_date": "",
+      "signed_date": "2025-07-04",
+      "sponsor": "See Congress.gov",
+      "ticker_alert": "🚨 Signed into law: Major tax cuts and social program reductions affecting millions"
+    },
+    {
+      "id": "S.J.Res.11",
+      "title": "Disapproving Biden SAVE Student Loan Rule",
+      "plain_title": "Canceling Biden's SAVE Student Loan Plan",
+      "deck": "Nullifies the Biden SAVE income-driven repayment plan, which capped payments at 5% of discretionary income. ~8 million borrowers in limbo.",
+      "plain_summary": "The SAVE plan calculated student loan payments as a percentage of your income and offered loan forgiveness faster than older programs. Congress cancelled it entirely and barred the Education Department from creating anything substantially similar without new legislation. About 8 million borrowers are now in repayment uncertainty.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "~8 million enrolled borrowers face uncertain repayment status and likely higher monthly payments."
+        },
+        {
+          "type": "negative",
+          "text": "Low-income borrowers who benefited most face the largest payment increases."
+        },
+        {
+          "type": "positive",
+          "text": "Supporters argue the plan was unconstitutional executive overreach."
+        },
+        {
+          "type": "neutral",
+          "text": "Borrowers will be migrated to older income-driven plans with less favorable terms."
+        }
+      ],
+      "who_affected": "~8 million student loan borrowers, recent college graduates, working-class and low-income borrowers.",
+      "category": "social",
+      "status": "s-signed",
+      "status_label": "Signed Law",
+      "impact_score": 4,
+      "impact_label": "high",
+      "intro_date": "2025-02-20",
+      "signed_date": "2025-04-01",
+      "sponsor": "Sen. Bill Cassidy (R-LA)",
+      "ticker_alert": "✅ SIGNED · Biden SAVE student loan plan cancelled — 8M borrowers face higher payments under older repayment rules"
+    },
+    {
+      "id": "H.J.Res.25",
+      "title": "Disapproving EPA Tailpipe Emissions Rule",
+      "plain_title": "Repealing Biden's Vehicle Emissions Standards",
+      "deck": "Nullifies Biden-era EPA rules requiring automakers to reduce tailpipe emissions by 2032 and bars the EPA from issuing similar rules.",
+      "plain_summary": "The Biden EPA had set rules requiring far lower vehicle emissions by 2032, pushing automakers toward electric vehicles. This law cancels those rules entirely and blocks the EPA from creating substantially similar regulations in the future without a new act of Congress.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Expected air quality improvements from stricter emissions standards are now cancelled."
+        },
+        {
+          "type": "neutral",
+          "text": "Automakers no longer face the 2032 electrification compliance timeline."
+        },
+        {
+          "type": "positive",
+          "text": "Supporters say it prevents higher vehicle prices and protects consumer choice."
+        },
+        {
+          "type": "negative",
+          "text": "EPA is blocked from reissuing similar rules without congressional action."
+        }
+      ],
+      "who_affected": "All Americans (air quality), autoworkers, EV manufacturers, car buyers, climate advocates.",
+      "category": "env",
+      "status": "s-signed",
+      "status_label": "Signed Law",
+      "impact_score": 4,
+      "impact_label": "high",
+      "intro_date": "2025-02-03",
+      "signed_date": "2025-03-12",
+      "sponsor": "Rep. John Joyce (R-PA)",
+      "ticker_alert": "✅ SIGNED · EPA tailpipe rule repealed — 2032 EV emissions targets cancelled, EPA blocked from similar rules"
+    },
+    {
+      "id": "S.5",
+      "title": "Laken Riley Act",
+      "plain_title": "Mandatory ICE Detention for Immigrants Charged with Crimes",
+      "deck": "Requires ICE to detain undocumented immigrants arrested or charged with theft or violent crimes — before any conviction.",
+      "plain_summary": "This law makes it mandatory for ICE to hold undocumented immigrants if they are even accused — not yet convicted — of crimes like shoplifting, burglary, or assault. Before this, ICE used its own judgment on who to detain. It was the very first bill President Trump signed in his second term, on January 29, 2025.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "Detention based only on an arrest or charge — no conviction required."
+        },
+        {
+          "type": "negative",
+          "text": "Immigrants who've lived in the U.S. for years can be detained and deported for a misdemeanor accusation."
+        },
+        {
+          "type": "positive",
+          "text": "Supporters say it closes a loophole that let dangerous individuals avoid detention."
+        },
+        {
+          "type": "neutral",
+          "text": "Republican-led states gain new legal standing to sue the federal government over immigration enforcement."
+        }
+      ],
+      "who_affected": "Undocumented immigrants, mixed-status families, immigration attorneys, state and local law enforcement.",
+      "category": "rights",
+      "status": "s-signed",
+      "status_label": "Signed Law",
+      "impact_score": 5,
+      "impact_label": "high",
+      "intro_date": "2025-01-08",
+      "signed_date": "2025-01-29",
+      "sponsor": "Sen. Katie Britt (R-AL)",
+      "ticker_alert": "✅ SIGNED · Laken Riley Act — ICE must detain undocumented immigrants charged with theft, no conviction needed"
+    },
+    {
+      "id": "H.R.7521",
+      "title": "Protecting Americans from Foreign Adversary Controlled Applications Act",
+      "plain_title": "The TikTok Divestiture Law",
+      "deck": "Forces ByteDance (TikTok's Chinese parent) to sell TikTok or face removal from U.S. app stores. Upheld by Supreme Court. Enforcement in flux.",
+      "plain_summary": "Passed in 2024 and upheld by the Supreme Court, this law required China's ByteDance to sell TikTok within ~9 months or face a ban. A sale has not been finalized. The Trump administration has signaled varying enforcement intentions, leaving the app's legal status uncertain for its 170 million U.S. users.",
+      "impacts": [
+        {
+          "type": "negative",
+          "text": "~170 million American TikTok users face potential loss of access."
+        },
+        {
+          "type": "negative",
+          "text": "Content creators earning income through TikTok face loss of livelihood."
+        },
+        {
+          "type": "positive",
+          "text": "Proponents say it protects Americans from Chinese government data collection."
+        },
+        {
+          "type": "neutral",
+          "text": "Sets precedent for government power to restrict access to a communications platform."
+        }
+      ],
+      "who_affected": "TikTok's 170M U.S. users, content creators, small businesses, digital rights advocates.",
+      "category": "rights",
+      "status": "s-signed",
+      "status_label": "Signed Law",
+      "impact_score": 4,
+      "impact_label": "high",
+      "intro_date": "2024-03-07",
+      "signed_date": "2024-04-24",
+      "sponsor": "Rep. Mike Gallagher (R-WI)",
+      "ticker_alert": "⚠️ WATCH · TikTok law enforcement in flux — sale not finalized, 170M U.S. users in uncertainty"
     }
   ]
 }
