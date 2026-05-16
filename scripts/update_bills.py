@@ -241,6 +241,8 @@ def main():
         bill_id     = f"{bill_type} {bill_number}".strip()
         title       = raw.get("title") or "Untitled"
         intro_date  = raw.get("introducedDate") or ""
+        if raw is None:
+            continue  # or skip/log this bill
         action_text = raw.get("latestAction", {}).get("text") or ""
         action_date = raw.get("latestAction", {}).get("actionDate") or ""
 
