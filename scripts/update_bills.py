@@ -235,7 +235,7 @@ def main():
     skip_count = 0
     error_count = 0
 
-for raw in raw_bills:
+    for raw in raw_bills:
         if raw is None:
             continue
         bill_type   = (raw.get("type") or "").upper()
@@ -243,8 +243,8 @@ for raw in raw_bills:
         bill_id     = f"{bill_type} {bill_number}".strip()
         title       = raw.get("title") or "Untitled"
         intro_date  = raw.get("introducedDate") or ""
-        action_text = raw.get("latestAction", {}).get("text") or ""
-        action_date = raw.get("latestAction", {}).get("actionDate") or ""
+        action_text = (raw.get("latestAction") or {}).get("text") or ""
+        action_date = (raw.get("latestAction") or {}).get("actionDate") or ""
   
         sp = (raw.get("sponsors") or [{}])[0] if raw.get("sponsors") else {}
         fname = sp.get("firstName", "") or ""
