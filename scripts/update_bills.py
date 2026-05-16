@@ -235,17 +235,17 @@ def main():
     skip_count = 0
     error_count = 0
 
-    for raw in raw_bills:
+for raw in raw_bills:
+        if raw is None:
+            continue
         bill_type   = (raw.get("type") or "").upper()
         bill_number = raw.get("number") or ""
         bill_id     = f"{bill_type} {bill_number}".strip()
         title       = raw.get("title") or "Untitled"
         intro_date  = raw.get("introducedDate") or ""
-        if raw is None:
-            continue  # or skip/log this bill
         action_text = raw.get("latestAction", {}).get("text") or ""
         action_date = raw.get("latestAction", {}).get("actionDate") or ""
-
+  
         sp = (raw.get("sponsors") or [{}])[0] if raw.get("sponsors") else {}
         fname = sp.get("firstName", "") or ""
         lname = sp.get("lastName", "") or ""
